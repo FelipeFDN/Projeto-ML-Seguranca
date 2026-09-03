@@ -1,0 +1,1166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>pescaria_brava_4212650_localidades_2022</name>
+<visibility>1</visibility>
+<Schema name="Povoados" id="kml_schema_ft_Povoados">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Agrupamentos Quilombolas" id="kml_schema_ft_Agrupamentos_Quilombolas">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Localidades" id="kml_schema_ft_Localidades">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="01. Cidade" id="kml_schema_ft_01._Cidade">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Município" id="kml_schema_ft_Município">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+</Schema>
+<Folder id="01. Cidade">
+<name>01. Cidade</name>
+<Folder id="01.03. Sede Municipal">
+<name>01.03. Sede Municipal</name>
+<Placemark id="01.03. Sede Municipal">
+<name>Pescaria Brava [4212650]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Cidade&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Sede Municipal&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-28.3844&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-48.8664&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff00aaff</color>
+<scale>1.0</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffffffff</color>
+<width>3</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>00ffffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_01._Cidade">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Cidade</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Sede Municipal</SimpleData>
+<SimpleData name="CD_LOCALIDADE">4212650</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Pescaria Brava</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-28.3844</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-48.8664</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.8664,-28.3843999992096,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Folder>
+<Folder id="06. Povoados">
+<name>06. Povoados</name>
+<Placemark id="06. Povoados">
+<name>Siqueiro [421265000012]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Povoado&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000012&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Siqueiro&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-28.3632&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-48.8912&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff00ff54</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>72ff54ff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66ff54ff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Povoados">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Povoado</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000012</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Siqueiro</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-28.3632</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-48.8912</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.8911557199999,-28.3631532125433,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="10. Localidades Quilombolas">
+<name>10. Localidades Quilombolas</name>
+<visibility>1</visibility>
+<Style>
+<IconStyle>
+<color>ffff54ff</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>7200ffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6600ffff</color>
+</PolyStyle>
+</Style>
+<Folder id="10.01. Agrupamentos Quilombolas">
+<name>10.01. Agrupamentos Quilombolas</name>
+<visibility>1</visibility>
+<Style>
+<IconStyle>
+<color>ffff54ff</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>7200ffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6600ffff</color>
+</PolyStyle>
+</Style>
+<Placemark id="10.01. Agrupamentos Quilombolas">
+<name>Comunidade Quilombola Sertão de Cima [421265000008]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Agrupamento Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000008&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Sertão de Cima&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-28.3991&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-48.9324&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffff54ff</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>7200ffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6600ffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Agrupamentos_Quilombolas">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Agrupamento Quilombola</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000008</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Sertão de Cima</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-28.3991</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-48.9324</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.932367,-28.399114635573,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="10.01. Agrupamentos Quilombolas">
+<name>Comunidade Quilombola Barranca [421265000009]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Agrupamento Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000009&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Barranca&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-28.3597&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-48.9157&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffff54ff</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>7200ffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6600ffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Agrupamentos_Quilombolas">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Agrupamento Quilombola</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000009</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Barranca</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-28.3597</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-48.9157</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.915735644,-28.3596596656101,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="10.01. Agrupamentos Quilombolas">
+<name>Comunidade Quilombola Barranca 2 [421265000010]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Agrupamento Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000010&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Barranca 2&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-28.3577&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-48.9208&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffff54ff</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>7200ffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6600ffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Agrupamentos_Quilombolas">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Agrupamento Quilombola</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000010</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Barranca 2</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-28.3577</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-48.9208</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.9207925384615,-28.3576758453639,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="10.01. Agrupamentos Quilombolas">
+<name>Comunidade Quilombola Carreira do Siqueiro [421265000011]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Agrupamento Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000011&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Carreira do Siqueiro&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-28.3731&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-48.9184&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffff54ff</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>7200ffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6600ffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Agrupamentos_Quilombolas">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Agrupamento Quilombola</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000011</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Carreira do Siqueiro</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-28.3731</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-48.9184</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.9184407142857,-28.3730848713902,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="10.02. Outras Localidades Quilombolas">
+<name>10.02. Outras Localidades Quilombolas</name>
+<visibility>1</visibility>
+<Style>
+<IconStyle>
+<color>ffffa0ef</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<Placemark id="10.02. Outras Localidades Quilombolas">
+<name>Comunidade Quilombola Carreira Siqueiro [421265000013]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades Quilombolas&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000013&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Carreira Siqueiro&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffffa0ef</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Outras Localidades Quilombolas</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000013</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Carreira Siqueiro</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.9184319319,-28.4228317074089,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="10.02. Outras Localidades Quilombolas">
+<name>Comunidade Quilombola Carreira [421265000014]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades Quilombolas&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000014&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Carreira&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffffa0ef</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Outras Localidades Quilombolas</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000014</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Carreira</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.9205100942,-28.3742672347098,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="10.02. Outras Localidades Quilombolas">
+<name>Comunidade Quilombola Ilhotinha [421265000015]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Localidade Quilombola&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades Quilombolas&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421265000015&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Comunidade Quilombola Ilhotinha&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffffa0ef</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Localidade Quilombola</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Outras Localidades Quilombolas</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421265000015</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Comunidade Quilombola Ilhotinha</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-48.9321093805,-28.4147846240091,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Folder>
+<Folder id="13. Referência">
+<name>13. Referência</name>
+<Placemark id="13. Referência">
+<name>Pescaria Brava [4212650]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4212650&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Pescaria Brava&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Tubarão&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<scale>0.7</scale>
+</IconStyle>
+<LabelStyle>
+<scale>0.7</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffffffff</color>
+<width>3</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>00ffffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Município">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="CD_MUN">4212650</SimpleData>
+<SimpleData name="NM_MUN">Pescaria Brava</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420003</SimpleData>
+<SimpleData name="NM_RGI">Tubarão</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-48.8536919,-28.4281304992088,0.0 -48.8591705,-28.4322351992088,0.0 -48.859355,-28.4326632992088,0.0 -48.8593887,-28.4327394992088,0.0 -48.8594701,-28.4328088992088,0.0 -48.8597568,-28.4329098992088,0.0 -48.860011,-28.4329962992088,0.0 -48.8601661,-28.4330776992087,0.0 -48.8603789,-28.4332747992088,0.0 -48.8605528,-28.4335461992087,0.0 -48.8607006,-28.4337939992087,0.0 -48.8607824,-28.4340098992087,0.0 -48.860802,-28.4340926992087,0.0 -48.8608482,-28.4341710992087,0.0 -48.8608824,-28.4342651992087,0.0 -48.8608867,-28.4343774992087,0.0 -48.8609461,-28.4345091992087,0.0 -48.8610402,-28.4346033992087,0.0 -48.8610899,-28.4347157992087,0.0 -48.8611058,-28.4348928992087,0.0 -48.8610686,-28.4350282992087,0.0 -48.8610514,-28.4351236992087,0.0 -48.8610003,-28.4352213992087,0.0 -48.860969,-28.4352834992087,0.0 -48.8609508,-28.4353738992087,0.0 -48.8609581,-28.4354663992087,0.0 -48.8609751,-28.4355454992087,0.0 -48.8609672,-28.4356295992087,0.0 -48.860942,-28.4357151992087,0.0 -48.8609072,-28.4358447992087,0.0 -48.8608529,-28.4360306992087,0.0 -48.8608401,-28.4362365992087,0.0 -48.8608736,-28.4364259992087,0.0 -48.8608754,-28.4365361992087,0.0 -48.8608495,-28.4366357992087,0.0 -48.860855,-28.4367221992087,0.0 -48.860895,-28.4368108992087,0.0 -48.861053,-28.4369609992087,0.0 -48.8612653,-28.4371086992087,0.0 -48.861593,-28.4374884992087,0.0 -48.8617445,-28.4377187992087,0.0 -48.8618676,-28.4379695992087,0.0 -48.8618819,-28.4382416992087,0.0 -48.8618066,-28.4384712992087,0.0 -48.8618402,-28.4387210992087,0.0 -48.8619276,-28.4389063992087,0.0 -48.862101,-28.4390731992086,0.0 -48.8622268,-28.4392615992086,0.0 -48.8622724,-28.4394618992087,0.0 -48.8623595,-28.4396363992086,0.0 -48.8623877,-28.4397736992086,0.0 -48.862402,-28.4398870992086,0.0 -48.8624565,-28.4400012992086,0.0 -48.8625128,-28.4401414992086,0.0 -48.8625625,-28.4402542992086,0.0 -48.8626137,-28.4403198992086,0.0 -48.8626368,-28.4403881992086,0.0 -48.8626449,-28.4404691992086,0.0 -48.8626734,-28.4405436992086,0.0 -48.8627179,-28.4406124992086,0.0 -48.8627447,-28.4406973992086,0.0 -48.8627614,-28.4408618992086,0.0 -48.8627945,-28.4409768992086,0.0 -48.862851,-28.4411118992086,0.0 -48.8629204,-28.4411802992086,0.0 -48.8629726,-28.4412468992086,0.0 -48.8630283,-28.4413463992086,0.0 -48.8630634,-28.4414714992086,0.0 -48.8630937,-28.4415863992086,0.0 -48.8631511,-28.4417022992086,0.0 -48.8632537,-28.4419036992086,0.0 -48.8633129,-28.4420288992086,0.0 -48.8633699,-28.4421513992086,0.0 -48.863454,-28.4423104992086,0.0 -48.8635255,-28.4425151992086,0.0 -48.8635735,-28.4427297992086,0.0 -48.8635567,-28.4429938992086,0.0 -48.8635342,-28.4431908992086,0.0 -48.8635585,-28.4436199992086,0.0 -48.8636363,-28.4438760992086,0.0 -48.8638291,-28.4442033992085,0.0 -48.8638595,-28.4443537992085,0.0 -48.8638767,-28.4444386992086,0.0 -48.8638742,-28.4446745992085,0.0 -48.8638414,-28.4447852992086,0.0 -48.8637955,-28.4448688992085,0.0 -48.863714,-28.4449894992085,0.0 -48.8636742,-28.4451347992085,0.0 -48.8636879,-28.4454010992085,0.0 -48.8637368,-28.4456996992085,0.0 -48.8638511,-28.4459655992085,0.0 -48.8640149,-28.4462179992085,0.0 -48.8641838,-28.4464103992085,0.0 -48.8643189,-28.4464990992085,0.0 -48.8644711,-28.4465524992085,0.0 -48.8647067,-28.4466336992085,0.0 -48.8649514,-28.4467175992085,0.0 -48.8651423,-28.4467892992085,0.0 -48.8652264,-28.4468209992085,0.0 -48.8654096,-28.4468841992085,0.0 -48.8656172,-28.4469123992085,0.0 -48.8657495,-28.4468906992085,0.0 -48.8658512,-28.4468409992085,0.0 -48.8660135,-28.4467173992085,0.0 -48.8660799,-28.4466087992085,0.0 -48.8661078,-28.4464923992085,0.0 -48.8661144,-28.4462275992085,0.0 -48.8661201,-28.4460678992085,0.0 -48.8661862,-28.4459631992085,0.0 -48.8663191,-28.4458956992085,0.0 -48.8664748,-28.4458851992085,0.0 -48.8665897,-28.4459178992085,0.0 -48.8667129,-28.4459113992085,0.0 -48.8668936,-28.4458587992085,0.0 -48.8670747,-28.4458218992085,0.0 -48.8677417,-28.4456594992085,0.0 -48.8678758,-28.4456343992085,0.0 -48.8680033,-28.4456339992085,0.0 -48.8681845,-28.4456642992085,0.0 -48.8683548,-28.4457413992085,0.0 -48.8687634,-28.4461992992085,0.0 -48.8689939,-28.4465701992085,0.0 -48.8692644,-28.4470796992085,0.0 -48.8694396,-28.4473157992085,0.0 -48.8695313,-28.4473810992085,0.0 -48.8696405,-28.4474272992085,0.0 -48.8698668,-28.4475039992085,0.0 -48.8701476,-28.4475306992085,0.0 -48.8706279,-28.4475903992085,0.0 -48.8709037,-28.4476498992085,0.0 -48.871215,-28.4477299992085,0.0 -48.8715358,-28.4478787992085,0.0 -48.8717471,-28.4480136992085,0.0 -48.8719885,-28.4481249992085,0.0 -48.8720849,-28.4481490992085,0.0 -48.8721874,-28.4481450992085,0.0 -48.872395,-28.4481103992085,0.0 -48.8725103,-28.4480495992085,0.0 -48.8726172,-28.4479803992085,0.0 -48.8727127,-28.4478909992085,0.0 -48.8728241,-28.4477492992085,0.0 -48.8729841,-28.4474963992085,0.0 -48.8731476,-28.4473490992085,0.0 -48.873332,-28.4472499992085,0.0 -48.8734687,-28.4471940992085,0.0 -48.8736168,-28.4470834992085,0.0 -48.8738005,-28.4469885992085,0.0 -48.8739448,-28.4469139992085,0.0 -48.8741019,-28.4468392992085,0.0 -48.8742959,-28.4467948992085,0.0 -48.8744817,-28.4467087992085,0.0 -48.8746614,-28.4466454992085,0.0 -48.8748055,-28.4465370992085,0.0 -48.8749697,-28.4464481992085,0.0 -48.875111,-28.4463227992085,0.0 -48.875236,-28.4462395992085,0.0 -48.8753528,-28.4461851992085,0.0 -48.875603,-28.4460993992085,0.0 -48.875838,-28.4460458992085,0.0 -48.8760854,-28.4460492992085,0.0 -48.8763048,-28.4460572992085,0.0 -48.8765139,-28.4460193992085,0.0 -48.8766502,-28.4459706992085,0.0 -48.876711,-28.4459346992085,0.0 -48.8768042,-28.4458795992085,0.0 -48.877195,-28.4457321992085,0.0 -48.8772935,-28.4456919992085,0.0 -48.8773927,-28.4456820992085,0.0 -48.87752,-28.4457256992085,0.0 -48.8775908,-28.4457989992085,0.0 -48.8776788,-28.4458452992085,0.0 -48.8777973,-28.4458793992085,0.0 -48.877917,-28.4458920992085,0.0 -48.8782411,-28.4458690992085,0.0 -48.8785177,-28.4458061992085,0.0 -48.8787115,-28.4458125992085,0.0 -48.8788768,-28.4458501992085,0.0 -48.8790076,-28.4458334992085,0.0 -48.8791293,-28.4457694992085,0.0 -48.8792236,-28.4456917992085,0.0 -48.8793176,-28.4455744992085,0.0 -48.8793874,-28.4454533992085,0.0 -48.8795638,-28.4452655992085,0.0 -48.8797939,-28.4451235992085,0.0 -48.8801677,-28.4450161992085,0.0 -48.8803977,-28.4449696992085,0.0 -48.8806387,-28.4449838992085,0.0 -48.881732,-28.4456086992085,0.0 -48.8817656,-28.4456278992085,0.0 -48.8819341,-28.4457420992085,0.0 -48.8821142,-28.4459338992085,0.0 -48.8822085,-28.4461457992085,0.0 -48.8822816,-28.4464364992085,0.0 -48.8823343,-28.4466988992085,0.0 -48.8823566,-28.4469523992085,0.0 -48.8822898,-28.4471974992085,0.0 -48.8821638,-28.4474371992085,0.0 -48.8820725,-28.4477195992085,0.0 -48.8820798,-28.4480196992085,0.0 -48.8821218,-28.4481495992085,0.0 -48.882245,-28.4483198992085,0.0 -48.882292,-28.4485014992085,0.0 -48.882323,-28.4487525992085,0.0 -48.8823349,-28.4490291992085,0.0 -48.8823092,-28.4494332992085,0.0 -48.8823812,-28.4497412992085,0.0 -48.8825013,-28.4499474992084,0.0 -48.8827542,-28.4502030992084,0.0 -48.8828925,-28.4504423992084,0.0 -48.8830144,-28.4509203992084,0.0 -48.8830282,-28.4513952992084,0.0 -48.8829923,-28.4518205992084,0.0 -48.8830156,-28.4519522992084,0.0 -48.8830618,-28.4520322992084,0.0 -48.883133,-28.4521538992084,0.0 -48.8831542,-28.4523132992084,0.0 -48.8831191,-28.4524932992084,0.0 -48.883075,-28.4526278992084,0.0 -48.8830555,-28.4527825992084,0.0 -48.8830839,-28.4529497992084,0.0 -48.883169,-28.4531108992084,0.0 -48.8833963,-28.4533223992084,0.0 -48.8837125,-28.4536123992084,0.0 -48.8839854,-28.4537665992084,0.0 -48.8845077,-28.4540053992084,0.0 -48.8851542,-28.4542787992084,0.0 -48.8857237,-28.4547296992084,0.0 -48.8859855,-28.4550616992084,0.0 -48.8860767,-28.4553329992084,0.0 -48.8860217,-28.4557139992083,0.0 -48.8859731,-28.4560185992083,0.0 -48.885944,-28.4563015992083,0.0 -48.8859095,-28.4565275992083,0.0 -48.885846,-28.4568574992083,0.0 -48.8858173,-28.4571576992083,0.0 -48.8857989,-28.4574856992083,0.0 -48.8857821,-28.4577171992083,0.0 -48.8857177,-28.4580386992083,0.0 -48.8856999,-28.4582713992083,0.0 -48.8856843,-28.4584991992083,0.0 -48.8856532,-28.4588933992083,0.0 -48.8856809,-28.4592867992083,0.0 -48.8857043,-28.4594480992083,0.0 -48.885801,-28.4595955992083,0.0 -48.8860896,-28.4599901992083,0.0 -48.8864124,-28.4604965992083,0.0 -48.8866134,-28.4608304992083,0.0 -48.8867858,-28.4610802992083,0.0 -48.886954,-28.4612522992083,0.0 -48.887142,-28.4613856992082,0.0 -48.8872663,-28.4616035992082,0.0 -48.8873234,-28.4618955992082,0.0 -48.8872919,-28.4622065992082,0.0 -48.8873232,-28.4624705992082,0.0 -48.8873536,-28.4626364992082,0.0 -48.8874066,-28.4627938992082,0.0 -48.887422,-28.4629854992082,0.0 -48.8874894,-28.4631543992082,0.0 -48.8876002,-28.4633200992082,0.0 -48.8877345,-28.4634146992082,0.0 -48.8878988,-28.4634813992082,0.0 -48.8881244,-28.4635712992082,0.0 -48.8882646,-28.4637094992082,0.0 -48.8883473,-28.4638994992082,0.0 -48.8883946,-28.4640894992082,0.0 -48.8883636,-28.4642781992082,0.0 -48.8884181,-28.4644878992082,0.0 -48.8884732,-28.4646164992082,0.0 -48.8886817,-28.4648166992082,0.0 -48.888843,-28.4649650992082,0.0 -48.8889093,-28.4650465992082,0.0 -48.8889563,-28.4651615992082,0.0 -48.8889655,-28.4652986992082,0.0 -48.8889414,-28.4654452992082,0.0 -48.8889307,-28.4655415992082,0.0 -48.8889647,-28.4656561992082,0.0 -48.8890322,-28.4657688992082,0.0 -48.8891497,-28.4658668992082,0.0 -48.8892713,-28.4659632992082,0.0 -48.8893364,-28.4660655992082,0.0 -48.8893786,-28.4662069992082,0.0 -48.8894027,-28.4663612992082,0.0 -48.8893895,-28.4666004992082,0.0 -48.8893795,-28.4667167992082,0.0 -48.8893364,-28.4668373992081,0.0 -48.8889521,-28.4673108992081,0.0 -48.8889145,-28.4673852992081,0.0 -48.8889018,-28.4674546992081,0.0 -48.8889049,-28.4675200992081,0.0 -48.8889248,-28.4675786992081,0.0 -48.8889505,-28.4676342992081,0.0 -48.8889918,-28.4676855992081,0.0 -48.8891149,-28.4677646992081,0.0 -48.889775,-28.4681331992081,0.0 -48.8898259,-28.4681581992081,0.0 -48.8898733,-28.4681976992081,0.0 -48.8899142,-28.4682460992081,0.0 -48.8899519,-28.4683184992081,0.0 -48.8900471,-28.4685145992081,0.0 -48.8901144,-28.4686450992081,0.0 -48.8902184,-28.4687772992081,0.0 -48.8903283,-28.4689113992081,0.0 -48.8903886,-28.4689710992081,0.0 -48.8904583,-28.4690156992081,0.0 -48.8905475,-28.4690458992081,0.0 -48.8906471,-28.4690613992081,0.0 -48.8908971,-28.4690877992081,0.0 -48.891111,-28.4691048992081,0.0 -48.8912958,-28.4691061992081,0.0 -48.8914668,-28.4691114992081,0.0 -48.8916238,-28.4691442992081,0.0 -48.8918027,-28.4692035992081,0.0 -48.8920862,-28.4693164992081,0.0 -48.8923068,-28.4693831992081,0.0 -48.8925977,-28.4695373992081,0.0 -48.892745,-28.4696782992081,0.0 -48.8928075,-28.4697597992081,0.0 -48.8929337,-28.4698272992081,0.0 -48.8931092,-28.4698981992081,0.0 -48.8932484,-28.4700502992081,0.0 -48.8933403,-28.4701720992081,0.0 -48.8934612,-28.4702362992081,0.0 -48.8935839,-28.4702621992081,0.0 -48.8937068,-28.4702178992081,0.0 -48.8938076,-28.4701542992081,0.0 -48.8938818,-28.4700791992081,0.0 -48.8939139,-28.4699337992081,0.0 -48.8939703,-28.4697872992081,0.0 -48.8940263,-28.4696826992081,0.0 -48.894124,-28.4695946992081,0.0 -48.8942896,-28.4695066992081,0.0 -48.8944678,-28.4694426992081,0.0 -48.8946563,-28.4694130992081,0.0 -48.8950024,-28.4694333992081,0.0 -48.8951683,-28.4693920992081,0.0 -48.8953361,-28.4693128992081,0.0 -48.8954506,-28.4691986992081,0.0 -48.8955543,-28.4691343992081,0.0 -48.8956857,-28.4690918992081,0.0 -48.8960363,-28.4690235992081,0.0 -48.8962277,-28.4689623992081,0.0 -48.8963538,-28.4689010992081,0.0 -48.8964481,-28.4687782992081,0.0 -48.8965027,-28.4686207992081,0.0 -48.896524,-28.4684635992081,0.0 -48.8966133,-28.4680945992081,0.0 -48.896738,-28.4677157992081,0.0 -48.897006,-28.4673657992081,0.0 -48.8973534,-28.4670600992081,0.0 -48.8976321,-28.4669520992081,0.0 -48.8979653,-28.4668923992081,0.0 -48.8981906,-28.4668572992081,0.0 -48.898576,-28.4668065992081,0.0 -48.914126,-28.4672099992081,0.0 -48.914396,-28.4664999992082,0.0 -48.914463,-28.4656759992082,0.0 -48.914491,-28.4650889992082,0.0 -48.914505,-28.4648069992082,0.0 -48.914506,-28.4644459992082,0.0 -48.914597,-28.4638709992082,0.0 -48.914637,-28.4633969992082,0.0 -48.914716,-28.4627199992082,0.0 -48.914821,-28.4621329992082,0.0 -48.914926,-28.4613319992082,0.0 -48.915069,-28.4606099992083,0.0 -48.91525,-28.4600129992083,0.0 -48.915366,-28.4596069992083,0.0 -48.915649,-28.4589299992083,0.0 -48.91583,-28.4583779992083,0.0 -48.916203,-28.4576789992083,0.0 -48.916434,-28.4573639992083,0.0 -48.916781,-28.4569239992083,0.0 -48.917051,-28.4564059992083,0.0 -48.9172578,-28.4561041992083,0.0 -48.917321,-28.4560119992083,0.0 -48.917564,-28.4556619992084,0.0 -48.917834,-28.4552679992084,0.0 -48.918052,-28.4549639992084,0.0 -48.918258,-28.4547159992084,0.0 -48.9183092,-28.4546092992084,0.0 -48.918528,-28.4541529992084,0.0 -48.91858,-28.4539499992084,0.0 -48.918874,-28.4537139992084,0.0 -48.919169,-28.4534889992084,0.0 -48.9194,-28.4532629992084,0.0 -48.919733,-28.4529149992084,0.0 -48.9200478,-28.4523991992084,0.0 -48.920311,-28.4519679992084,0.0 -48.920479,-28.4516519992084,0.0 -48.920799,-28.4513029992084,0.0 -48.92089,-28.4509199992084,0.0 -48.920891,-28.4507169992084,0.0 -48.920739,-28.4503549992084,0.0 -48.920676,-28.4500389992085,0.0 -48.920613,-28.4496209992085,0.0 -48.920564,-28.4492369992085,0.0 -48.920514,-28.4488309992085,0.0 -48.9204956,-28.4487199992085,0.0 -48.920439,-28.4483789992085,0.0 -48.920402,-28.4479279992085,0.0 -48.920353,-28.4472389992085,0.0 -48.920419,-28.4466079992085,0.0 -48.920433,-28.4463479992085,0.0 -48.920434,-28.4460769992085,0.0 -48.920524,-28.4457499992085,0.0 -48.920602,-28.4455019992085,0.0 -48.920781,-28.4452769992085,0.0 -48.920961,-28.4450399992085,0.0 -48.921281,-28.4448719992085,0.0 -48.921741,-28.4448049992085,0.0 -48.92215,-28.4447609992085,0.0 -48.922572,-28.4446489992085,0.0 -48.922828,-28.4444699992085,0.0 -48.922905,-28.4443229992086,0.0 -48.9228868,-28.4442006992085,0.0 -48.922868,-28.4440749992086,0.0 -48.922741,-28.4438939992086,0.0 -48.922614,-28.4436789992086,0.0 -48.9225,-28.4434299992086,0.0 -48.9225,-28.4432159992086,0.0 -48.922527,-28.4430129992086,0.0 -48.9225368,-28.4427691992086,0.0 -48.922541,-28.4426629992086,0.0 -48.922541,-28.4423919992086,0.0 -48.922491,-28.4421549992086,0.0 -48.922377,-28.4420639992086,0.0 -48.92239,-28.4418729992086,0.0 -48.922404,-28.4416359992086,0.0 -48.922545,-28.4414329992086,0.0 -48.922724,-28.4412299992086,0.0 -48.923071,-28.4408249992086,0.0 -48.923084,-28.4406219992086,0.0 -48.923085,-28.4403619992086,0.0 -48.923035,-28.4401589992086,0.0 -48.922972,-28.4398769992086,0.0 -48.922947,-28.4395609992086,0.0 -48.922935,-28.4392899992086,0.0 -48.922949,-28.4390409992086,0.0 -48.923027,-28.4386129992087,0.0 -48.923156,-28.4382179992087,0.0 -48.923592,-28.4376999992087,0.0 -48.923619,-28.4374179992087,0.0 -48.92376,-28.4372599992087,0.0 -48.923812,-28.4369329992087,0.0 -48.923825,-28.4367409992087,0.0 -48.923838,-28.4366509992087,0.0 -48.923941,-28.4364929992087,0.0 -48.924108,-28.4362119992087,0.0 -48.924403,-28.4358629992087,0.0 -48.924596,-28.4356259992087,0.0 -48.924801,-28.4353669992087,0.0 -48.924891,-28.4352769992087,0.0 -48.925057,-28.4350969992087,0.0 -48.925275,-28.4348489992087,0.0 -48.925442,-28.4346689992087,0.0 -48.925647,-28.4344549992087,0.0 -48.925929,-28.4341399992087,0.0 -48.926147,-28.4338359992087,0.0 -48.926468,-28.4335769992087,0.0 -48.9268,-28.4333969992087,0.0 -48.927043,-28.4332739992088,0.0 -48.927274,-28.4331159992088,0.0 -48.927581,-28.4329479992088,0.0 -48.927863,-28.4327679992088,0.0 -48.928324,-28.4322719992088,0.0 -48.928491,-28.4321039992088,0.0 -48.928785,-28.4318789992088,0.0 -48.929093,-28.4316199992088,0.0 -48.929387,-28.4315079992088,0.0 -48.930052,-28.4312159992088,0.0 -48.930308,-28.4311599992088,0.0 -48.930564,-28.4309919992088,0.0 -48.930871,-28.4308339992088,0.0 -48.930974,-28.4307329992088,0.0 -48.931256,-28.4303159992088,0.0 -48.9313575,-28.4301080992088,0.0 -48.931487,-28.4298429992088,0.0 -48.931591,-28.4294479992088,0.0 -48.931694,-28.4291099992088,0.0 -48.931696,-28.4286019992088,0.0 -48.93171,-28.4281839992088,0.0 -48.9317269,-28.4280724992088,0.0 -48.931775,-28.4277559992088,0.0 -48.931853,-28.4274739992089,0.0 -48.931931,-28.4270789992089,0.0 -48.932059,-28.4268309992089,0.0 -48.932226,-28.4265939992089,0.0 -48.932419,-28.4261769992089,0.0 -48.932445,-28.4260079992089,0.0 -48.932574,-28.4257039992089,0.0 -48.9326308,-28.4255544992089,0.0 -48.9327598,-28.4252147992089,0.0 -48.9328085,-28.4250563992089,0.0 -48.9328357,-28.4249677992089,0.0 -48.9328385,-28.4248969992089,0.0 -48.932845,-28.4247339992089,0.0 -48.932918,-28.4243435992089,0.0 -48.9329116,-28.4243197992089,0.0 -48.9329076,-28.4243038992089,0.0 -48.9328997,-28.4242720992089,0.0 -48.9328941,-28.4242480992089,0.0 -48.9328836,-28.4241998992089,0.0 -48.9328736,-28.4241513992089,0.0 -48.9328672,-28.4241188992089,0.0 -48.9328546,-28.4240533992089,0.0 -48.932852,-28.4240405992089,0.0 -48.9328463,-28.4240147992089,0.0 -48.9328436,-28.4240017992089,0.0 -48.9328425,-28.4239952992089,0.0 -48.9328408,-28.4239822992089,0.0 -48.9328402,-28.4239758992089,0.0 -48.9328398,-28.4239662992089,0.0 -48.93284,-28.4239577992089,0.0 -48.9328404,-28.4239535992089,0.0 -48.9328412,-28.4239473992089,0.0 -48.9328424,-28.4239412992089,0.0 -48.9328431,-28.4239381992089,0.0 -48.932845,-28.4239321992089,0.0 -48.9328461,-28.4239291992089,0.0 -48.932848,-28.4239246992089,0.0 -48.9329468,-28.4237080992089,0.0 -48.9329586,-28.4236534992089,0.0 -48.9329827,-28.4236241992089,0.0 -48.9330205,-28.4235869992089,0.0 -48.9330789,-28.4235637992089,0.0 -48.9331095,-28.4235523992089,0.0 -48.9331388,-28.4235516992089,0.0 -48.933388,-28.4236088992089,0.0 -48.9334064,-28.4236089992089,0.0 -48.9334215,-28.4236038992089,0.0 -48.9334312,-28.4235936992089,0.0 -48.9334598,-28.4235104992089,0.0 -48.9334815,-28.4234298992089,0.0 -48.9335209,-28.4233137992089,0.0 -48.9335472,-28.4232596992089,0.0 -48.9335832,-28.4232211992089,0.0 -48.9336508,-28.4231891992089,0.0 -48.9337579,-28.4232017992089,0.0 -48.9339547,-28.4232628992089,0.0 -48.934388,-28.4234572992089,0.0 -48.9344273,-28.4234748992089,0.0 -48.9345542,-28.4234764992089,0.0 -48.9346195,-28.4234207992089,0.0 -48.9346716,-28.4232663992089,0.0 -48.9346778,-28.4231201992089,0.0 -48.9346727,-28.4230177992089,0.0 -48.9346621,-28.4229098992089,0.0 -48.9345749,-28.4226041992089,0.0 -48.934599,-28.4225348992089,0.0 -48.9346792,-28.4224609992089,0.0 -48.9347577,-28.422418599209,0.0 -48.9354106,-28.4221799992089,0.0 -48.9355414,-28.422154199209,0.0 -48.935645,-28.422151699209,0.0 -48.9357643,-28.422151399209,0.0 -48.9358835,-28.422131199209,0.0 -48.9361281,-28.422027599209,0.0 -48.9362625,-28.421941199209,0.0 -48.9363372,-28.421864799209,0.0 -48.9363844,-28.421778799209,0.0 -48.9363785,-28.421776399209,0.0 -48.9363202,-28.421714299209,0.0 -48.9362694,-28.421673299209,0.0 -48.9361924,-28.421630499209,0.0 -48.9361138,-28.421600899209,0.0 -48.9360067,-28.421560699209,0.0 -48.935525,-28.421382799209,0.0 -48.9353288,-28.421237199209,0.0 -48.9353496,-28.421115599209,0.0 -48.935492,-28.420918299209,0.0 -48.9356825,-28.420713799209,0.0 -48.9359168,-28.420566599209,0.0 -48.9359926,-28.420522499209,0.0 -48.93611,-28.420460399209,0.0 -48.9362289,-28.420407399209,0.0 -48.9365847,-28.420315799209,0.0 -48.936657,-28.420267999209,0.0 -48.9367038,-28.420210699209,0.0 -48.9367216,-28.420134799209,0.0 -48.9366197,-28.419785699209,0.0 -48.9365972,-28.419726399209,0.0 -48.9366003,-28.419691199209,0.0 -48.9366057,-28.419682699209,0.0 -48.9366283,-28.419676499209,0.0 -48.9366709,-28.419681699209,0.0 -48.9366984,-28.419694199209,0.0 -48.9368575,-28.419770099209,0.0 -48.936991,-28.419810899209,0.0 -48.9370864,-28.419818799209,0.0 -48.9371495,-28.419817099209,0.0 -48.9371968,-28.419807699209,0.0 -48.9372137,-28.419789999209,0.0 -48.937251,-28.419733299209,0.0 -48.9372488,-28.419726699209,0.0 -48.9371531,-28.419610399209,0.0 -48.9370904,-28.419504699209,0.0 -48.9371099,-28.419457299209,0.0 -48.9371502,-28.419441199209,0.0 -48.9372233,-28.419413999209,0.0 -48.9372916,-28.419377799209,0.0 -48.9373317,-28.419338099209,0.0 -48.9373533,-28.419297299209,0.0 -48.9373591,-28.419252999209,0.0 -48.9373529,-28.419183299209,0.0 -48.9373326,-28.419131999209,0.0 -48.9372986,-28.419096399209,0.0 -48.937231,-28.419055099209,0.0 -48.9371702,-28.419008199209,0.0 -48.937086,-28.418946999209,0.0 -48.9369657,-28.418918699209,0.0 -48.9366708,-28.418846199209,0.0 -48.9366291,-28.418822899209,0.0 -48.9365752,-28.418782299209,0.0 -48.9365252,-28.418749399209,0.0 -48.9364588,-28.418730099209,0.0 -48.9364087,-28.418727699209,0.0 -48.9363566,-28.418737199209,0.0 -48.9363107,-28.418742099209,0.0 -48.9362685,-28.418732399209,0.0 -48.9362305,-28.418703199209,0.0 -48.9361656,-28.418621599209,0.0 -48.9361169,-28.418542499209,0.0 -48.9360908,-28.418460899209,0.0 -48.9360976,-28.418380799209,0.0 -48.9361103,-28.418275199209,0.0 -48.9361265,-28.418165399209,0.0 -48.9361832,-28.418060699209,0.0 -48.9363043,-28.417956199209,0.0 -48.9364098,-28.417940899209,0.0 -48.9366304,-28.417992099209,0.0 -48.9370403,-28.418187399209,0.0 -48.9371406,-28.418213999209,0.0 -48.9371886,-28.418204499209,0.0 -48.9372162,-28.418155799209,0.0 -48.9372131,-28.418110399209,0.0 -48.9371906,-28.418045699209,0.0 -48.9371332,-28.417921799209,0.0 -48.9370476,-28.417708499209,0.0 -48.9369543,-28.417557599209,0.0 -48.9369171,-28.417463899209,0.0 -48.9369135,-28.417369399209,0.0 -48.9369268,-28.417287099209,0.0 -48.9369297,-28.417268599209,0.0 -48.9369831,-28.417176699209,0.0 -48.9370728,-28.417087599209,0.0 -48.9372038,-28.417007299209,0.0 -48.9372459,-28.417014399209,0.0 -48.9373054,-28.417039599209,0.0 -48.9373521,-28.417054899209,0.0 -48.9374218,-28.417096899209,0.0 -48.9375,-28.417143799209,0.0 -48.9377118,-28.417270799209,0.0 -48.937818,-28.417365099209,0.0 -48.9379252,-28.417485199209,0.0 -48.9379969,-28.417583899209,0.0 -48.9380626,-28.417702299209,0.0 -48.9381115,-28.417830299209,0.0 -48.9381409,-28.418014299209,0.0 -48.9381746,-28.418079199209,0.0 -48.9382034,-28.418123199209,0.0 -48.9382164,-28.418192399209,0.0 -48.9382003,-28.418269299209,0.0 -48.9381712,-28.418364699209,0.0 -48.9381153,-28.418457499209,0.0 -48.9380715,-28.418534599209,0.0 -48.9380758,-28.418590999209,0.0 -48.9381131,-28.418625399209,0.0 -48.9381576,-28.418622299209,0.0 -48.9382169,-28.418558699209,0.0 -48.9382821,-28.418470499209,0.0 -48.93837,-28.418420199209,0.0 -48.9384681,-28.418394299209,0.0 -48.9387623,-28.418379199209,0.0 -48.9388536,-28.418369599209,0.0 -48.9389124,-28.418326999209,0.0 -48.9389141,-28.418322899209,0.0 -48.9389364,-28.418271099209,0.0 -48.9389469,-28.418167799209,0.0 -48.93893,-28.418008899209,0.0 -48.9388653,-28.417753899209,0.0 -48.9387684,-28.417507299209,0.0 -48.9387653,-28.417429799209,0.0 -48.9388022,-28.417346599209,0.0 -48.9388575,-28.417268099209,0.0 -48.9388361,-28.417118699209,0.0 -48.9388206,-28.416948999209,0.0 -48.938845,-28.416847499209,0.0 -48.938874,-28.416828299209,0.0 -48.9389107,-28.416813699209,0.0 -48.9389559,-28.416801799209,0.0 -48.9390197,-28.416804699209,0.0 -48.9390974,-28.416808199209,0.0 -48.9391702,-28.416796099209,0.0 -48.9392152,-28.416755699209,0.0 -48.9392167,-28.416676799209,0.0 -48.9392129,-28.4166669992091,0.0 -48.9391387,-28.416475599209,0.0 -48.9391165,-28.4164023992091,0.0 -48.9391303,-28.4163247992091,0.0 -48.9391935,-28.4162658992091,0.0 -48.939369,-28.4162142992091,0.0 -48.939448,-28.4162000992091,0.0 -48.9395191,-28.4161620992091,0.0 -48.93955,-28.4161040992091,0.0 -48.9395393,-28.4160321992091,0.0 -48.939493,-28.4159359992091,0.0 -48.9393613,-28.4158262992091,0.0 -48.9392312,-28.4157144992091,0.0 -48.9391803,-28.4156237992091,0.0 -48.9391232,-28.4155134992091,0.0 -48.938972,-28.4153732992091,0.0 -48.9388729,-28.4152197992091,0.0 -48.938839,-28.4151282992091,0.0 -48.9387735,-28.4151145992091,0.0 -48.938761,-28.4151216992091,0.0 -48.9386918,-28.4151613992091,0.0 -48.9386065,-28.4152442992091,0.0 -48.9385399,-28.4152732992091,0.0 -48.9384852,-28.4152580992091,0.0 -48.9384394,-28.4152074992091,0.0 -48.9384226,-28.4151376992091,0.0 -48.9384472,-28.4150640992091,0.0 -48.938517,-28.4149683992091,0.0 -48.9385717,-28.4148272992091,0.0 -48.9385578,-28.4146642992091,0.0 -48.9384305,-28.4143757992091,0.0 -48.938377,-28.4142409992091,0.0 -48.9383668,-28.4140670992091,0.0 -48.9384009,-28.4139322992091,0.0 -48.9384652,-28.4138291992091,0.0 -48.9385112,-28.4137459992091,0.0 -48.9385625,-28.4136490992091,0.0 -48.9385837,-28.4135313992091,0.0 -48.9386463,-28.4133364992091,0.0 -48.9386832,-28.4132587992091,0.0 -48.9387439,-28.4131739992091,0.0 -48.9388355,-28.4131121992091,0.0 -48.9389495,-28.4130657992091,0.0 -48.9390859,-28.4130300992091,0.0 -48.9393952,-28.4129767992091,0.0 -48.9396665,-28.4128041992091,0.0 -48.9400824,-28.4123052992091,0.0 -48.9402467,-28.4116793992091,0.0 -48.9401984,-28.4114680992091,0.0 -48.9399822,-28.4109448992092,0.0 -48.9395217,-28.4105823992092,0.0 -48.9392926,-28.4102492992092,0.0 -48.9392254,-28.4095795992092,0.0 -48.9392456,-28.4094416992092,0.0 -48.9392813,-28.4093355992092,0.0 -48.9392948,-28.4092180992092,0.0 -48.9392561,-28.4090303992092,0.0 -48.9389052,-28.4082117992092,0.0 -48.9388964,-28.4081911992092,0.0 -48.9388291,-28.4080342992092,0.0 -48.9383897,-28.4073658992092,0.0 -48.9379851,-28.4068512992092,0.0 -48.9377315,-28.4065079992092,0.0 -48.9376512,-28.4064165992092,0.0 -48.9375574,-28.4063264992092,0.0 -48.9375001,-28.4062778992092,0.0 -48.9373615,-28.4061651992092,0.0 -48.9372553,-28.4060680992092,0.0 -48.9371577,-28.4059553992092,0.0 -48.9370963,-28.4058683992092,0.0 -48.937059,-28.4057807992092,0.0 -48.9370405,-28.4055593992092,0.0 -48.9370303,-28.4054568992093,0.0 -48.9370249,-28.4054074992092,0.0 -48.9370018,-28.4053254992093,0.0 -48.9369736,-28.4052350992093,0.0 -48.9369558,-28.4051675992093,0.0 -48.9369349,-28.4050752992093,0.0 -48.9369331,-28.4050009992093,0.0 -48.936935,-28.4049409992093,0.0 -48.9369625,-28.4047758992093,0.0 -48.9370123,-28.4044786992093,0.0 -48.9370658,-28.4042032992093,0.0 -48.9371476,-28.4038645992093,0.0 -48.9372159,-28.4035535992093,0.0 -48.9372531,-28.4034324992093,0.0 -48.9373084,-28.4032571992093,0.0 -48.9373423,-28.4032100992093,0.0 -48.9373856,-28.4031657992093,0.0 -48.9374245,-28.4031279992093,0.0 -48.9374592,-28.4030845992093,0.0 -48.9374773,-28.4030454992093,0.0 -48.9375001,-28.4029647992093,0.0 -48.9375552,-28.4027697992093,0.0 -48.9376099,-28.4024160992093,0.0 -48.9376137,-28.4022989992093,0.0 -48.937616,-28.4022254992093,0.0 -48.9376171,-28.4021604992093,0.0 -48.9376111,-28.4020988992093,0.0 -48.937598,-28.4020530992093,0.0 -48.9375705,-28.4020089992093,0.0 -48.9375623,-28.4019971992093,0.0 -48.9375001,-28.4019082992093,0.0 -48.9374559,-28.4018436992093,0.0 -48.9374151,-28.4017979992093,0.0 -48.9373538,-28.4017605992093,0.0 -48.9373006,-28.4017280992093,0.0 -48.9372497,-28.4017031992093,0.0 -48.9372056,-28.4016950992093,0.0 -48.9371545,-28.4017041992093,0.0 -48.9371083,-28.4017099992093,0.0 -48.9370554,-28.4017091992093,0.0 -48.9370072,-28.4017062992093,0.0 -48.9369527,-28.4016858992093,0.0 -48.9368923,-28.4016486992093,0.0 -48.9366462,-28.4014878992093,0.0 -48.9366057,-28.4014601992093,0.0 -48.9365369,-28.4014130992093,0.0 -48.9364914,-28.4013756992093,0.0 -48.9364578,-28.4013352992093,0.0 -48.9364258,-28.4012758992093,0.0 -48.9363964,-28.4011906992093,0.0 -48.9363868,-28.4011155992093,0.0 -48.9363892,-28.4010404992093,0.0 -48.936383,-28.4009737992093,0.0 -48.9363666,-28.4009125992093,0.0 -48.9363322,-28.4008370992093,0.0 -48.9363041,-28.4007723992093,0.0 -48.9362776,-28.4006996992093,0.0 -48.9362541,-28.4006476992093,0.0 -48.9362289,-28.4006125992093,0.0 -48.9362019,-28.4005762992093,0.0 -48.9361749,-28.4005256992093,0.0 -48.9360914,-28.4002783992093,0.0 -48.9360632,-28.4002089992093,0.0 -48.9360364,-28.4001543992093,0.0 -48.936001,-28.4001086992093,0.0 -48.9359584,-28.4000719992093,0.0 -48.9359072,-28.4000265992093,0.0 -48.9358483,-28.3999633992094,0.0 -48.9356204,-28.3997230992093,0.0 -48.9355705,-28.3996705992094,0.0 -48.9353296,-28.3994049992094,0.0 -48.9353058,-28.3993667992094,0.0 -48.9352983,-28.3993124992094,0.0 -48.9352957,-28.3992442992094,0.0 -48.9352761,-28.3992038992094,0.0 -48.9352482,-28.3991829992094,0.0 -48.9352082,-28.3991729992094,0.0 -48.9351632,-28.3991704992094,0.0 -48.9351001,-28.3991677992094,0.0 -48.9350317,-28.3991575992094,0.0 -48.9349762,-28.3991468992094,0.0 -48.934938,-28.3991318992094,0.0 -48.9349,-28.3991087992094,0.0 -48.9348411,-28.3990545992094,0.0 -48.9345406,-28.3987181992094,0.0 -48.934494,-28.3986673992094,0.0 -48.9344553,-28.3986371992094,0.0 -48.9344225,-28.3986215992094,0.0 -48.9343717,-28.3986016992094,0.0 -48.9343161,-28.3985660992094,0.0 -48.9342594,-28.3985236992094,0.0 -48.9342077,-28.3984917992094,0.0 -48.9341753,-28.3984853992094,0.0 -48.9341236,-28.3984840992094,0.0 -48.9340627,-28.3984824992094,0.0 -48.9338454,-28.3984839992094,0.0 -48.9338025,-28.3984769992094,0.0 -48.9337836,-28.3984624992094,0.0 -48.9337719,-28.3984408992094,0.0 -48.9337703,-28.3984200992094,0.0 -48.9337785,-28.3983933992094,0.0 -48.9337819,-28.3983567992094,0.0 -48.933775,-28.3983138992094,0.0 -48.9337623,-28.3982628992094,0.0 -48.9337457,-28.3981987992094,0.0 -48.9337204,-28.3981262992094,0.0 -48.9336898,-28.3980492992094,0.0 -48.9336604,-28.3979783992094,0.0 -48.9335741,-28.3977478992094,0.0 -48.9335508,-28.3976919992094,0.0 -48.933546,-28.3976441992094,0.0 -48.9335361,-28.3975956992094,0.0 -48.9335085,-28.3975658992094,0.0 -48.9334691,-28.3975502992094,0.0 -48.9333427,-28.3975242992094,0.0 -48.9332896,-28.3975069992094,0.0 -48.9332409,-28.3974832992094,0.0 -48.9332135,-28.3974663992094,0.0 -48.9332038,-28.3974523992094,0.0 -48.9331964,-28.3974251992094,0.0 -48.9331821,-28.3973564992094,0.0 -48.9331397,-28.3971831992094,0.0 -48.9331225,-28.3971176992094,0.0 -48.9331031,-28.3970683992094,0.0 -48.9330256,-28.3969906992094,0.0 -48.9329771,-28.3969501992094,0.0 -48.9329155,-28.3969036992094,0.0 -48.9328794,-28.3968721992094,0.0 -48.932842,-28.3968207992094,0.0 -48.9327401,-28.3966635992094,0.0 -48.9327391,-28.3966604992094,0.0 -48.9327294,-28.3966307992094,0.0 -48.9327341,-28.3965919992094,0.0 -48.9327471,-28.3965619992094,0.0 -48.9327775,-28.3965237992094,0.0 -48.9328206,-28.3964757992094,0.0 -48.9328695,-28.3964256992094,0.0 -48.9329098,-28.3963748992094,0.0 -48.9329584,-28.3963216992094,0.0 -48.932991,-28.3962744992094,0.0 -48.9330523,-28.3961621992094,0.0 -48.9331706,-28.3958846992094,0.0 -48.9332853,-28.3956696992094,0.0 -48.9333972,-28.3954933992094,0.0 -48.9334308,-28.3954358992094,0.0 -48.9334443,-28.3953910992094,0.0 -48.9334478,-28.3953394992094,0.0 -48.9334392,-28.3952798992094,0.0 -48.9334159,-28.3952264992094,0.0 -48.9333877,-28.3951643992094,0.0 -48.9333756,-28.3951079992094,0.0 -48.9333709,-28.3950438992094,0.0 -48.9333737,-28.3949589992094,0.0 -48.9333731,-28.3947561992094,0.0 -48.9333751,-28.3946939992094,0.0 -48.9333768,-28.3946418992095,0.0 -48.9333819,-28.3945813992094,0.0 -48.9333995,-28.3945371992094,0.0 -48.9334311,-28.3944791992094,0.0 -48.9335383,-28.3942913992095,0.0 -48.9335687,-28.3942430992094,0.0 -48.9335815,-28.3942106992094,0.0 -48.9335856,-28.3942003992094,0.0 -48.9335894,-28.3941605992095,0.0 -48.9335843,-28.3941203992095,0.0 -48.9335724,-28.3940656992094,0.0 -48.9335552,-28.3939900992095,0.0 -48.9335444,-28.3939204992095,0.0 -48.9335421,-28.3938438992095,0.0 -48.9335437,-28.3937843992095,0.0 -48.9335547,-28.3937075992095,0.0 -48.9335665,-28.3936383992095,0.0 -48.9335972,-28.3934585992095,0.0 -48.9336516,-28.3932182992095,0.0 -48.9336653,-28.3930668992095,0.0 -48.9336745,-28.3930064992095,0.0 -48.9337377,-28.3928858992095,0.0 -48.9337695,-28.3928316992095,0.0 -48.9337986,-28.3927757992095,0.0 -48.9338098,-28.3927317992095,0.0 -48.9338109,-28.3926868992095,0.0 -48.9338132,-28.3926541992095,0.0 -48.9338238,-28.3926212992095,0.0 -48.933835,-28.3925994992095,0.0 -48.9338838,-28.3925936992095,0.0 -48.9338978,-28.3925928992095,0.0 -48.9339364,-28.3925955992095,0.0 -48.9339922,-28.3925958992095,0.0 -48.9340527,-28.3925875992095,0.0 -48.9341083,-28.3925732992095,0.0 -48.9341451,-28.3925517992095,0.0 -48.9341682,-28.3925251992095,0.0 -48.9341822,-28.3924921992095,0.0 -48.934188,-28.3924595992095,0.0 -48.9341948,-28.3924251992095,0.0 -48.9342515,-28.3923009992095,0.0 -48.9342937,-28.3922418992095,0.0 -48.9343347,-28.3922021992095,0.0 -48.9343839,-28.3921627992095,0.0 -48.9344456,-28.3921263992095,0.0 -48.9345097,-28.3920950992095,0.0 -48.9345722,-28.3920698992095,0.0 -48.9346281,-28.3920384992095,0.0 -48.9346965,-28.3919899992095,0.0 -48.9347636,-28.3919425992095,0.0 -48.9348422,-28.3918893992095,0.0 -48.9349172,-28.3918511992095,0.0 -48.9350028,-28.3918153992095,0.0 -48.9351116,-28.3917445992095,0.0 -48.9351671,-28.3916868992095,0.0 -48.9351981,-28.3916430992095,0.0 -48.9352144,-28.3916071992095,0.0 -48.9352402,-28.3914706992095,0.0 -48.9352818,-28.3913908992095,0.0 -48.9353136,-28.3913442992095,0.0 -48.9353529,-28.3912961992095,0.0 -48.9353738,-28.3912341992095,0.0 -48.9353755,-28.3911634992095,0.0 -48.9353652,-28.3910716992095,0.0 -48.935361,-28.3909845992095,0.0 -48.9353643,-28.3909004992095,0.0 -48.93538,-28.3908433992095,0.0 -48.9354126,-28.3907901992095,0.0 -48.9354735,-28.3907013992095,0.0 -48.9355203,-28.3906160992095,0.0 -48.9355555,-28.3905204992095,0.0 -48.935579,-28.3903978992095,0.0 -48.9355918,-28.3903116992095,0.0 -48.9356266,-28.3901714992095,0.0 -48.9356968,-28.3900466992095,0.0 -48.9357511,-28.3899849992095,0.0 -48.9357973,-28.3899181992095,0.0 -48.9358119,-28.3898560992095,0.0 -48.935815,-28.3897802992095,0.0 -48.9358193,-28.3897245992095,0.0 -48.9358481,-28.3896723992095,0.0 -48.9358941,-28.3896328992095,0.0 -48.9359524,-28.3896036992095,0.0 -48.9360375,-28.3895840992095,0.0 -48.9361324,-28.3895736992095,0.0 -48.9362254,-28.3895642992095,0.0 -48.9362998,-28.3895433992095,0.0 -48.9363885,-28.3894708992095,0.0 -48.936399,-28.3894404992095,0.0 -48.9364046,-28.3893825992095,0.0 -48.9364211,-28.3892993992095,0.0 -48.9364533,-28.3892203992095,0.0 -48.9364967,-28.3891634992095,0.0 -48.9365603,-28.3891059992095,0.0 -48.9366103,-28.3890615992095,0.0 -48.9366657,-28.3890054992095,0.0 -48.9367186,-28.3889488992095,0.0 -48.9368415,-28.3888314992095,0.0 -48.9371566,-28.3886142992096,0.0 -48.9371914,-28.3885451992095,0.0 -48.9372076,-28.3884691992096,0.0 -48.9371761,-28.3883721992096,0.0 -48.9371437,-28.3883088992096,0.0 -48.9370835,-28.3881913992096,0.0 -48.9370647,-28.3881342992096,0.0 -48.937046,-28.3880770992096,0.0 -48.9370374,-28.3879880992096,0.0 -48.9370704,-28.3878410992096,0.0 -48.93712,-28.3877472992096,0.0 -48.9372525,-28.3875430992096,0.0 -48.9375004,-28.3871534992096,0.0 -48.9375563,-28.3869995992096,0.0 -48.9375581,-28.3868900992096,0.0 -48.9375403,-28.3867640992096,0.0 -48.9375001,-28.3866460992096,0.0 -48.9372981,-28.3862803992096,0.0 -48.9372344,-28.3861613992096,0.0 -48.9371834,-28.3860238992096,0.0 -48.9371527,-28.3858560992096,0.0 -48.9372067,-28.3852699992096,0.0 -48.9372566,-28.3848075992096,0.0 -48.9372737,-28.3845251992096,0.0 -48.9372902,-28.3842850992096,0.0 -48.9373068,-28.3841139992096,0.0 -48.937296,-28.3839258992096,0.0 -48.9372245,-28.3835882992096,0.0 -48.9372207,-28.3834431992096,0.0 -48.9372169,-28.3832981992097,0.0 -48.9371965,-28.3829897992097,0.0 -48.9370677,-28.3828046992097,0.0 -48.9369428,-28.3827116992097,0.0 -48.9367056,-28.3826556992097,0.0 -48.9364917,-28.3826607992097,0.0 -48.9363508,-28.3826208992097,0.0 -48.9362485,-28.3825233992097,0.0 -48.9361462,-28.3824802992097,0.0 -48.9358676,-28.3823834992097,0.0 -48.9357384,-28.3823166992097,0.0 -48.9356338,-28.3821877992097,0.0 -48.9354986,-28.3820197992097,0.0 -48.9353349,-28.3818830992097,0.0 -48.93518,-28.3817305992097,0.0 -48.9349802,-28.3816203992097,0.0 -48.9347754,-28.3815699992097,0.0 -48.9345677,-28.3815589992097,0.0 -48.934322,-28.3815575992097,0.0 -48.9340176,-28.3815372992097,0.0 -48.9337108,-28.3814793992097,0.0 -48.9335408,-28.3814016992097,0.0 -48.9332754,-28.3813501992097,0.0 -48.9329846,-28.3813484992097,0.0 -48.9328452,-28.3813812992097,0.0 -48.9326682,-28.3815396992097,0.0 -48.9325863,-28.3814864992097,0.0 -48.9326232,-28.3813834992097,0.0 -48.9327798,-28.3811368992097,0.0 -48.9328167,-28.3808094992097,0.0 -48.932785,-28.3805412992097,0.0 -48.9328026,-28.3804197992097,0.0 -48.9328771,-28.3801835992097,0.0 -48.9329001,-28.3800350992097,0.0 -48.9328737,-28.3798409992097,0.0 -48.9328569,-28.3797375992097,0.0 -48.9328556,-28.3796824992097,0.0 -48.9328776,-28.3796118992097,0.0 -48.9329208,-28.3795400992097,0.0 -48.93298,-28.3794426992097,0.0 -48.9330261,-28.3793218992097,0.0 -48.9330659,-28.3791992992097,0.0 -48.9330766,-28.3791234992097,0.0 -48.9330451,-28.3790398992097,0.0 -48.9330336,-28.3789682992097,0.0 -48.9330331,-28.3788805992097,0.0 -48.9330802,-28.3787600992097,0.0 -48.9331632,-28.3785478992097,0.0 -48.9333203,-28.3783064992097,0.0 -48.9333498,-28.3781679992097,0.0 -48.9332945,-28.3780250992097,0.0 -48.9332713,-28.3779312992097,0.0 -48.9333356,-28.3775857992097,0.0 -48.9334184,-28.3773223992097,0.0 -48.9335819,-28.3770813992098,0.0 -48.9337953,-28.3769180992098,0.0 -48.9339111,-28.3767944992098,0.0 -48.9340645,-28.3765166992098,0.0 -48.9341473,-28.3764772992098,0.0 -48.9342732,-28.3764403992098,0.0 -48.9343449,-28.3763585992098,0.0 -48.9343779,-28.3762358992098,0.0 -48.9344607,-28.3759288992098,0.0 -48.9345252,-28.3756127992098,0.0 -48.9345883,-28.3754250992098,0.0 -48.9347131,-28.3752604992098,0.0 -48.9349063,-28.3749422992098,0.0 -48.9350984,-28.3747019992098,0.0 -48.9355421,-28.3744942992098,0.0 -48.9359405,-28.3742007992098,0.0 -48.9362138,-28.3739021992098,0.0 -48.9364901,-28.3735947992098,0.0 -48.9367399,-28.3734880992098,0.0 -48.9372894,-28.3734042992098,0.0 -48.9376898,-28.3733017992098,0.0 -48.9381907,-28.3731704992098,0.0 -48.9383998,-28.3730976992098,0.0 -48.9384392,-28.3730168992098,0.0 -48.9384167,-28.3729374992098,0.0 -48.9380104,-28.3725843992098,0.0 -48.9379016,-28.3725288992098,0.0 -48.9377819,-28.3725281992098,0.0 -48.9376231,-28.3724679992098,0.0 -48.9374559,-28.3723448992098,0.0 -48.9372928,-28.3721518992099,0.0 -48.9371417,-28.3718864992099,0.0 -48.9368144,-28.3713129992099,0.0 -48.9365739,-28.3707184992099,0.0 -48.9363661,-28.3704462992099,0.0 -48.9362674,-28.3701952992099,0.0 -48.9360666,-28.3698181992099,0.0 -48.9358084,-28.3695197992099,0.0 -48.9357127,-28.3693019992099,0.0 -48.9354336,-28.3687226992099,0.0 -48.9351617,-28.3683142992099,0.0 -48.9350749,-28.3679183992099,0.0 -48.9349398,-28.3675209992099,0.0 -48.9348243,-28.3671835992099,0.0 -48.9346389,-28.3666562992099,0.0 -48.9344186,-28.36620019921,0.0 -48.9341821,-28.36577889921,0.0 -48.9340752,-28.36551419921,0.0 -48.933977,-28.36520319921,0.0 -48.9338827,-28.36506909921,0.0 -48.9338816,-28.36494659921,0.0 -48.9339854,-28.36484639921,0.0 -48.9341988,-28.36479029921,0.0 -48.9343496,-28.36480119921,0.0 -48.9344956,-28.36484449921,0.0 -48.9348105,-28.36502759921,0.0 -48.9350943,-28.36517159921,0.0 -48.935241,-28.36517159921,0.0 -48.935371,-28.36513109921,0.0 -48.9355715,-28.36498179921,0.0 -48.9357866,-28.36481149921,0.0 -48.9359259,-28.36465409921,0.0 -48.9360763,-28.36452409921,0.0 -48.9362523,-28.36439499921,0.0 -48.9366863,-28.36416509921,0.0 -48.9369256,-28.36403679921,0.0 -48.9371024,-28.36392309921,0.0 -48.9372363,-28.36383799921,0.0 -48.9373815,-28.36377939921,0.0 -48.9375499,-28.36375599921,0.0 -48.9378131,-28.36375629921,0.0 -48.9381798,-28.36376319921,0.0 -48.9383377,-28.36379269921,0.0 -48.9385238,-28.36376839921,0.0 -48.9386504,-28.36367519921,0.0 -48.9387976,-28.36341879921,0.0 -48.9388474,-28.36323779921,0.0 -48.9388981,-28.36303259921,0.0 -48.93902,-28.36287899921,0.0 -48.9392454,-28.36277839921,0.0 -48.939416,-28.36263079921,0.0 -48.9396348,-28.36246999921,0.0 -48.9398567,-28.36241279921,0.0 -48.9400897,-28.36238179921,0.0 -48.9404175,-28.36238629921,0.0 -48.9407157,-28.36246239921,0.0 -48.9409248,-28.36248959921,0.0 -48.9410927,-28.36248089921,0.0 -48.9412352,-28.36242729921,0.0 -48.9413741,-28.36236309921,0.0 -48.941507,-28.36226459921,0.0 -48.9416504,-28.36216189921,0.0 -48.9417064,-28.36210259921,0.0 -48.9417553,-28.36197879921,0.0 -48.9418262,-28.36191569921,0.0 -48.942098,-28.36186009921,0.0 -48.9422657,-28.36178879921,0.0 -48.9423733,-28.36174319921,0.0 -48.9426158,-28.36159189921,0.0 -48.942756,-28.36153699921,0.0 -48.9428523,-28.36152559921,0.0 -48.9429856,-28.36146299921,0.0 -48.9431076,-28.36143329921,0.0 -48.9432153,-28.36137079921,0.0 -48.9433141,-28.36128999921,0.0 -48.9434126,-28.3611933992101,0.0 -48.943622,-28.3611098992101,0.0 -48.943933,-28.36103239921,0.0 -48.9443426,-28.36094849921,0.0 -48.9446329,-28.36089609921,0.0 -48.9449286,-28.3608873992101,0.0 -48.9451161,-28.3609152992101,0.0 -48.9452741,-28.3609310992101,0.0 -48.9455085,-28.36094999921,0.0 -48.9457622,-28.3609364992101,0.0 -48.9459617,-28.3608497992101,0.0 -48.9461787,-28.36073659921,0.0 -48.9464679,-28.3606781992101,0.0 -48.9467772,-28.3606610992101,0.0 -48.9470924,-28.3606999992101,0.0 -48.9472458,-28.3607105992101,0.0 -48.9474444,-28.3606757992101,0.0 -48.9475985,-28.3606450992101,0.0 -48.9476969,-28.3605889992101,0.0 -48.9477924,-28.3604773992101,0.0 -48.9478526,-28.3603810992101,0.0 -48.947892,-28.3602694992101,0.0 -48.9479787,-28.3600185992101,0.0 -48.9480017,-28.3597686992101,0.0 -48.9480835,-28.3594191992101,0.0 -48.9481259,-28.3591142992101,0.0 -48.947717,-28.3589582992101,0.0 -48.947025,-28.3589582992101,0.0 -48.9464695,-28.3589582992101,0.0 -48.946269,-28.3589829992101,0.0 -48.9459925,-28.3590170992101,0.0 -48.9455572,-28.3591151992101,0.0 -48.9451244,-28.3591960992101,0.0 -48.9448568,-28.3591826992101,0.0 -48.9444708,-28.3590486992101,0.0 -48.9441799,-28.3589667992101,0.0 -48.9438267,-28.3588981992101,0.0 -48.9434582,-28.3587687992101,0.0 -48.9429485,-28.3586804992101,0.0 -48.9424578,-28.3586804992101,0.0 -48.9420479,-28.3584713992101,0.0 -48.9414645,-28.3580324992101,0.0 -48.9414039,-28.3578976992101,0.0 -48.9412617,-28.3577100992101,0.0 -48.9411056,-28.3575738992101,0.0 -48.9407281,-28.3573262992101,0.0 -48.9405278,-28.3571926992101,0.0 -48.9403696,-28.3570909992101,0.0 -48.9403087,-28.3570452992101,0.0 -48.940217,-28.3569766992101,0.0 -48.9400039,-28.3567919992101,0.0 -48.9398431,-28.3566075992101,0.0 -48.9396464,-28.3563559992101,0.0 -48.9394553,-28.3560882992101,0.0 -48.939312,-28.3559033992101,0.0 -48.9392296,-28.3557752992101,0.0 -48.939122,-28.3555657992101,0.0 -48.9390426,-28.3554049992101,0.0 -48.9387873,-28.3549841992102,0.0 -48.9386546,-28.3547887992102,0.0 -48.9384481,-28.3544349992102,0.0 -48.9383898,-28.3543012992102,0.0 -48.9383477,-28.3541339992102,0.0 -48.9383194,-28.3540349992102,0.0 -48.9382855,-28.3539507992102,0.0 -48.9382471,-28.3538911992102,0.0 -48.9382025,-28.3538477992102,0.0 -48.9381233,-28.3537979992102,0.0 -48.9380113,-28.3537549992102,0.0 -48.9377538,-28.3536855992102,0.0 -48.9376584,-28.3536551992102,0.0 -48.9375893,-28.3536283992102,0.0 -48.937535,-28.3535989992102,0.0 -48.9375001,-28.3535856992102,0.0 -48.937298,-28.3535166992102,0.0 -48.9372147,-28.3534925992102,0.0 -48.9370469,-28.3534542992102,0.0 -48.9369582,-28.3534277992102,0.0 -48.9368812,-28.3533961992102,0.0 -48.9368268,-28.3533692992102,0.0 -48.9367709,-28.3533299992102,0.0 -48.9367134,-28.3532754992102,0.0 -48.9366894,-28.3532550992102,0.0 -48.9366601,-28.3532373992102,0.0 -48.9366291,-28.3532228992102,0.0 -48.9365872,-28.3532104992102,0.0 -48.9365451,-28.3532050992102,0.0 -48.9365102,-28.3532078992102,0.0 -48.9364775,-28.3532168992102,0.0 -48.9364145,-28.3532514992102,0.0 -48.9363671,-28.3532854992102,0.0 -48.9363111,-28.3533330992102,0.0 -48.9362723,-28.3533594992102,0.0 -48.9362581,-28.3533672992102,0.0 -48.9362364,-28.3533789992102,0.0 -48.936196,-28.3533888992102,0.0 -48.9361584,-28.3533830992102,0.0 -48.9361156,-28.3533583992102,0.0 -48.9360519,-28.3533146992102,0.0 -48.9360028,-28.3532789992102,0.0 -48.9359544,-28.3532363992102,0.0 -48.9359134,-28.3532022992102,0.0 -48.9358716,-28.3531753992102,0.0 -48.9358192,-28.3531447992102,0.0 -48.9357523,-28.3531126992102,0.0 -48.93567,-28.3530905992102,0.0 -48.9356284,-28.3530886992102,0.0 -48.9355904,-28.3530969992102,0.0 -48.9355694,-28.3531047992102,0.0 -48.9355488,-28.3531123992102,0.0 -48.9355147,-28.3531155992102,0.0 -48.9354854,-28.3531062992102,0.0 -48.9354431,-28.3530803992102,0.0 -48.9353985,-28.3530604992102,0.0 -48.9353327,-28.3530376992102,0.0 -48.9352673,-28.3530079992102,0.0 -48.9352055,-28.3529713992102,0.0 -48.935141,-28.3529287992102,0.0 -48.9350886,-28.3528965992102,0.0 -48.9350748,-28.3528813992102,0.0 -48.9350703,-28.3528707992102,0.0 -48.9350652,-28.3528275992102,0.0 -48.9350723,-28.3527093992102,0.0 -48.9350808,-28.3526053992102,0.0 -48.9350798,-28.3524386992102,0.0 -48.9350903,-28.3523966992102,0.0 -48.9350932,-28.3523730992102,0.0 -48.9350903,-28.3523384992102,0.0 -48.935075,-28.3522631992102,0.0 -48.9350757,-28.3522117992102,0.0 -48.9350902,-28.3520555992102,0.0 -48.935093,-28.3519019992102,0.0 -48.9350769,-28.3517978992102,0.0 -48.9350576,-28.3517170992102,0.0 -48.9349984,-28.3516566992102,0.0 -48.9349062,-28.3516054992102,0.0 -48.9347991,-28.3515595992102,0.0 -48.9346325,-28.3515174992102,0.0 -48.9343989,-28.3514728992102,0.0 -48.9343226,-28.3514589992102,0.0 -48.9342886,-28.3514633992102,0.0 -48.9342699,-28.3514887992102,0.0 -48.9342476,-28.3515462992102,0.0 -48.9342271,-28.3516151992102,0.0 -48.9342151,-28.3516654992102,0.0 -48.9341981,-28.3516884992102,0.0 -48.9341513,-28.3516963992102,0.0 -48.9341059,-28.3516751992102,0.0 -48.9340797,-28.3516455992102,0.0 -48.9340279,-28.3516055992102,0.0 -48.9339609,-28.3515806992102,0.0 -48.9338143,-28.3515665992102,0.0 -48.9336617,-28.3515552992102,0.0 -48.933555,-28.3515303992102,0.0 -48.933466,-28.3514960992102,0.0 -48.9333724,-28.3514565992102,0.0 -48.9332733,-28.3514084992102,0.0 -48.9330608,-28.3512889992102,0.0 -48.9330589,-28.3512881992102,0.0 -48.9329793,-28.3512515992102,0.0 -48.9328737,-28.3512262992102,0.0 -48.932791,-28.3512172992102,0.0 -48.9327598,-28.3512138992102,0.0 -48.9326213,-28.3512084992102,0.0 -48.9325185,-28.3512178992102,0.0 -48.9323787,-28.3512469992102,0.0 -48.9322362,-28.3512947992102,0.0 -48.9321038,-28.3513404992102,0.0 -48.9320293,-28.3513748992102,0.0 -48.932006,-28.3513967992102,0.0 -48.9319919,-28.3514656992102,0.0 -48.9319871,-28.3515577992102,0.0 -48.9319719,-28.3516111992102,0.0 -48.9319486,-28.3516312992102,0.0 -48.9318829,-28.3516367992102,0.0 -48.9318136,-28.3516202992102,0.0 -48.9317384,-28.3516045992102,0.0 -48.9316494,-28.3516114992102,0.0 -48.9315622,-28.3516146992102,0.0 -48.9314891,-28.3516377992102,0.0 -48.9314363,-28.3516735992102,0.0 -48.9314105,-28.3517061992102,0.0 -48.9313975,-28.3517550992102,0.0 -48.9314029,-28.3518271992102,0.0 -48.931423,-28.3519183992102,0.0 -48.9314346,-28.3519746992102,0.0 -48.9314297,-28.3519989992102,0.0 -48.9314114,-28.3520298992102,0.0 -48.9313899,-28.3520400992102,0.0 -48.9313363,-28.3520510992102,0.0 -48.9312689,-28.3520425992102,0.0 -48.9311988,-28.3520143992102,0.0 -48.9311775,-28.3520009992102,0.0 -48.9311282,-28.3519701992102,0.0 -48.9310423,-28.3519065992102,0.0 -48.9309553,-28.3518241992102,0.0 -48.930862,-28.3516878992102,0.0 -48.9308055,-28.3515916992102,0.0 -48.9307477,-28.3515066992102,0.0 -48.9306429,-28.3513817992102,0.0 -48.930243,-28.3508970992102,0.0 -48.930168,-28.3508113992102,0.0 -48.9300748,-28.3507286992102,0.0 -48.9298665,-28.3505771992102,0.0 -48.9297266,-28.3505411992102,0.0 -48.9295638,-28.3505315992102,0.0 -48.9292522,-28.3504977992102,0.0 -48.9291321,-28.3504632992102,0.0 -48.9289517,-28.3504207992102,0.0 -48.9288014,-28.3504110992102,0.0 -48.9286676,-28.3504275992102,0.0 -48.9285321,-28.3504486992102,0.0 -48.9283539,-28.3504436992102,0.0 -48.9281929,-28.3504140992102,0.0 -48.9277217,-28.3502749992102,0.0 -48.9273835,-28.3501940992102,0.0 -48.9271659,-28.3501869992102,0.0 -48.9270675,-28.3501896992102,0.0 -48.926655,-28.3503156992102,0.0 -48.9260722,-28.3505621992102,0.0 -48.9259881,-28.3506082992102,0.0 -48.9258185,-28.3507341992102,0.0 -48.9256317,-28.3509007992102,0.0 -48.9254577,-28.3510916992102,0.0 -48.9253142,-28.3512843992102,0.0 -48.9251464,-28.3514944992102,0.0 -48.9250109,-28.3516522992102,0.0 -48.9249017,-28.3517677992102,0.0 -48.9247785,-28.3518947992102,0.0 -48.9246291,-28.3520252992102,0.0 -48.9245066,-28.3520972992102,0.0 -48.9243509,-28.3521473992102,0.0 -48.9242617,-28.3521370992102,0.0 -48.9240172,-28.3520256992102,0.0 -48.923805,-28.3518990992102,0.0 -48.9235497,-28.3517362992102,0.0 -48.9230841,-28.3514930992102,0.0 -48.9229361,-28.3514451992102,0.0 -48.92276,-28.3513915992102,0.0 -48.9226778,-28.3513774992102,0.0 -48.9225757,-28.3513788992102,0.0 -48.9225289,-28.3513907992102,0.0 -48.9224188,-28.3515000992102,0.0 -48.9223628,-28.3516158992102,0.0 -48.9223313,-28.3517608992102,0.0 -48.9223369,-28.3519235992102,0.0 -48.9223347,-28.3520023992102,0.0 -48.9223269,-28.3520763992102,0.0 -48.9223065,-28.3521652992102,0.0 -48.9222244,-28.3524420992102,0.0 -48.9221937,-28.3525520992102,0.0 -48.9221913,-28.3526358992102,0.0 -48.9222131,-28.3527851992102,0.0 -48.9221197,-28.3528737992102,0.0 -48.9218795,-28.3529821992102,0.0 -48.9216951,-28.3530868992102,0.0 -48.9215003,-28.3532048992102,0.0 -48.9213151,-28.3533499992102,0.0 -48.9212379,-28.3534114992102,0.0 -48.9210918,-28.3534462992102,0.0 -48.9208461,-28.3534835992102,0.0 -48.9207165,-28.3535130992102,0.0 -48.9206145,-28.3535028992102,0.0 -48.9205303,-28.3534750992102,0.0 -48.9204489,-28.3534580992102,0.0 -48.9203771,-28.3534565992102,0.0 -48.9203189,-28.3534481992102,0.0 -48.920129,-28.3533880992102,0.0 -48.919602,-28.3534049992102,0.0 -48.9195417,-28.3534537992102,0.0 -48.9194141,-28.3535930992102,0.0 -48.9193919,-28.3536337992102,0.0 -48.9193839,-28.3536791992102,0.0 -48.9193946,-28.3537759992102,0.0 -48.9194148,-28.3538243992102,0.0 -48.9194399,-28.3539441992102,0.0 -48.9192162,-28.3543410992102,0.0 -48.9191206,-28.3545068992102,0.0 -48.9190934,-28.3545539992102,0.0 -48.9190325,-28.3546561992102,0.0 -48.9190009,-28.3546872992102,0.0 -48.918965,-28.3546952992102,0.0 -48.9189506,-28.3546933992102,0.0 -48.918917,-28.3546887992102,0.0 -48.918848,-28.3546620992102,0.0 -48.9187391,-28.3545661992102,0.0 -48.9186455,-28.3544504992102,0.0 -48.9185623,-28.3542929992102,0.0 -48.9184543,-28.3542235992102,0.0 -48.9183517,-28.3542149992102,0.0 -48.9182752,-28.3542374992102,0.0 -48.9181099,-28.3542939992102,0.0 -48.9179197,-28.3543339992102,0.0 -48.9177546,-28.3543303992102,0.0 -48.9173704,-28.3542562992102,0.0 -48.9173345,-28.3542439992102,0.0 -48.9168233,-28.3540684992102,0.0 -48.9167429,-28.3540433992102,0.0 -48.9166687,-28.3540201992102,0.0 -48.916638,-28.3540136992102,0.0 -48.9166058,-28.3540068992102,0.0 -48.9165332,-28.3539914992102,0.0 -48.9163639,-28.3539820992102,0.0 -48.9162419,-28.3539644992102,0.0 -48.9161628,-28.3539217992102,0.0 -48.9160971,-28.3538411992102,0.0 -48.9160714,-28.3537617992102,0.0 -48.9160398,-28.3536882992102,0.0 -48.9159565,-28.3536403992102,0.0 -48.9158498,-28.3536372992102,0.0 -48.9157654,-28.3536342992102,0.0 -48.9157089,-28.3536183992102,0.0 -48.9156987,-28.3536154992102,0.0 -48.9156347,-28.3535956992102,0.0 -48.9155698,-28.3535791992102,0.0 -48.9153561,-28.3534993992102,0.0 -48.9152433,-28.3534741992102,0.0 -48.9151151,-28.3534175992102,0.0 -48.9150611,-28.3534154992102,0.0 -48.9149538,-28.3534224992102,0.0 -48.9148546,-28.3534730992102,0.0 -48.9141889,-28.3537240992102,0.0 -48.9140245,-28.3537446992102,0.0 -48.9138408,-28.3537435992102,0.0 -48.9136461,-28.3537514992102,0.0 -48.9135354,-28.3537429992102,0.0 -48.9134146,-28.3536967992102,0.0 -48.9133491,-28.3536241992102,0.0 -48.9131484,-28.3532194992102,0.0 -48.9130801,-28.3530815992102,0.0 -48.9129497,-28.3529093992102,0.0 -48.9128721,-28.3528367992102,0.0 -48.9127793,-28.3527804992102,0.0 -48.9127017,-28.3527534992102,0.0 -48.9124975,-28.3527483992102,0.0 -48.9123372,-28.3527578992102,0.0 -48.9122068,-28.3527167992102,0.0 -48.912146,-28.3526717992102,0.0 -48.9121144,-28.3526156992102,0.0 -48.9120803,-28.3525393992102,0.0 -48.9120753,-28.3525050992102,0.0 -48.9121074,-28.3523136992102,0.0 -48.9121119,-28.3522596992102,0.0 -48.9121129,-28.3522199992102,0.0 -48.9121043,-28.3521917992102,0.0 -48.9120893,-28.3521642992102,0.0 -48.9120661,-28.3521478992102,0.0 -48.9120413,-28.3521411992102,0.0 -48.9120111,-28.3521475992102,0.0 -48.9119799,-28.3521746992102,0.0 -48.9118577,-28.3523521992102,0.0 -48.9118192,-28.3523774992102,0.0 -48.911775,-28.3523732992102,0.0 -48.9117298,-28.3523448992102,0.0 -48.9116949,-28.3523071992102,0.0 -48.9116615,-28.3522691992102,0.0 -48.9116335,-28.3522508992102,0.0 -48.9115858,-28.3522319992102,0.0 -48.9115282,-28.3522212992102,0.0 -48.9113551,-28.3521992992102,0.0 -48.9113051,-28.3522017992102,0.0 -48.9112329,-28.3522178992102,0.0 -48.9109671,-28.3523671992102,0.0 -48.9109327,-28.3523730992102,0.0 -48.9108983,-28.3523699992102,0.0 -48.9108732,-28.3523596992102,0.0 -48.9108558,-28.3523464992102,0.0 -48.9108468,-28.3523216992102,0.0 -48.9108485,-28.3523137992102,0.0 -48.9108522,-28.3523022992102,0.0 -48.9109351,-28.3521984992102,0.0 -48.910956,-28.3521666992102,0.0 -48.9109568,-28.3521353992102,0.0 -48.9109447,-28.3521101992102,0.0 -48.9109311,-28.3520970992102,0.0 -48.9109157,-28.3520880992102,0.0 -48.9108893,-28.3520826992102,0.0 -48.9108572,-28.3520840992102,0.0 -48.9108422,-28.3520870992102,0.0 -48.9106993,-28.3521217992102,0.0 -48.9106684,-28.3521369992102,0.0 -48.9106469,-28.3521629992102,0.0 -48.9106343,-28.3521893992102,0.0 -48.9106405,-28.3521971992102,0.0 -48.9106579,-28.3521979992102,0.0 -48.9106754,-28.3521900992102,0.0 -48.9106876,-28.3521988992102,0.0 -48.9106918,-28.3522175992102,0.0 -48.9106856,-28.3522406992102,0.0 -48.9106622,-28.3522999992102,0.0 -48.9106351,-28.3523091992102,0.0 -48.9106104,-28.3523051992102,0.0 -48.9105832,-28.3522973992102,0.0 -48.9105522,-28.3522915992102,0.0 -48.910532,-28.3522990992102,0.0 -48.9105065,-28.3523171992102,0.0 -48.9104893,-28.3523391992102,0.0 -48.9104572,-28.3523808992102,0.0 -48.9104418,-28.3523852992102,0.0 -48.9103769,-28.3523849992102,0.0 -48.9103107,-28.3523655992102,0.0 -48.910161,-28.3522950992102,0.0 -48.9100528,-28.3522288992102,0.0 -48.9099846,-28.3522184992102,0.0 -48.9099069,-28.3522243992102,0.0 -48.9098245,-28.3522532992102,0.0 -48.9097098,-28.3522628992102,0.0 -48.909271,-28.3524081992102,0.0 -48.9092604,-28.3524146992102,0.0 -48.9092254,-28.3524193992102,0.0 -48.9091886,-28.3524170992102,0.0 -48.9091483,-28.3523958992102,0.0 -48.9091043,-28.3523660992102,0.0 -48.9090638,-28.3523533992102,0.0 -48.9090347,-28.3523563992102,0.0 -48.9090092,-28.3523696992102,0.0 -48.9089621,-28.3523998992102,0.0 -48.9088872,-28.3524621992102,0.0 -48.9088181,-28.3525279992102,0.0 -48.9087444,-28.3526262992102,0.0 -48.908691,-28.3526803992102,0.0 -48.908649,-28.3527465992102,0.0 -48.9086263,-28.3528165992102,0.0 -48.9086059,-28.3528711992102,0.0 -48.9085837,-28.3529136992102,0.0 -48.9085092,-28.3529739992102,0.0 -48.9084895,-28.3529974992102,0.0 -48.9084514,-28.3530275992102,0.0 -48.9083975,-28.3530744992102,0.0 -48.9083551,-28.3531067992102,0.0 -48.9083178,-28.3531095992102,0.0 -48.9083037,-28.3531093992102,0.0 -48.9082794,-28.3531021992102,0.0 -48.9082641,-28.3530962992102,0.0 -48.9082453,-28.3530709992102,0.0 -48.9082277,-28.3530536992102,0.0 -48.9081987,-28.3530259992102,0.0 -48.9081611,-28.3529787992102,0.0 -48.908126,-28.3529350992102,0.0 -48.9080843,-28.3529015992102,0.0 -48.9080577,-28.3528840992102,0.0 -48.9080257,-28.3528756992102,0.0 -48.9079859,-28.3528738992102,0.0 -48.9079534,-28.3528776992102,0.0 -48.907937,-28.3528824992102,0.0 -48.9079098,-28.3528939992102,0.0 -48.9078951,-28.3529048992102,0.0 -48.9078676,-28.3529308992102,0.0 -48.9078508,-28.3529552992102,0.0 -48.9078429,-28.3529662992102,0.0 -48.9078234,-28.3529753992102,0.0 -48.9077713,-28.3529830992102,0.0 -48.9077125,-28.3529829992102,0.0 -48.9076017,-28.3529864992102,0.0 -48.9075312,-28.3529938992102,0.0 -48.9075003,-28.3529976992102,0.0 -48.90735,-28.3530021992102,0.0 -48.9072797,-28.3530002992102,0.0 -48.9072199,-28.3530044992102,0.0 -48.9071629,-28.3530146992102,0.0 -48.9070724,-28.3530353992102,0.0 -48.906962,-28.3530669992102,0.0 -48.9068535,-28.3530976992102,0.0 -48.9068177,-28.3531081992102,0.0 -48.9067655,-28.3531150992102,0.0 -48.9066672,-28.3531169992102,0.0 -48.9065814,-28.3531207992102,0.0 -48.9065321,-28.3531293992102,0.0 -48.9064837,-28.3531430992102,0.0 -48.9064506,-28.3531638992102,0.0 -48.9064271,-28.3531805992102,0.0 -48.9063997,-28.3532248992102,0.0 -48.9063989,-28.3532275992102,0.0 -48.9063977,-28.3532329992102,0.0 -48.906397,-28.3532366992102,0.0 -48.9063968,-28.3532387992102,0.0 -48.9063964,-28.3532444992102,0.0 -48.9063964,-28.3532463992102,0.0 -48.9063966,-28.3532517992102,0.0 -48.9063972,-28.3532569992102,0.0 -48.9063977,-28.3532601992102,0.0 -48.9063981,-28.3532618992102,0.0 -48.9063994,-28.3532666992102,0.0 -48.9064032,-28.3532788992102,0.0 -48.9064051,-28.3532846992102,0.0 -48.9064084,-28.3532933992102,0.0 -48.906412,-28.3533018992102,0.0 -48.9064137,-28.3533054992102,0.0 -48.9064179,-28.3533135992102,0.0 -48.9064198,-28.3533167992102,0.0 -48.9064234,-28.3533223992102,0.0 -48.9064398,-28.3533452992102,0.0 -48.906451,-28.3533602992102,0.0 -48.9064586,-28.3533699992102,0.0 -48.9064743,-28.3533895992102,0.0 -48.9064777,-28.3533936992102,0.0 -48.9064858,-28.3534025992102,0.0 -48.9064977,-28.3534152992102,0.0 -48.9065041,-28.3534225992102,0.0 -48.9065104,-28.3534301992102,0.0 -48.9065138,-28.3534346992102,0.0 -48.9065207,-28.3534445992102,0.0 -48.9065253,-28.3534517992102,0.0 -48.9065329,-28.3534649992102,0.0 -48.9065521,-28.3535017992102,0.0 -48.9065584,-28.3535125992102,0.0 -48.9065616,-28.3535176992102,0.0 -48.9065752,-28.3535385992102,0.0 -48.9065818,-28.3535485992102,0.0 -48.9065921,-28.3535631992102,0.0 -48.9065992,-28.3535721992102,0.0 -48.9066025,-28.3535762992102,0.0 -48.9066083,-28.3535827992102,0.0 -48.906628,-28.3536041992102,0.0 -48.9066413,-28.3536182992102,0.0 -48.9066685,-28.3536464992102,0.0 -48.9066822,-28.3536603992102,0.0 -48.9067099,-28.3536880992102,0.0 -48.906738,-28.3537155992102,0.0 -48.9067569,-28.3537336992102,0.0 -48.9067952,-28.3537699992102,0.0 -48.9068249,-28.3537975992102,0.0 -48.906865,-28.3538346992102,0.0 -48.9068851,-28.3538533992102,0.0 -48.9069272,-28.3538935992102,0.0 -48.9069482,-28.3539141992102,0.0 -48.9069793,-28.3539453992102,0.0 -48.9069911,-28.3539578992102,0.0 -48.906999,-28.3539664992102,0.0 -48.9070137,-28.3539834992102,0.0 -48.907021,-28.3539922992102,0.0 -48.907035,-28.3540094992102,0.0 -48.9070486,-28.3540268992102,0.0 -48.9070751,-28.3540613992102,0.0 -48.9070959,-28.3540887992102,0.0 -48.9071062,-28.3541030992102,0.0 -48.9071212,-28.3541245992102,0.0 -48.9071308,-28.3541393992102,0.0 -48.9071357,-28.3541470992102,0.0 -48.9071425,-28.3541585992102,0.0 -48.9071485,-28.3541690992102,0.0 -48.9071595,-28.3541897992102,0.0 -48.9071697,-28.3542107992102,0.0 -48.9071761,-28.3542248992102,0.0 -48.9071802,-28.3542343992102,0.0 -48.9071879,-28.3542530992102,0.0 -48.907191,-28.3542606992102,0.0 -48.9071967,-28.3542754992102,0.0 -48.9072077,-28.3543047992102,0.0 -48.9072132,-28.3543195992102,0.0 -48.9072173,-28.3543311992102,0.0 -48.9072247,-28.3543538992102,0.0 -48.9072293,-28.3543688992102,0.0 -48.9072353,-28.3543882992102,0.0 -48.9072383,-28.3543976992102,0.0 -48.9072431,-28.3544117992102,0.0 -48.9072454,-28.3544179992102,0.0 -48.907247,-28.3544216992102,0.0 -48.9072477,-28.3544232992102,0.0 -48.9072506,-28.3544281992102,0.0 -48.9072516,-28.3544297992102,0.0 -48.9072551,-28.3544344992102,0.0 -48.907259,-28.3544390992102,0.0 -48.9072616,-28.3544417992102,0.0 -48.9072682,-28.3544482992102,0.0 -48.9072788,-28.3544575992102,0.0 -48.9072838,-28.3544615992102,0.0 -48.9072919,-28.3544677992102,0.0 -48.9073004,-28.3544736992102,0.0 -48.9073042,-28.3544761992102,0.0 -48.9073133,-28.3544816992102,0.0 -48.9073174,-28.3544840992102,0.0 -48.9073243,-28.3544877992102,0.0 -48.907333,-28.3544920992102,0.0 -48.907352,-28.3545008992102,0.0 -48.9073923,-28.3545185992102,0.0 -48.9074132,-28.3545284992102,0.0 -48.9074307,-28.3545372992102,0.0 -48.9074399,-28.3545420992102,0.0 -48.9074534,-28.3545498992102,0.0 -48.9074627,-28.3545558992102,0.0 -48.9074677,-28.3545593992102,0.0 -48.9074748,-28.3545646992102,0.0 -48.9074822,-28.3545707992102,0.0 -48.9074908,-28.3545791992102,0.0 -48.9074954,-28.3545843992102,0.0 -48.9075008,-28.3545912992102,0.0 -48.9075039,-28.3545956992102,0.0 -48.9075084,-28.3546029992102,0.0 -48.9075108,-28.3546075992102,0.0 -48.9075138,-28.3546138992102,0.0 -48.9075169,-28.3546219992102,0.0 -48.9075184,-28.3546269992102,0.0 -48.9075201,-28.3546338992102,0.0 -48.9075214,-28.3546433992102,0.0 -48.9075234,-28.3546686992102,0.0 -48.9075244,-28.3546851992102,0.0 -48.907526,-28.3547175992102,0.0 -48.9075293,-28.3547986992102,0.0 -48.9075305,-28.3548394992102,0.0 -48.9075307,-28.3548511992102,0.0 -48.9075307,-28.3548742992102,0.0 -48.9075302,-28.3548973992102,0.0 -48.9075296,-28.3549129992102,0.0 -48.9075294,-28.3549172992102,0.0 -48.9075278,-28.3549435992102,0.0 -48.9075259,-28.3549665992102,0.0 -48.9075245,-28.3549819992102,0.0 -48.907521,-28.3550123992102,0.0 -48.907519,-28.3550278992102,0.0 -48.9075147,-28.3550581992102,0.0 -48.9075098,-28.3550885992101,0.0 -48.9075062,-28.3551088992102,0.0 -48.9074986,-28.3551491992102,0.0 -48.9074933,-28.3551739992102,0.0 -48.9074903,-28.3551866992102,0.0 -48.9074854,-28.3552052992102,0.0 -48.90748,-28.3552238992101,0.0 -48.9074769,-28.3552334992102,0.0 -48.9074705,-28.3552517992102,0.0 -48.9074668,-28.3552612992101,0.0 -48.9074611,-28.3552750992102,0.0 -48.9074528,-28.3552930992102,0.0 -48.9074481,-28.3553023992102,0.0 -48.9074408,-28.3553157992101,0.0 -48.907433,-28.3553288992102,0.0 -48.9074287,-28.3553355992102,0.0 -48.9074195,-28.3553494992102,0.0 -48.9074011,-28.3553763992101,0.0 -48.9073645,-28.3554286992102,0.0 -48.907347,-28.3554547992102,0.0 -48.9072802,-28.3555570992101,0.0 -48.9072303,-28.3556340992101,0.0 -48.907206,-28.3556725992101,0.0 -48.9072016,-28.3556796992101,0.0 -48.9071931,-28.3556945992101,0.0 -48.9071851,-28.3557097992101,0.0 -48.9071801,-28.3557197992101,0.0 -48.9071704,-28.3557407992101,0.0 -48.9071635,-28.3557566992101,0.0 -48.9071592,-28.3557673992101,0.0 -48.9071506,-28.3557891992101,0.0 -48.9071384,-28.3558225992101,0.0 -48.9071223,-28.3558677992101,0.0 -48.907114,-28.3558905992101,0.0 -48.9070941,-28.3559444992101,0.0 -48.9070676,-28.3560158992101,0.0 -48.9070548,-28.3560513992101,0.0 -48.9070424,-28.3560869992101,0.0 -48.9070364,-28.3561046992101,0.0 -48.9070277,-28.3561312992101,0.0 -48.9070168,-28.3561669992101,0.0 -48.9070117,-28.3561846992101,0.0 -48.9070045,-28.3562114992101,0.0 -48.9069978,-28.3562383992101,0.0 -48.9069947,-28.3562516992101,0.0 -48.9069897,-28.3562744992101,0.0 -48.9069801,-28.3563202992101,0.0 -48.9069612,-28.3564125992101,0.0 -48.9069514,-28.3564588992101,0.0 -48.9069087,-28.3566526992101,0.0 -48.9069038,-28.3566762992101,0.0 -48.9069016,-28.3566878992101,0.0 -48.9068986,-28.3567054992101,0.0 -48.9068946,-28.3567319992101,0.0 -48.9068914,-28.3567585992101,0.0 -48.9068901,-28.3567716992101,0.0 -48.9068888,-28.3567877992101,0.0 -48.9068882,-28.3567983992101,0.0 -48.9068872,-28.3568200992101,0.0 -48.906887,-28.3568306992101,0.0 -48.9068867,-28.3568524992101,0.0 -48.9068868,-28.3568624992101,0.0 -48.9069134,-28.3570465992101,0.0 -48.9069351,-28.3572226992101,0.0 -48.9069382,-28.3574145992101,0.0 -48.9069519,-28.3575298992101,0.0 -48.9069659,-28.3576310992101,0.0 -48.9069816,-28.3576839992101,0.0 -48.9069818,-28.3577000992101,0.0 -48.906982,-28.3577384992101,0.0 -48.9069818,-28.3577582992101,0.0 -48.9069811,-28.3577877992101,0.0 -48.9069806,-28.3577973992101,0.0 -48.9069791,-28.3578151992101,0.0 -48.9069769,-28.3578326992101,0.0 -48.9069751,-28.3578443992101,0.0 -48.9069712,-28.3578663992101,0.0 -48.9069695,-28.3578755992101,0.0 -48.9069656,-28.3578929992101,0.0 -48.9069614,-28.3579101992101,0.0 -48.9069583,-28.3579216992101,0.0 -48.906952,-28.3579436992101,0.0 -48.9069493,-28.3579526992101,0.0 -48.9069436,-28.3579695992101,0.0 -48.9069372,-28.3579863992101,0.0 -48.9069325,-28.3579975992101,0.0 -48.9069292,-28.3580052992101,0.0 -48.9069223,-28.3580198992101,0.0 -48.9069176,-28.3580290992101,0.0 -48.906914,-28.3580356992101,0.0 -48.9069071,-28.3580470992101,0.0 -48.9069029,-28.3580535992101,0.0 -48.9068951,-28.3580646992101,0.0 -48.9068867,-28.3580755992101,0.0 -48.9068804,-28.3580830992101,0.0 -48.9068685,-28.3580963992101,0.0 -48.9068614,-28.3581037992101,0.0 -48.9068483,-28.3581160992101,0.0 -48.9068347,-28.3581275992101,0.0 -48.9068251,-28.3581351992101,0.0 -48.9068071,-28.3581483992101,0.0 -48.9067989,-28.3581539992101,0.0 -48.9067838,-28.3581634992101,0.0 -48.9067685,-28.3581719992101,0.0 -48.9067579,-28.3581775992101,0.0 -48.9067354,-28.3581884992101,0.0 -48.906723,-28.3581927992101,0.0 -48.9067112,-28.3581951992101,0.0 -48.9067099,-28.3581952992101,0.0 -48.9067057,-28.3581992992101,0.0 -48.9067026,-28.3582025992101,0.0 -48.906695,-28.3582109992101,0.0 -48.9066876,-28.3582198992101,0.0 -48.9066828,-28.3582257992101,0.0 -48.9066723,-28.3582393992101,0.0 -48.9066513,-28.3582669992101,0.0 -48.9066413,-28.3582803992101,0.0 -48.9066317,-28.3582937992101,0.0 -48.9066273,-28.3583000992101,0.0 -48.9066135,-28.3583207992101,0.0 -48.9066045,-28.3583349992101,0.0 -48.9065229,-28.3584462992101,0.0 -48.9063874,-28.3586037992101,0.0 -48.9063271,-28.3586512992101,0.0 -48.9062533,-28.3586885992101,0.0 -48.9061472,-28.3587434992101,0.0 -48.9060803,-28.3587785992101,0.0 -48.9060688,-28.3587846992101,0.0 -48.9059924,-28.3588360992101,0.0 -48.9058067,-28.3589886992101,0.0 -48.905735,-28.3590400992101,0.0 -48.9056728,-28.3590653992101,0.0 -48.9055624,-28.3591081992101,0.0 -48.9054497,-28.3591467992101,0.0 -48.9053461,-28.3591936992101,0.0 -48.9052333,-28.3592403992101,0.0 -48.9051231,-28.3592690992101,0.0 -48.9050452,-28.3592819992101,0.0 -48.9049812,-28.3592870992101,0.0 -48.9049284,-28.3593023992101,0.0 -48.9048757,-28.3593136992101,0.0 -48.9048093,-28.3593187992101,0.0 -48.9047457,-28.3593056992101,0.0 -48.9046847,-28.3592723992101,0.0 -48.9046302,-28.3592553992101,0.0 -48.9045443,-28.3592136992101,0.0 -48.9044697,-28.3591761992101,0.0 -48.9044379,-28.3591635992101,0.0 -48.904406,-28.3591630992101,0.0 -48.9043738,-28.3591726992101,0.0 -48.9043441,-28.3591742992101,0.0 -48.9042918,-28.3591653992101,0.0 -48.9042551,-28.3591728992101,0.0 -48.9041698,-28.3592159992101,0.0 -48.9040388,-28.3592583992101,0.0 -48.903933,-28.3592951992101,0.0 -48.9038415,-28.3593058992101,0.0 -48.9035509,-28.3593397992101,0.0 -48.9034339,-28.3593682992101,0.0 -48.9029507,-28.3594375992101,0.0 -48.90266,-28.3594775992101,0.0 -48.9025481,-28.3594798992101,0.0 -48.9024225,-28.3594779992101,0.0 -48.9021475,-28.3595302992101,0.0 -48.9016432,-28.3596315992101,0.0 -48.9015561,-28.3596463992101,0.0 -48.901111,-28.3596435992101,0.0 -48.9010424,-28.3596485992101,0.0 -48.9007372,-28.3597246992101,0.0 -48.9004852,-28.3597651992101,0.0 -48.8999815,-28.3598382992101,0.0 -48.8998255,-28.3598741992101,0.0 -48.8997722,-28.3598830992101,0.0 -48.8996927,-28.3598963992101,0.0 -48.8994873,-28.3598911992101,0.0 -48.8993342,-28.3598948992101,0.0 -48.899261,-28.3599018992101,0.0 -48.8989672,-28.3599801992101,0.0 -48.8988978,-28.3600094992101,0.0 -48.8988337,-28.3600366992101,0.0 -48.8987006,-28.3600709992101,0.0 -48.8986113,-28.3600947992101,0.0 -48.8985514,-28.3600968992101,0.0 -48.8984898,-28.3600929992101,0.0 -48.8984192,-28.3600789992101,0.0 -48.8983513,-28.3600699992101,0.0 -48.8983026,-28.3600657992101,0.0 -48.8982564,-28.3600650992101,0.0 -48.8981829,-28.3600775992101,0.0 -48.8980629,-28.3601086992101,0.0 -48.8980048,-28.3601225992101,0.0 -48.8978192,-28.3601560992101,0.0 -48.8977328,-28.3601728992101,0.0 -48.8976672,-28.3601775992101,0.0 -48.8976158,-28.3601790992101,0.0 -48.8975786,-28.3601796992101,0.0 -48.8974958,-28.3602089992101,0.0 -48.8974506,-28.3602207992101,0.0 -48.8973617,-28.3602341992101,0.0 -48.8972863,-28.3602377992101,0.0 -48.8972717,-28.3602384992101,0.0 -48.8971609,-28.3602594992101,0.0 -48.8970965,-28.3602653992101,0.0 -48.8970117,-28.3602708992101,0.0 -48.8969112,-28.3602851992101,0.0 -48.896781,-28.3603115992101,0.0 -48.8965942,-28.3603405992101,0.0 -48.8961515,-28.3604024992101,0.0 -48.8956432,-28.3604733992101,0.0 -48.8955472,-28.3604799992101,0.0 -48.8954652,-28.3604666992101,0.0 -48.8954152,-28.3604697992101,0.0 -48.8952861,-28.3605041992101,0.0 -48.8950726,-28.3605837992101,0.0 -48.8950171,-28.3605965992101,0.0 -48.8949747,-28.3605992992101,0.0 -48.8949338,-28.3605872992101,0.0 -48.8948982,-28.3605708992101,0.0 -48.8948777,-28.3605636992101,0.0 -48.8948534,-28.3605610992101,0.0 -48.894811,-28.3605637992101,0.0 -48.8946214,-28.36060069921,0.0 -48.8945364,-28.3606163992101,0.0 -48.8944797,-28.36062459921,0.0 -48.8943808,-28.3606230992101,0.0 -48.8943203,-28.3606334992101,0.0 -48.8942157,-28.3606602992101,0.0 -48.8940494,-28.3606917992101,0.0 -48.8939693,-28.3607143992101,0.0 -48.8938814,-28.36074599921,0.0 -48.8938323,-28.3607611992101,0.0 -48.8937833,-28.3607694992101,0.0 -48.893683,-28.36077699921,0.0 -48.8935118,-28.36079599921,0.0 -48.8933933,-28.3608122992101,0.0 -48.8932981,-28.3608176992101,0.0 -48.8932133,-28.36082319921,0.0 -48.8930845,-28.36083939921,0.0 -48.8929506,-28.3608565992101,0.0 -48.8928413,-28.3608650992101,0.0 -48.892742,-28.3608840992101,0.0 -48.8926193,-28.3609207992101,0.0 -48.892543,-28.36094459921,0.0 -48.8924916,-28.36094719921,0.0 -48.89243,-28.36094509921,0.0 -48.8923837,-28.3609454992101,0.0 -48.8923426,-28.36094829921,0.0 -48.8921891,-28.36098339921,0.0 -48.8920369,-28.3610139992101,0.0 -48.891944,-28.36103299921,0.0 -48.8918898,-28.36104699921,0.0 -48.8918368,-28.3610479992101,0.0 -48.8918243,-28.36104819921,0.0 -48.8917577,-28.36103699921,0.0 -48.8916406,-28.36105109921,0.0 -48.8914398,-28.3610717992101,0.0 -48.8912319,-28.3610915992101,0.0 -48.8911323,-28.36110109921,0.0 -48.8910629,-28.36110459921,0.0 -48.8910138,-28.36111639921,0.0 -48.8909975,-28.36111729921,0.0 -48.8909675,-28.36111899921,0.0 -48.8907356,-28.36109389921,0.0 -48.8902742,-28.36104239921,0.0 -48.8901258,-28.36101629921,0.0 -48.8899631,-28.36099219921,0.0 -48.8897565,-28.3609843992101,0.0 -48.8896213,-28.3609701992101,0.0 -48.8894861,-28.36096659921,0.0 -48.889293,-28.36094239921,0.0 -48.8890628,-28.3608963992101,0.0 -48.8888772,-28.3608419992101,0.0 -48.888726,-28.3607805992101,0.0 -48.8885759,-28.3606914992101,0.0 -48.8884174,-28.3604951992101,0.0 -48.8882993,-28.3603101992101,0.0 -48.8882243,-28.3602048992101,0.0 -48.8881319,-28.3601531992101,0.0 -48.8880689,-28.3601483992101,0.0 -48.8879577,-28.3601397992101,0.0 -48.8877983,-28.3601946992101,0.0 -48.8876434,-28.3602246992101,0.0 -48.8875491,-28.3602734992101,0.0 -48.887479,-28.3603297992101,0.0 -48.8874056,-28.3603465992101,0.0 -48.8872878,-28.3603519992101,0.0 -48.887089,-28.3603452992101,0.0 -48.8868011,-28.3603300992101,0.0 -48.8864441,-28.3603209992101,0.0 -48.8860457,-28.3603506992101,0.0 -48.8856389,-28.3603945992101,0.0 -48.8852638,-28.3604785992101,0.0 -48.8849613,-28.3605887992101,0.0 -48.8846466,-28.3606951992101,0.0 -48.8843203,-28.36077269921,0.0 -48.884003,-28.3608072992101,0.0 -48.8837186,-28.36082079921,0.0 -48.8831832,-28.3608017992101,0.0 -48.8828023,-28.3607706992101,0.0 -48.8825598,-28.3607166992101,0.0 -48.8822492,-28.3606184992101,0.0 -48.8816871,-28.3603080992101,0.0 -48.8813369,-28.3601590992101,0.0 -48.8809978,-28.3600675992101,0.0 -48.8807183,-28.3600381992101,0.0 -48.8804829,-28.3600344992101,0.0 -48.880247,-28.3600595992101,0.0 -48.8800877,-28.3601108992101,0.0 -48.8798717,-28.3601542992101,0.0 -48.8794734,-28.3601767992101,0.0 -48.8789695,-28.3602083992101,0.0 -48.878567,-28.3602380992101,0.0 -48.8783349,-28.3602774992101,0.0 -48.8782005,-28.3603005992101,0.0 -48.8779497,-28.3602820992101,0.0 -48.8761316,-28.3600545992101,0.0 -48.8750001,-28.3600774992101,0.0 -48.866549,-28.3598676992101,0.0 -48.8570112,-28.3599288992101,0.0 -48.8510757,-28.3600227992101,0.0 -48.8503335,-28.3600345992101,0.0 -48.8044088,-28.3559599992101,0.0 -48.8053007,-28.3565985992101,0.0 -48.8053353,-28.3566233992101,0.0 -48.8058695,-28.3570548992101,0.0 -48.8064624,-28.3575647992101,0.0 -48.807119,-28.3581623992101,0.0 -48.8078298,-28.3588580992101,0.0 -48.8085818,-28.3596630992101,0.0 -48.8093618,-28.3605880992101,0.0 -48.8101567,-28.3616440992101,0.0 -48.8109535,-28.36284199921,0.0 -48.8114964,-28.36377569921,0.0 -48.811739,-28.36419269921,0.0 -48.8125001,-28.36570719921,0.0 -48.8133052,-28.3676343992099,0.0 -48.8144656,-28.3702879992099,0.0 -48.8149366,-28.3712323992099,0.0 -48.8154122,-28.3720668992099,0.0 -48.8159503,-28.3729005992098,0.0 -48.8174458,-28.3750009992098,0.0 -48.8197149,-28.3762391992098,0.0 -48.8216703,-28.3773598992098,0.0 -48.8233443,-28.3783746992097,0.0 -48.8247689,-28.3792950992097,0.0 -48.8259765,-28.3801327992097,0.0 -48.8269991,-28.3808990992097,0.0 -48.8278689,-28.3816056992097,0.0 -48.8286183,-28.3822639992097,0.0 -48.8292923,-28.3828848992097,0.0 -48.8298524,-28.3834757992096,0.0 -48.8303581,-28.3840436992096,0.0 -48.8308008,-28.3845952992096,0.0 -48.8311889,-28.3851373992096,0.0 -48.8315308,-28.3856767992096,0.0 -48.8318352,-28.3862203992096,0.0 -48.83225,-28.3870710992096,0.0 -48.8325938,-28.3879312992096,0.0 -48.8328016,-28.3885299992096,0.0 -48.8329854,-28.3891388992095,0.0 -48.833276,-28.3903776992095,0.0 -48.8333808,-28.3910025992095,0.0 -48.833457,-28.3916277992095,0.0 -48.8335035,-28.3922517992095,0.0 -48.8335195,-28.3928760992095,0.0 -48.8335038,-28.3935032992095,0.0 -48.8334385,-28.3941357992095,0.0 -48.8333738,-28.3947759992094,0.0 -48.8332576,-28.3954264992094,0.0 -48.8331229,-28.3960895992094,0.0 -48.8329176,-28.3967679992094,0.0 -48.8326917,-28.3974645992094,0.0 -48.8324254,-28.3981847992094,0.0 -48.8321156,-28.3989344992094,0.0 -48.8317594,-28.3997197992093,0.0 -48.8313537,-28.4005465992093,0.0 -48.8308956,-28.4014206992093,0.0 -48.8303821,-28.4023482992093,0.0 -48.82981,-28.4033351992093,0.0 -48.8291749,-28.4043924992093,0.0 -48.8284662,-28.4055513992093,0.0 -48.8276718,-28.4068480992092,0.0 -48.8267795,-28.4083188992092,0.0 -48.8262837,-28.4091503992092,0.0 -48.8257772,-28.4099999992092,0.0 -48.8246528,-28.4119278992091,0.0 -48.821989,-28.416668499209,0.0 -48.8219218,-28.417839399209,0.0 -48.8218848,-28.418831199209,0.0 -48.821875,-28.419669799209,0.0 -48.8218895,-28.420381099209,0.0 -48.8219255,-28.420990899209,0.0 -48.8219801,-28.421525199209,0.0 -48.8221333,-28.4224709992089,0.0 -48.8223261,-28.4233812992089,0.0 -48.8226373,-28.4246348992089,0.0 -48.8230809,-28.4260906992089,0.0 -48.8235048,-28.4265498992089,0.0 -48.824275,-28.4271268992089,0.0 -48.8247962,-28.4274645992089,0.0 -48.825696,-28.4279287992089,0.0 -48.8267383,-28.4282829992088,0.0 -48.8280039,-28.4285335992088,0.0 -48.8290134,-28.4286498992088,0.0 -48.8301417,-28.4287338992088,0.0 -48.8307315,-28.4287669992088,0.0 -48.831924,-28.4288224992088,0.0 -48.8336292,-28.4288989992088,0.0 -48.8346532,-28.4289585992088,0.0 -48.8360175,-28.4290754992088,0.0 -48.8411455,-28.4293554992088,0.0 -48.8420595,-28.4294054992088,0.0 -48.8421025,-28.4293638992088,0.0 -48.8421295,-28.4293375992088,0.0 -48.8421469,-28.4293197992088,0.0 -48.8421597,-28.4293101992088,0.0 -48.8421638,-28.4293069992088,0.0 -48.8421666,-28.4293043992088,0.0 -48.8421842,-28.4292934992088,0.0 -48.8422108,-28.4292745992088,0.0 -48.8422525,-28.4292451992088,0.0 -48.8422993,-28.4292132992088,0.0 -48.8423547,-28.4291793992088,0.0 -48.8424204,-28.4291389992088,0.0 -48.8424965,-28.4290907992088,0.0 -48.8425867,-28.4290344992088,0.0 -48.8426856,-28.4289746992088,0.0 -48.8427688,-28.4289274992088,0.0 -48.8427855,-28.4289179992088,0.0 -48.8428922,-28.4288609992088,0.0 -48.8430004,-28.4288049992088,0.0 -48.8431056,-28.4287529992088,0.0 -48.8432033,-28.4287088992088,0.0 -48.8432946,-28.4286747992088,0.0 -48.8433784,-28.4286497992088,0.0 -48.8434528,-28.4286323992088,0.0 -48.8435219,-28.4286204992088,0.0 -48.8435882,-28.4286106992088,0.0 -48.8436556,-28.4286011992088,0.0 -48.8437277,-28.4285942992088,0.0 -48.8438068,-28.4285909992088,0.0 -48.8438927,-28.4285906992088,0.0 -48.8439852,-28.4285908992088,0.0 -48.8440846,-28.4285881992088,0.0 -48.8441883,-28.4285883992088,0.0 -48.8442966,-28.4285872992088,0.0 -48.8444042,-28.4285940992088,0.0 -48.844615,-28.4286079992088,0.0 -48.8451273,-28.4287082992088,0.0 -48.845254,-28.4287298992088,0.0 -48.8453911,-28.4287504992088,0.0 -48.8455355,-28.4287748992088,0.0 -48.8456798,-28.4287957992088,0.0 -48.8458315,-28.4288255992088,0.0 -48.8459857,-28.4288506992088,0.0 -48.8461453,-28.4288700992088,0.0 -48.8463106,-28.4288955992088,0.0 -48.8464782,-28.4289200992088,0.0 -48.8466484,-28.4289445992088,0.0 -48.8468204,-28.4289695992088,0.0 -48.8469929,-28.4289952992088,0.0 -48.8471659,-28.4290217992088,0.0 -48.8473396,-28.4290468992088,0.0 -48.847515,-28.4290723992088,0.0 -48.8476898,-28.4291007992088,0.0 -48.8478641,-28.4291267992088,0.0 -48.8480371,-28.4291552992088,0.0 -48.8482114,-28.4291776992088,0.0 -48.8483869,-28.4292050992088,0.0 -48.8485621,-28.4292202992088,0.0 -48.8487412,-28.4292331992088,0.0 -48.8489201,-28.4292376992088,0.0 -48.8490955,-28.4292339992088,0.0 -48.8492708,-28.4292198992088,0.0 -48.8494449,-28.4291928992088,0.0 -48.8496184,-28.4291559992088,0.0 -48.8497898,-28.4291065992088,0.0 -48.8499578,-28.4290473992088,0.0 -48.8500058,-28.4290268992088,0.0 -48.8501213,-28.4289774992088,0.0 -48.8502388,-28.4289159992088,0.0 -48.8502776,-28.4288956992088,0.0 -48.8504277,-28.4288042992088,0.0 -48.8505723,-28.4287033992088,0.0 -48.8506068,-28.4286758992088,0.0 -48.8506539,-28.4286382992088,0.0 -48.8507105,-28.4285930992088,0.0 -48.8507726,-28.4285375992088,0.0 -48.8508417,-28.4284757992088,0.0 -48.8509512,-28.4283662992088,0.0 -48.8509647,-28.4283527992088,0.0 -48.8509661,-28.4283513992088,0.0 -48.8509717,-28.4283453992088,0.0 -48.8510357,-28.4282764992088,0.0 -48.8510853,-28.4282231992088,0.0 -48.8512018,-28.4280957992088,0.0 -48.8512782,-28.4280145992088,0.0 -48.85132,-28.4279700992088,0.0 -48.8514363,-28.4278423992088,0.0 -48.8514932,-28.4277793992088,0.0 -48.8515534,-28.4277125992088,0.0 -48.851614,-28.4276450992088,0.0 -48.8516704,-28.4275822992089,0.0 -48.851679,-28.4275727992088,0.0 -48.8517461,-28.4274980992089,0.0 -48.8517876,-28.4274517992089,0.0 -48.8518108,-28.4274257992089,0.0 -48.8518745,-28.4273543992089,0.0 -48.8519034,-28.4273218992089,0.0 -48.8519833,-28.4272322992089,0.0 -48.8520191,-28.4271921992089,0.0 -48.8520488,-28.4271585992089,0.0 -48.8521172,-28.4270812992089,0.0 -48.8521342,-28.4270620992089,0.0 -48.8521939,-28.4269938992089,0.0 -48.8536919,-28.4281304992088,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>santa_rosa_do_sul_4215653_localidades_2022</name>
+<visibility>1</visibility>
+<Schema name="Povoados" id="kml_schema_ft_Povoados">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Localidades" id="kml_schema_ft_Localidades">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Núcleos Urbanos" id="kml_schema_ft_Núcleos_Urbanos">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="01. Cidade" id="kml_schema_ft_01._Cidade">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Município" id="kml_schema_ft_Município">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+</Schema>
+<Folder id="01. Cidade">
+<name>01. Cidade</name>
+<Folder id="01.03. Sede Municipal">
+<name>01.03. Sede Municipal</name>
+<Placemark id="01.03. Sede Municipal">
+<name>Santa Rosa do Sul [4215653]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Araranguá&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Cidade&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Sede Municipal&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-29.1355&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-49.7203&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff00aaff</color>
+<scale>1.0</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffffffff</color>
+<width>3</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>00ffffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_01._Cidade">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4215653</SimpleData>
+<SimpleData name="NM_MUN">Santa Rosa do Sul</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420004</SimpleData>
+<SimpleData name="NM_RGI">Araranguá</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Cidade</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Sede Municipal</SimpleData>
+<SimpleData name="CD_LOCALIDADE">4215653</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Santa Rosa do Sul</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-29.1355</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-49.7203</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-49.720311,-29.1354609991964,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Folder>
+<Folder id="05. Núcleos Urbanos">
+<name>05. Núcleos Urbanos</name>
+<Placemark id="localidades">
+<name>Vila São Cristóvão [4215653001]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Araranguá&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Núcleo Urbano&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;4215653001&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Vila São Cristóvão&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-29.1684&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-49.7467&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0000ff</color>
+<scale>0.9</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.9</scale>
+</LabelStyle>
+<LineStyle>
+<color>72ffffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66ff54ff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Núcleos_Urbanos">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4215653</SimpleData>
+<SimpleData name="NM_MUN">Santa Rosa do Sul</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420004</SimpleData>
+<SimpleData name="NM_RGI">Araranguá</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Núcleo Urbano</SimpleData>
+<SimpleData name="CD_LOCALIDADE">4215653001</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Vila São Cristóvão</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-29.1684</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-49.7467</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-49.7467445084746,-29.1683638703822,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="06. Povoados">
+<name>06. Povoados</name>
+<Placemark id="06. Povoados">
+<name>Vila Nova [421565300002]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Araranguá&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Povoado&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421565300002&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Vila Nova&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-29.0961&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-49.8184&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff00ff54</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>72ff54ff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66ff54ff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Povoados">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4215653</SimpleData>
+<SimpleData name="NM_MUN">Santa Rosa do Sul</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420004</SimpleData>
+<SimpleData name="NM_RGI">Araranguá</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Povoado</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421565300002</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Vila Nova</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-29.0961</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-49.8184</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-49.8184473197674,-29.0961128189645,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="12. Outras Localidades">
+<name>12. Outras Localidades</name>
+<Placemark id="12. Outras Localidades">
+<name>Sanga da Areia [421565300003]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Araranguá&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421565300003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Sanga da Areia&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0069d3</color>
+<scale>0.6</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4215653</SimpleData>
+<SimpleData name="NM_MUN">Santa Rosa do Sul</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420004</SimpleData>
+<SimpleData name="NM_RGI">Araranguá</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Outras Localidades</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421565300003</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Sanga da Areia</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-49.7707708,-29.0935167991971,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="12. Outras Localidades">
+<name>Peroba [421565300004]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Araranguá&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;421565300004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Peroba&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0069d3</color>
+<scale>0.6</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4215653</SimpleData>
+<SimpleData name="NM_MUN">Santa Rosa do Sul</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420004</SimpleData>
+<SimpleData name="NM_RGI">Araranguá</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Outras Localidades</SimpleData>
+<SimpleData name="CD_LOCALIDADE">421565300004</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Peroba</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-49.7464208,-29.0864303991972,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="13. Referência">
+<name>13. Referência</name>
+<Placemark id="13. Referência">
+<name>Santa Rosa do Sul [4215653]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4215653&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Santa Rosa do Sul&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4202&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Criciúma&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Araranguá&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<scale>0.7</scale>
+</IconStyle>
+<LabelStyle>
+<scale>0.7</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffffffff</color>
+<width>3</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>00ffffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Município">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="CD_MUN">4215653</SimpleData>
+<SimpleData name="NM_MUN">Santa Rosa do Sul</SimpleData>
+<SimpleData name="CD_RGINT">4202</SimpleData>
+<SimpleData name="NM_RGINT">Criciúma</SimpleData>
+<SimpleData name="CD_RGI">420004</SimpleData>
+<SimpleData name="NM_RGI">Araranguá</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-49.7529167,-29.1770453991957,0.0 -49.7529742,-29.1770048991957,0.0 -49.75799,-29.1734699991957,0.0 -49.7580819,-29.1734052991957,0.0 -49.7635749,-29.1695319991958,0.0 -49.7681172,-29.1647450991959,0.0 -49.7913132,-29.1403001991963,0.0 -49.8341109,-29.0951980991971,0.0 -49.8341178,-29.0951084991971,0.0 -49.8341183,-29.0950052991971,0.0 -49.8341139,-29.0948757991971,0.0 -49.8341154,-29.0947455991971,0.0 -49.8341146,-29.0946397991971,0.0 -49.8341147,-29.0945116991971,0.0 -49.8341153,-29.0944020991971,0.0 -49.8341132,-29.0943037991971,0.0 -49.8341125,-29.0941861991971,0.0 -49.8341061,-29.0940578991971,0.0 -49.8341028,-29.0939477991971,0.0 -49.8340964,-29.0938165991971,0.0 -49.8340938,-29.0937064991971,0.0 -49.8340937,-29.0935982991971,0.0 -49.8340943,-29.0934881991971,0.0 -49.8340961,-29.0933857991971,0.0 -49.8340986,-29.0932819991971,0.0 -49.8340968,-29.0931445991971,0.0 -49.8340934,-29.0930424991971,0.0 -49.8340981,-29.0929148991971,0.0 -49.8340961,-29.0928035991971,0.0 -49.8340954,-29.0926896991971,0.0 -49.8340936,-29.0925599991971,0.0 -49.8340937,-29.0924357991971,0.0 -49.8340968,-29.0923325991971,0.0 -49.8341003,-29.0922627991971,0.0 -49.8341008,-29.0922174991971,0.0 -49.8340974,-29.0921985991971,0.0 -49.8340793,-29.0920962991971,0.0 -49.8340593,-29.0920011991971,0.0 -49.8340158,-29.0919227991971,0.0 -49.8339592,-29.0918402991972,0.0 -49.8339245,-29.0917863991972,0.0 -49.8338929,-29.0917482991972,0.0 -49.8338295,-29.0916868991971,0.0 -49.8337464,-29.0916263991972,0.0 -49.8336769,-29.0915782991972,0.0 -49.8336044,-29.0915292991972,0.0 -49.8335489,-29.0914948991972,0.0 -49.8334884,-29.0914712991972,0.0 -49.8333582,-29.0914348991972,0.0 -49.8332467,-29.0914121991972,0.0 -49.8330878,-29.0914012991972,0.0 -49.8329103,-29.0914047991972,0.0 -49.832695,-29.0914094991972,0.0 -49.8325221,-29.0914107991972,0.0 -49.8322477,-29.0914127991972,0.0 -49.832023,-29.0914179991972,0.0 -49.8318373,-29.0914192991972,0.0 -49.8315634,-29.0914204991972,0.0 -49.831312,-29.0914211991972,0.0 -49.8311045,-29.0914243991972,0.0 -49.830918,-29.0914256991972,0.0 -49.8307652,-29.0914243991972,0.0 -49.8306256,-29.0914267991972,0.0 -49.8303948,-29.0914275991972,0.0 -49.830126,-29.0914367991972,0.0 -49.8299572,-29.0914410991972,0.0 -49.829824,-29.0914471991972,0.0 -49.8297485,-29.0914428991972,0.0 -49.8296255,-29.0914187991972,0.0 -49.829443,-29.0913558991972,0.0 -49.8293365,-29.0913012991972,0.0 -49.829153,-29.0911821991972,0.0 -49.8290397,-29.0911032991972,0.0 -49.8288918,-29.0910019991972,0.0 -49.8287288,-29.0908894991972,0.0 -49.8286127,-29.0908088991972,0.0 -49.8284946,-29.0907220991972,0.0 -49.8283544,-29.0906263991972,0.0 -49.8282073,-29.0905281991972,0.0 -49.828085,-29.0904383991972,0.0 -49.8279773,-29.0903775991972,0.0 -49.8278432,-29.0902953991972,0.0 -49.8277167,-29.0902243991972,0.0 -49.8276288,-29.0901822991972,0.0 -49.8275183,-29.0901226991972,0.0 -49.8274213,-29.0900710991972,0.0 -49.8273142,-29.0900177991972,0.0 -49.8272763,-29.0899985991972,0.0 -49.8272518,-29.0899861991972,0.0 -49.8265311,-29.0896226991972,0.0 -49.8258582,-29.0892666991972,0.0 -49.8252231,-29.0889516991972,0.0 -49.8252052,-29.0889430991972,0.0 -49.8247727,-29.0887334991972,0.0 -49.8246011,-29.0885887991972,0.0 -49.8245743,-29.0885596991972,0.0 -49.8245582,-29.0885378991972,0.0 -49.8245364,-29.0885009991972,0.0 -49.8244622,-29.0883447991972,0.0 -49.8244355,-29.0882909991972,0.0 -49.8243849,-29.0881634991972,0.0 -49.8243758,-29.0880865991972,0.0 -49.824356,-29.0868244991972,0.0 -49.824338,-29.0858415991973,0.0 -49.824332,-29.0855114991973,0.0 -49.8243131,-29.0843100991973,0.0 -49.8243004,-29.0833355991973,0.0 -49.8242955,-29.0832058991973,0.0 -49.8242881,-29.0827921991973,0.0 -49.8242939,-29.0825644991973,0.0 -49.8242892,-29.0825372991973,0.0 -49.8242732,-29.0824996991973,0.0 -49.8242555,-29.0824714991973,0.0 -49.8242343,-29.0824482991973,0.0 -49.8241822,-29.0824124991973,0.0 -49.8240852,-29.0823463991973,0.0 -49.8238892,-29.0821907991973,0.0 -49.8238476,-29.0821446991973,0.0 -49.8238219,-29.0821092991973,0.0 -49.8236586,-29.0819876991973,0.0 -49.8233587,-29.0817230991973,0.0 -49.822971,-29.0813857991973,0.0 -49.8227613,-29.0812144991973,0.0 -49.82267,-29.0811365991973,0.0 -49.8225408,-29.0810099991973,0.0 -49.8224341,-29.0808741991973,0.0 -49.8223153,-29.0807104991973,0.0 -49.8220983,-29.0804702991973,0.0 -49.8219032,-29.0802625991974,0.0 -49.8217722,-29.0801140991974,0.0 -49.8217252,-29.0800546991974,0.0 -49.8206215,-29.0804406991973,0.0 -49.8201056,-29.0806522991973,0.0 -49.819967,-29.0807148991973,0.0 -49.8198246,-29.0807400991973,0.0 -49.8192561,-29.0807963991974,0.0 -49.8192324,-29.0809241991974,0.0 -49.8190609,-29.0809435991973,0.0 -49.819011,-29.0809256991973,0.0 -49.8181834,-29.0810227991973,0.0 -49.8181876,-29.0810742991973,0.0 -49.8181281,-29.0811248991973,0.0 -49.8174184,-29.0816350991973,0.0 -49.8173775,-29.0814296991973,0.0 -49.8173314,-29.0811729991973,0.0 -49.816876,-29.0813719991973,0.0 -49.8168879,-29.0815246991973,0.0 -49.8167751,-29.0815859991973,0.0 -49.8167906,-29.0818309991973,0.0 -49.8166524,-29.0819180991973,0.0 -49.8165393,-29.0816039991973,0.0 -49.8164509,-29.0813280991973,0.0 -49.8157659,-29.0820010991973,0.0 -49.8157431,-29.0819419991973,0.0 -49.8149483,-29.0821544991973,0.0 -49.8150287,-29.0824336991973,0.0 -49.815005,-29.0824441991973,0.0 -49.8142028,-29.0827468991973,0.0 -49.8134389,-29.0831937991973,0.0 -49.8133117,-29.0832634991973,0.0 -49.8130313,-29.0824354991973,0.0 -49.8129809,-29.0824529991973,0.0 -49.8126425,-29.0825992991973,0.0 -49.8125293,-29.0826507991973,0.0 -49.8115434,-29.0832541991973,0.0 -49.8114133,-29.0833335991973,0.0 -49.8103996,-29.0839525991973,0.0 -49.8103127,-29.0840015991973,0.0 -49.8102622,-29.0839306991973,0.0 -49.8100708,-29.0836898991973,0.0 -49.8097857,-29.0833338991973,0.0 -49.8093633,-29.0828065991973,0.0 -49.808977,-29.0823353991973,0.0 -49.808729,-29.0818255991973,0.0 -49.8087211,-29.0818201991973,0.0 -49.8087123,-29.0818193991973,0.0 -49.8087025,-29.0818226991973,0.0 -49.807821,-29.0823393991973,0.0 -49.8076014,-29.0824761991973,0.0 -49.807369,-29.0826184991973,0.0 -49.8070068,-29.0828478991973,0.0 -49.8061984,-29.0833346991973,0.0 -49.8058846,-29.0835235991973,0.0 -49.8050859,-29.0839974991973,0.0 -49.8050701,-29.0840010991973,0.0 -49.8050603,-29.0840025991973,0.0 -49.8050515,-29.0840000991973,0.0 -49.8050378,-29.0839929991973,0.0 -49.8050242,-29.0839850991973,0.0 -49.8048089,-29.0837938991973,0.0 -49.8046359,-29.0836401991973,0.0 -49.8043279,-29.0833739991973,0.0 -49.8042981,-29.0833349991973,0.0 -49.8041314,-29.0831168991973,0.0 -49.8034319,-29.0822120991973,0.0 -49.8030607,-29.0817638991973,0.0 -49.8028843,-29.0815508991973,0.0 -49.8024173,-29.0808812991973,0.0 -49.8023903,-29.0808324991973,0.0 -49.8023742,-29.0807767991973,0.0 -49.8023552,-29.0807139991973,0.0 -49.8021989,-29.0805939991973,0.0 -49.8020281,-29.0805281991973,0.0 -49.8019447,-29.0804998991973,0.0 -49.8018435,-29.0804824991973,0.0 -49.8016399,-29.0804131991973,0.0 -49.801496,-29.0803769991974,0.0 -49.8013898,-29.0803356991973,0.0 -49.8013133,-29.0802605991973,0.0 -49.8012859,-29.0801785991973,0.0 -49.8013068,-29.0800817991974,0.0 -49.8013625,-29.0796026991974,0.0 -49.801368,-29.0795551991974,0.0 -49.8013658,-29.0793354991974,0.0 -49.8013553,-29.0789921991974,0.0 -49.8013446,-29.0785955991974,0.0 -49.8013247,-29.0783496991974,0.0 -49.8012686,-29.0779202991974,0.0 -49.8012488,-29.0774606991974,0.0 -49.8012163,-29.0773593991974,0.0 -49.8011544,-29.0772459991974,0.0 -49.8010804,-29.0771547991974,0.0 -49.8010408,-29.0771226991974,0.0 -49.8009813,-29.0770922991974,0.0 -49.8008976,-29.0770671991974,0.0 -49.8008583,-29.0770517991974,0.0 -49.8008189,-29.0770414991974,0.0 -49.8007241,-29.0770292991974,0.0 -49.8005572,-29.0770183991974,0.0 -49.8004094,-29.0770092991974,0.0 -49.800265,-29.0769959991974,0.0 -49.8001723,-29.0769655991974,0.0 -49.8000763,-29.0768805991974,0.0 -49.8000683,-29.0768694991974,0.0 -49.7998956,-29.0766265991974,0.0 -49.7997832,-29.0764160991974,0.0 -49.7996828,-29.0762233991974,0.0 -49.7993979,-29.0756993991974,0.0 -49.7992581,-29.0755590991974,0.0 -49.7990188,-29.0753574991974,0.0 -49.7988739,-29.0752161991974,0.0 -49.798758,-29.0751030991974,0.0 -49.7986167,-29.0748898991974,0.0 -49.7985248,-29.0747468991974,0.0 -49.7984753,-29.0745959991974,0.0 -49.7983976,-29.0743295991974,0.0 -49.7983028,-29.0741115991975,0.0 -49.7980889,-29.0737693991975,0.0 -49.7979403,-29.0735750991975,0.0 -49.797817,-29.0733928991975,0.0 -49.7978094,-29.0733738991975,0.0 -49.7977816,-29.0733044991975,0.0 -49.7977733,-29.0732499991975,0.0 -49.7977909,-29.0731801991975,0.0 -49.7978151,-29.0731401991975,0.0 -49.7979204,-29.0730475991975,0.0 -49.7979718,-29.0729989991975,0.0 -49.7980207,-29.0729527991975,0.0 -49.7980831,-29.0728924991975,0.0 -49.7981287,-29.0728350991975,0.0 -49.7981527,-29.0727818991975,0.0 -49.7981611,-29.0727192991975,0.0 -49.7981641,-29.0726126991975,0.0 -49.7981404,-29.0724776991975,0.0 -49.7981046,-29.0723098991975,0.0 -49.7980482,-29.0721203991975,0.0 -49.798013,-29.0719489991975,0.0 -49.7979988,-29.0718308991975,0.0 -49.7980004,-29.0717870991975,0.0 -49.7980159,-29.0717436991975,0.0 -49.7980441,-29.0716690991975,0.0 -49.7980839,-29.0715575991975,0.0 -49.7981623,-29.0713133991975,0.0 -49.7982316,-29.0710841991975,0.0 -49.7982824,-29.0709256991975,0.0 -49.7983527,-29.0707332991975,0.0 -49.7984274,-29.0705374991975,0.0 -49.7984876,-29.0703935991975,0.0 -49.7985507,-29.0701907991975,0.0 -49.7986148,-29.0699539991975,0.0 -49.7986466,-29.0697556991975,0.0 -49.7986439,-29.0695679991975,0.0 -49.7986449,-29.0693901991975,0.0 -49.7986388,-29.0692080991975,0.0 -49.7986273,-29.0689884991975,0.0 -49.7986218,-29.0681911991976,0.0 -49.7975014,-29.0676083991976,0.0 -49.7935357,-29.0655456991976,0.0 -49.7775181,-29.0572142991977,0.0 -49.746441,-29.041049799198,0.0 -49.7431722,-29.0393495991981,0.0 -49.7428974,-29.0393267991981,0.0 -49.7427631,-29.0393324991981,0.0 -49.7427043,-29.0393372991981,0.0 -49.7426629,-29.0393382991981,0.0 -49.7426249,-29.0393383991981,0.0 -49.7425966,-29.0393346991981,0.0 -49.7425597,-29.0393196991981,0.0 -49.742496,-29.0393064991981,0.0 -49.7424247,-29.0393100991981,0.0 -49.7423249,-29.0393288991981,0.0 -49.7422203,-29.0393545991981,0.0 -49.7420907,-29.0394154991981,0.0 -49.7418298,-29.0395188991981,0.0 -49.7417075,-29.0395465991981,0.0 -49.741598,-29.0395721991981,0.0 -49.7415215,-29.0395798991981,0.0 -49.7414358,-29.0395813991981,0.0 -49.7413497,-29.039584099198,0.0 -49.7412347,-29.0395783991981,0.0 -49.7411174,-29.0395722991981,0.0 -49.7409139,-29.0395528991981,0.0 -49.740769,-29.0395297991981,0.0 -49.7406542,-29.0395008991981,0.0 -49.740602,-29.0394910991981,0.0 -49.7405469,-29.0394800991981,0.0 -49.7404598,-29.0394817991981,0.0 -49.740388,-29.0394883991981,0.0 -49.7403078,-29.0394961991981,0.0 -49.740228,-29.039505299198,0.0 -49.7401429,-29.0395246991981,0.0 -49.7400678,-29.0395427991981,0.0 -49.7399974,-29.0395559991981,0.0 -49.7399221,-29.0395684991981,0.0 -49.7398487,-29.0395780991981,0.0 -49.7397643,-29.0395817991981,0.0 -49.7396622,-29.0395720991981,0.0 -49.7395335,-29.039574699198,0.0 -49.7393727,-29.0396168991981,0.0 -49.7392155,-29.0396727991981,0.0 -49.739055,-29.0397592991981,0.0 -49.7388188,-29.039922799198,0.0 -49.7385713,-29.0400736991981,0.0 -49.7383291,-29.040175999198,0.0 -49.7381167,-29.040281399198,0.0 -49.7379779,-29.040323999198,0.0 -49.7378595,-29.040343899198,0.0 -49.7377491,-29.040360799198,0.0 -49.7376494,-29.0403763991981,0.0 -49.737547,-29.040391299198,0.0 -49.7374672,-29.0403999991981,0.0 -49.7374018,-29.040404799198,0.0 -49.7373473,-29.040405899198,0.0 -49.7372946,-29.040403699198,0.0 -49.7372546,-29.040397499198,0.0 -49.7372091,-29.040386399198,0.0 -49.7371723,-29.040374399198,0.0 -49.7371344,-29.040361799198,0.0 -49.7370965,-29.040348699198,0.0 -49.7370528,-29.040319399198,0.0 -49.7370132,-29.040292499198,0.0 -49.7369549,-29.040253699198,0.0 -49.7368803,-29.040203099198,0.0 -49.7367323,-29.040111599198,0.0 -49.7365527,-29.040041599198,0.0 -49.736366,-29.039998799198,0.0 -49.7361963,-29.039975699198,0.0 -49.7360077,-29.0399882991981,0.0 -49.7357697,-29.0400460991981,0.0 -49.7355552,-29.040122699198,0.0 -49.7354054,-29.040187299198,0.0 -49.7352412,-29.040292599198,0.0 -49.7350913,-29.040508599198,0.0 -49.7349597,-29.040774299198,0.0 -49.7348012,-29.040990499198,0.0 -49.7345744,-29.041184699198,0.0 -49.7341266,-29.041528099198,0.0 -49.7338945,-29.041705999198,0.0 -49.7335409,-29.041960399198,0.0 -49.7332612,-29.042284799198,0.0 -49.7327789,-29.042824599198,0.0 -49.7323043,-29.043270599198,0.0 -49.7319702,-29.043571399198,0.0 -49.7317204,-29.043817899198,0.0 -49.7315069,-29.044092899198,0.0 -49.7313039,-29.044312999198,0.0 -49.7310653,-29.044470299198,0.0 -49.7309067,-29.044542199198,0.0 -49.7307433,-29.044596599198,0.0 -49.7390429,-29.0527921991978,0.0 -49.7422039,-29.0559136991978,0.0 -49.7433262,-29.0570218991977,0.0 -49.7435965,-29.0572599991977,0.0 -49.7437473,-29.0574633991977,0.0 -49.7438194,-29.0577201991977,0.0 -49.7438728,-29.0578954991977,0.0 -49.7440014,-29.0581259991977,0.0 -49.7441731,-29.0583031991977,0.0 -49.7444033,-29.0584411991977,0.0 -49.7446482,-29.0585774991977,0.0 -49.7448476,-29.0587397991977,0.0 -49.7450103,-29.0589217991977,0.0 -49.7452344,-29.0591666991977,0.0 -49.7453843,-29.0595026991977,0.0 -49.745545,-29.0597971991977,0.0 -49.7458103,-29.0601536991977,0.0 -49.7461088,-29.0604886991977,0.0 -49.7463986,-29.0607256991977,0.0 -49.7465041,-29.0608427991977,0.0 -49.7465823,-29.0609785991977,0.0 -49.7466335,-29.0611200991977,0.0 -49.7466566,-29.0612702991977,0.0 -49.7466642,-29.0614271991977,0.0 -49.746642,-29.0615840991977,0.0 -49.7466085,-29.0617634991977,0.0 -49.7465366,-29.0619229991977,0.0 -49.7464802,-29.0620005991977,0.0 -49.7463935,-29.0620601991977,0.0 -49.74617,-29.0621559991977,0.0 -49.7457106,-29.0623069991977,0.0 -49.7452457,-29.0625104991977,0.0 -49.7451315,-29.0625528991977,0.0 -49.7450078,-29.0625665991977,0.0 -49.7447797,-29.0625821991977,0.0 -49.7446115,-29.0626533991977,0.0 -49.7444895,-29.0627572991977,0.0 -49.7442598,-29.0630442991976,0.0 -49.7440782,-29.0631989991976,0.0 -49.7438717,-29.0633006991976,0.0 -49.743541,-29.0635115991976,0.0 -49.7432496,-29.0638476991976,0.0 -49.7431414,-29.0640731991976,0.0 -49.7431462,-29.0643319991976,0.0 -49.7431975,-29.0646836991976,0.0 -49.7432259,-29.0649251991976,0.0 -49.7432541,-29.0650477991976,0.0 -49.7433009,-29.0651428991976,0.0 -49.7433929,-29.0652539991976,0.0 -49.7435754,-29.0653558991976,0.0 -49.7436777,-29.0654617991976,0.0 -49.7437553,-29.0655768991976,0.0 -49.7437961,-29.0656944991976,0.0 -49.7438377,-29.0660845991976,0.0 -49.74381,-29.0665356991976,0.0 -49.7437569,-29.0668158991976,0.0 -49.7437091,-29.0670262991976,0.0 -49.7436845,-29.0671045991976,0.0 -49.7436409,-29.0671792991976,0.0 -49.7435765,-29.0673058991976,0.0 -49.7435191,-29.0674286991976,0.0 -49.7434869,-29.0675162991976,0.0 -49.743449,-29.0676386991976,0.0 -49.7434048,-29.0677223991976,0.0 -49.7430839,-29.0680567991976,0.0 -49.7429488,-29.0682354991976,0.0 -49.7426367,-29.0687055991976,0.0 -49.7423199,-29.0691917991975,0.0 -49.7419568,-29.0697383991975,0.0 -49.7416834,-29.0703745991975,0.0 -49.7415061,-29.0707491991975,0.0 -49.7414001,-29.0709315991975,0.0 -49.7413221,-29.0710128991975,0.0 -49.7412405,-29.0710854991975,0.0 -49.7411796,-29.0711770991975,0.0 -49.7411456,-29.0712754991975,0.0 -49.7411679,-29.0714333991975,0.0 -49.7412589,-29.0716241991975,0.0 -49.7414317,-29.0718643991975,0.0 -49.741747,-29.0720998991975,0.0 -49.7419429,-29.0722730991975,0.0 -49.7420808,-29.0724366991975,0.0 -49.7421691,-29.0726262991975,0.0 -49.7421675,-29.0728785991975,0.0 -49.7420902,-29.0730833991975,0.0 -49.7418836,-29.0731671991975,0.0 -49.7416292,-29.0731496991975,0.0 -49.7412987,-29.0730539991975,0.0 -49.7409927,-29.0729825991975,0.0 -49.7407007,-29.0730136991975,0.0 -49.7403262,-29.0732318991975,0.0 -49.740074,-29.0735352991975,0.0 -49.7397882,-29.0738419991975,0.0 -49.7394147,-29.0740390991975,0.0 -49.739189,-29.0741083991974,0.0 -49.7389361,-29.0740476991975,0.0 -49.7386755,-29.0739393991975,0.0 -49.7384611,-29.0737130991975,0.0 -49.7383102,-29.0735454991975,0.0 -49.7380701,-29.0734293991975,0.0 -49.7377685,-29.0732257991975,0.0 -49.7375173,-29.0730767991975,0.0 -49.7373459,-29.0730141991975,0.0 -49.7371613,-29.0729670991975,0.0 -49.7369437,-29.0728778991975,0.0 -49.7367513,-29.0727659991975,0.0 -49.7363664,-29.0725834991975,0.0 -49.7361287,-29.0724473991975,0.0 -49.7358723,-29.0723816991975,0.0 -49.7355281,-29.0724024991975,0.0 -49.7352358,-29.0725489991975,0.0 -49.7349619,-29.0727003991975,0.0 -49.7347317,-29.0728456991975,0.0 -49.734248,-29.0729659991975,0.0 -49.7339932,-29.0730514991975,0.0 -49.7337756,-29.0731687991975,0.0 -49.7336883,-29.0732055991975,0.0 -49.7336264,-29.0732510991975,0.0 -49.7335196,-29.0733547991975,0.0 -49.7334248,-29.0735141991975,0.0 -49.7332678,-29.0737012991975,0.0 -49.7331089,-29.0738430991975,0.0 -49.7328945,-29.0739349991975,0.0 -49.7327983,-29.0739572991975,0.0 -49.7326832,-29.0739758991975,0.0 -49.7325816,-29.0739610991975,0.0 -49.7324485,-29.0738948991975,0.0 -49.7323092,-29.0737937991975,0.0 -49.7321137,-29.0736671991975,0.0 -49.731951,-29.0735978991975,0.0 -49.7318343,-29.0735439991975,0.0 -49.7317121,-29.0734972991975,0.0 -49.731579,-29.0734430991975,0.0 -49.7314115,-29.0733730991975,0.0 -49.7312862,-29.0733444991975,0.0 -49.7311741,-29.0733426991975,0.0 -49.7310609,-29.0733580991975,0.0 -49.7309523,-29.0733608991975,0.0 -49.730851,-29.0733470991975,0.0 -49.7307744,-29.0733224991975,0.0 -49.7306386,-29.0732669991975,0.0 -49.7305411,-29.0731628991975,0.0 -49.7304554,-29.0730199991975,0.0 -49.7303788,-29.0728503991975,0.0 -49.7302986,-29.0726589991975,0.0 -49.7302225,-29.0724412991975,0.0 -49.7301393,-29.0722534991975,0.0 -49.7300723,-29.0721057991975,0.0 -49.7299447,-29.0720328991975,0.0 -49.7297412,-29.0718165991975,0.0 -49.7295634,-29.0715848991975,0.0 -49.7289495,-29.0711010991975,0.0 -49.7288028,-29.0710067991975,0.0 -49.7286582,-29.0709251991975,0.0 -49.7285171,-29.0708482991975,0.0 -49.7283856,-29.0707780991975,0.0 -49.7282506,-29.0707176991975,0.0 -49.7281361,-29.0706723991975,0.0 -49.7280254,-29.0706283991975,0.0 -49.7279064,-29.0705929991975,0.0 -49.7277954,-29.0705780991975,0.0 -49.7276847,-29.0705964991975,0.0 -49.7275243,-29.0706751991975,0.0 -49.7273967,-29.0707609991975,0.0 -49.7272603,-29.0708635991975,0.0 -49.7271713,-29.0709465991975,0.0 -49.7269773,-29.0711003991975,0.0 -49.7266076,-29.0712946991975,0.0 -49.7261526,-29.0715408991975,0.0 -49.725481,-29.0718335991975,0.0 -49.7252901,-29.0719454991975,0.0 -49.7250837,-29.0719947991975,0.0 -49.724867,-29.0720325991975,0.0 -49.7246447,-29.0720051991975,0.0 -49.724428,-29.0719587991975,0.0 -49.7242341,-29.0718462991975,0.0 -49.7239515,-29.0717257991975,0.0 -49.7236139,-29.0715881991975,0.0 -49.7234176,-29.0715365991975,0.0 -49.7232215,-29.0715254991975,0.0 -49.7229237,-29.0715870991975,0.0 -49.7227998,-29.0716419991975,0.0 -49.7226738,-29.0717462991975,0.0 -49.7223707,-29.0718754991975,0.0 -49.7219629,-29.0719653991975,0.0 -49.7216379,-29.0720130991975,0.0 -49.7215452,-29.0720333991975,0.0 -49.7214593,-29.0720688991975,0.0 -49.7213747,-29.0720914991975,0.0 -49.7212712,-29.0720989991975,0.0 -49.7210903,-29.0720986991975,0.0 -49.7209862,-29.0720591991975,0.0 -49.7208719,-29.0719788991975,0.0 -49.7207557,-29.0719517991975,0.0 -49.7206446,-29.0719386991975,0.0 -49.7204624,-29.0719420991975,0.0 -49.7203455,-29.0719653991975,0.0 -49.7202716,-29.0720171991975,0.0 -49.7201955,-29.0720550991975,0.0 -49.7201137,-29.0720735991975,0.0 -49.7199542,-29.0721337991975,0.0 -49.719788,-29.0721968991975,0.0 -49.7196456,-29.0722582991975,0.0 -49.7194732,-29.0723189991975,0.0 -49.7192496,-29.0723544991975,0.0 -49.7190196,-29.0723635991975,0.0 -49.7187603,-29.0724085991975,0.0 -49.7185511,-29.0724740991975,0.0 -49.7183788,-29.0725078991975,0.0 -49.7181277,-29.0725200991975,0.0 -49.7178922,-29.0725113991975,0.0 -49.7172018,-29.0725652991975,0.0 -49.716871,-29.0725818991975,0.0 -49.716647,-29.0725930991975,0.0 -49.7165447,-29.0725939991975,0.0 -49.7164467,-29.0725674991975,0.0 -49.7163862,-29.0725242991975,0.0 -49.7163444,-29.0724754991975,0.0 -49.7163008,-29.0724155991975,0.0 -49.7162755,-29.0723617991975,0.0 -49.7162535,-29.0723428991975,0.0 -49.7162188,-29.0723376991975,0.0 -49.7161999,-29.0723458991975,0.0 -49.7161824,-29.0723674991975,0.0 -49.7161771,-29.0724280991975,0.0 -49.7161631,-29.0724834991975,0.0 -49.7161305,-29.0725416991975,0.0 -49.7160843,-29.0726209991975,0.0 -49.7160178,-29.0727058991975,0.0 -49.7158329,-29.0730087991975,0.0 -49.7155902,-29.0735424991975,0.0 -49.7154716,-29.0738100991975,0.0 -49.7152853,-29.0741138991975,0.0 -49.715066,-29.0744516991974,0.0 -49.7148512,-29.0748075991974,0.0 -49.7146495,-29.0752111991974,0.0 -49.714523,-29.0754670991974,0.0 -49.7144127,-29.0757133991974,0.0 -49.7143498,-29.0759732991974,0.0 -49.7142873,-29.0762478991974,0.0 -49.7142223,-29.0765590991974,0.0 -49.7141096,-29.0767490991974,0.0 -49.7138728,-29.0768686991974,0.0 -49.7136208,-29.0769244991974,0.0 -49.7132811,-29.0769326991974,0.0 -49.7131162,-29.0769549991974,0.0 -49.7129799,-29.0770320991974,0.0 -49.7127612,-29.0771205991974,0.0 -49.7125677,-29.0772064991974,0.0 -49.7123679,-29.0773044991974,0.0 -49.7121054,-29.0774560991974,0.0 -49.7119732,-29.0775280991974,0.0 -49.7118021,-29.0775823991974,0.0 -49.7115842,-29.0776209991974,0.0 -49.7113256,-29.0776177991974,0.0 -49.7106874,-29.0776127991974,0.0 -49.7099239,-29.0776101991974,0.0 -49.7091579,-29.0776159991974,0.0 -49.708389,-29.0776555991974,0.0 -49.7081599,-29.0776774991974,0.0 -49.7079356,-29.0777426991974,0.0 -49.7077211,-29.0778612991974,0.0 -49.7072928,-29.0781921991974,0.0 -49.7070574,-29.0783837991974,0.0 -49.7068403,-29.0785460991974,0.0 -49.7066264,-29.0786643991974,0.0 -49.7063887,-29.0787949991974,0.0 -49.7061137,-29.0789565991974,0.0 -49.7057625,-29.0791349991974,0.0 -49.7055309,-29.0793022991974,0.0 -49.7053811,-29.0794241991974,0.0 -49.7052711,-29.0795490991974,0.0 -49.70515,-29.0796703991974,0.0 -49.704978,-29.0798023991974,0.0 -49.7047801,-29.0799208991974,0.0 -49.7047023,-29.0799736991974,0.0 -49.7046077,-29.0800220991974,0.0 -49.7045099,-29.0800582991974,0.0 -49.7044185,-29.0801194991974,0.0 -49.7043228,-29.0802069991974,0.0 -49.7042254,-29.0803351991973,0.0 -49.7040513,-29.0805415991973,0.0 -49.7038901,-29.0808150991973,0.0 -49.7037391,-29.0810678991973,0.0 -49.7036135,-29.0812200991973,0.0 -49.7034916,-29.0813302991973,0.0 -49.7033701,-29.0814145991973,0.0 -49.7032861,-29.0814953991973,0.0 -49.7032354,-29.0815794991973,0.0 -49.7031981,-29.0816926991973,0.0 -49.7031934,-29.0817815991973,0.0 -49.7032007,-29.0818685991973,0.0 -49.7032411,-29.0820965991973,0.0 -49.703258,-29.0822217991973,0.0 -49.7032692,-29.0823538991973,0.0 -49.7032628,-29.0825193991973,0.0 -49.7024535,-29.0871514991972,0.0 -49.7006184,-29.097655799197,0.0 -49.699599,-29.1034908991969,0.0 -49.6996509,-29.1038601991969,0.0 -49.6997424,-29.1042556991969,0.0 -49.6997866,-29.1046524991969,0.0 -49.6997842,-29.1050686991969,0.0 -49.6997012,-29.1055124991969,0.0 -49.699613,-29.1058247991969,0.0 -49.6995533,-29.1061590991969,0.0 -49.6995345,-29.1064088991969,0.0 -49.6994851,-29.1066292991969,0.0 -49.6993845,-29.1068751991969,0.0 -49.6993036,-29.1070078991969,0.0 -49.6991456,-29.1071927991969,0.0 -49.6990383,-29.1073836991969,0.0 -49.6988641,-29.1076945991969,0.0 -49.6985592,-29.1080137991969,0.0 -49.6984318,-29.1081494991969,0.0 -49.6982442,-29.1082959991969,0.0 -49.6980428,-29.1083468991969,0.0 -49.6977858,-29.1083701991969,0.0 -49.6975504,-29.1084425991969,0.0 -49.6974129,-29.1085649991969,0.0 -49.6973741,-29.1087256991969,0.0 -49.6973598,-29.1088982991969,0.0 -49.6973706,-29.1090704991969,0.0 -49.6973723,-29.1092057991969,0.0 -49.6973407,-29.1093382991968,0.0 -49.6972265,-29.1095425991968,0.0 -49.6971877,-29.1096318991968,0.0 -49.6971291,-29.1097139991968,0.0 -49.6970704,-29.1097814991968,0.0 -49.6969974,-29.1098455991968,0.0 -49.6968904,-29.1100121991968,0.0 -49.6968591,-29.1101246991968,0.0 -49.6968493,-29.1102466991968,0.0 -49.6968606,-29.1104398991968,0.0 -49.6968973,-29.1105536991968,0.0 -49.6969634,-29.1106341991968,0.0 -49.6971713,-29.1107841991968,0.0 -49.6973987,-29.1109935991968,0.0 -49.6976155,-29.1112067991968,0.0 -49.6978066,-29.1114141991968,0.0 -49.6979555,-29.1115922991968,0.0 -49.6980805,-29.1117687991968,0.0 -49.6981663,-29.1119298991968,0.0 -49.6982031,-29.1120321991968,0.0 -49.6982141,-29.1121506991968,0.0 -49.6981819,-29.1122933991968,0.0 -49.6978302,-29.1133513991968,0.0 -49.6977567,-29.1135284991968,0.0 -49.6977028,-29.1136015991968,0.0 -49.6976105,-29.1136557991968,0.0 -49.6974801,-29.1136919991968,0.0 -49.6973351,-29.1137023991968,0.0 -49.6970735,-29.1137017991968,0.0 -49.6968409,-29.1136583991968,0.0 -49.6966858,-29.1136397991968,0.0 -49.6965375,-29.1136506991968,0.0 -49.6964174,-29.1136775991968,0.0 -49.6962957,-29.1137363991968,0.0 -49.6961595,-29.1137696991968,0.0 -49.6960279,-29.1137563991968,0.0 -49.694924,-29.1137714991968,0.0 -49.6944286,-29.1137658991968,0.0 -49.6934679,-29.1137653991968,0.0 -49.6932246,-29.1137363991968,0.0 -49.6929814,-29.1137073991968,0.0 -49.6924968,-29.1135964991968,0.0 -49.6919597,-29.1134609991968,0.0 -49.6915641,-29.1133467991968,0.0 -49.6912283,-29.1132905991968,0.0 -49.6908852,-29.1133057991968,0.0 -49.69057,-29.1133430991968,0.0 -49.6902425,-29.1134747991968,0.0 -49.687269,-29.1162966991967,0.0 -49.6839047,-29.1194893991967,0.0 -49.6834555,-29.1199157991967,0.0 -49.6822405,-29.1210687991966,0.0 -49.6819068,-29.1213853991966,0.0 -49.6783056,-29.1248029991966,0.0 -49.6758984,-29.1251242991966,0.0 -49.6747292,-29.1252803991966,0.0 -49.6735789,-29.1254339991966,0.0 -49.6733089,-29.1254699991966,0.0 -49.672718,-29.1255488991966,0.0 -49.6721856,-29.1258130991966,0.0 -49.6719159,-29.1260093991966,0.0 -49.6717646,-29.1265184991965,0.0 -49.6715978,-29.1267786991966,0.0 -49.671521,-29.1269709991965,0.0 -49.6714439,-29.1270614991965,0.0 -49.6714317,-29.1274006991965,0.0 -49.6714346,-29.1288367991965,0.0 -49.6712806,-29.1290855991965,0.0 -49.6711651,-29.1292213991965,0.0 -49.6706125,-29.1296966991965,0.0 -49.6704848,-29.1301942991965,0.0 -49.6704834,-29.1301983991965,0.0 -49.6703441,-29.1306240991965,0.0 -49.6702416,-29.1308615991965,0.0 -49.6700236,-29.1312913991965,0.0 -49.6697793,-29.1314159991965,0.0 -49.669432,-29.1315406991965,0.0 -49.6679264,-29.1317112991965,0.0 -49.6678236,-29.1318017991965,0.0 -49.6673608,-29.1321073991965,0.0 -49.6669883,-29.1324920991964,0.0 -49.6665255,-29.1327977991964,0.0 -49.6662266,-29.1329328991965,0.0 -49.665548,-29.1332394991964,0.0 -49.6653166,-29.1333526991964,0.0 -49.6652659,-29.1337483991964,0.0 -49.6652674,-29.1356831991964,0.0 -49.6641177,-29.1372272991964,0.0 -49.6563339,-29.1430348991963,0.0 -49.657781,-29.1439300991962,0.0 -49.6618578,-29.1477276991962,0.0 -49.6709173,-29.1554805991961,0.0 -49.6727901,-29.157266299196,0.0 -49.6758533,-29.160228099196,0.0 -49.6760651,-29.160432899196,0.0 -49.6810964,-29.1633706991959,0.0 -49.6875,-29.1666666991959,0.0 -49.6876166,-29.1668110991959,0.0 -49.6892113,-29.1687875991958,0.0 -49.6926949,-29.1730332991957,0.0 -49.69496,-29.1759114991957,0.0 -49.6968038,-29.1803675991956,0.0 -49.6974921,-29.1820309991956,0.0 -49.6980025,-29.1832642991956,0.0 -49.6981253,-29.1837629991956,0.0 -49.6983077,-29.1845035991955,0.0 -49.700072,-29.1916692991954,0.0 -49.7042781,-29.1990093991953,0.0 -49.705805,-29.2011800991953,0.0 -49.7081848,-29.2032440991952,0.0 -49.7121154,-29.2057989991952,0.0 -49.7529167,-29.1770453991957,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,949 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>cordilheira_alta_4204350_localidades_2022</name>
+<visibility>1</visibility>
+<Schema name="Povoados" id="kml_schema_ft_Povoados">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Vilas" id="kml_schema_ft_Vilas">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Localidades" id="kml_schema_ft_Localidades">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Núcleos Urbanos" id="kml_schema_ft_Núcleos_Urbanos">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="01. Cidade" id="kml_schema_ft_01._Cidade">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CT_LOCALIDADE">
+<displayName>CT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SCT_LOCALIDADE">
+<displayName>SCT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_LOCALIDADE">
+<displayName>CD_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_LOCALIDADE">
+<displayName>NM_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LAT_LOCALIDADE">
+<displayName>LAT_LOCALIDADE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONG_LOCALIDADE">
+<displayName>LONG_LOCALIDADE</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Município" id="kml_schema_ft_Município">
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGINT">
+<displayName>CD_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGINT">
+<displayName>NM_RGINT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_RGI">
+<displayName>CD_RGI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_RGI">
+<displayName>NM_RGI</displayName>
+</SimpleField>
+</Schema>
+<Folder id="01. Cidade">
+<name>01. Cidade</name>
+<Folder id="01.03. Sede Municipal">
+<name>01.03. Sede Municipal</name>
+<Placemark id="01.03. Sede Municipal">
+<name>Cordilheira Alta [4204350]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Cidade&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Sede Municipal&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-26.9851&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-52.6033&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff00aaff</color>
+<scale>1.0</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffffffff</color>
+<width>3</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>00ffffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_01._Cidade">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Cidade</SimpleData>
+<SimpleData name="SCT_LOCALIDADE">Sede Municipal</SimpleData>
+<SimpleData name="CD_LOCALIDADE">4204350</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Cordilheira Alta</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-26.9851</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-52.6033</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.6033,-26.9850999992357,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Folder>
+<Folder id="04. Vilas">
+<name>04. Vilas</name>
+<Placemark id="04. Vilas">
+<name>Fernando Machado [420435010]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Vila&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;420435010&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Fernando Machado&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-26.9483&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-52.6719&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ffff5400</color>
+<scale>1.0</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.9</scale>
+</LabelStyle>
+<LineStyle>
+<color>72ffffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>660054ff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Vilas">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Vila</SimpleData>
+<SimpleData name="CD_LOCALIDADE">420435010</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Fernando Machado</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-26.9483</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-52.6719</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.671917,-26.9483329992364,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="05. Núcleos Urbanos">
+<name>05. Núcleos Urbanos</name>
+<Placemark id="localidades">
+<name>Linha Bento Gonçalves [4204350002]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Núcleo Urbano&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;4204350002&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Linha Bento Gonçalves&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-26.9734&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-52.6265&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0000ff</color>
+<scale>0.9</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.9</scale>
+</LabelStyle>
+<LineStyle>
+<color>72ffffff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66ff54ff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Núcleos_Urbanos">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Núcleo Urbano</SimpleData>
+<SimpleData name="CD_LOCALIDADE">4204350002</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Linha Bento Gonçalves</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-26.9734</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-52.6265</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.6265433521126,-26.9734438443063,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="06. Povoados">
+<name>06. Povoados</name>
+<Placemark id="06. Povoados">
+<name>Linha Três Irmãos [420435000001]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Atributos&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Povoado&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;420435000001&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Linha Três Irmãos&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;LAT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-26.9816&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;LONG_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;-52.6585&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff00ff54</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.8</scale>
+</LabelStyle>
+<LineStyle>
+<color>72ff54ff</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66ff54ff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Povoados">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Povoado</SimpleData>
+<SimpleData name="CD_LOCALIDADE">420435000001</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Linha Três Irmãos</SimpleData>
+<SimpleData name="LAT_LOCALIDADE">-26.9816</SimpleData>
+<SimpleData name="LONG_LOCALIDADE">-52.6585</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.6585049695121,-26.9815794138699,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="12. Outras Localidades">
+<name>12. Outras Localidades</name>
+<Placemark id="12. Outras Localidades">
+<name>Linha General Osório [420435000002]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;420435000002&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Linha General Osório&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0069d3</color>
+<scale>0.6</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Outras Localidades</SimpleData>
+<SimpleData name="CD_LOCALIDADE">420435000002</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Linha General Osório</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.6435997,-26.971696599236,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="12. Outras Localidades">
+<name>Linha Savaris [420435000003]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;420435000003&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Linha Savaris&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0069d3</color>
+<scale>0.6</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Outras Localidades</SimpleData>
+<SimpleData name="CD_LOCALIDADE">420435000003</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Linha Savaris</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.695417,-26.9892746992356,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="12. Outras Localidades">
+<name>Linha Três Irmãos I [420435000004]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SIGLA_UF&lt;/th&gt;
+&lt;td&gt;SC&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Outras Localidades&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;SCT_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;CD_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;420435000004&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;NM_LOCALIDADE&lt;/th&gt;
+&lt;td&gt;Linha Três Irmãos I&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<color>ff0069d3</color>
+<scale>0.6</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>0.6</scale>
+</LabelStyle>
+<LineStyle>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Localidades">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="SIGLA_UF">SC</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+<SimpleData name="CT_LOCALIDADE">Outras Localidades</SimpleData>
+<SimpleData name="CD_LOCALIDADE">420435000004</SimpleData>
+<SimpleData name="NM_LOCALIDADE">Linha Três Irmãos I</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<extrude>0</extrude>
+<coordinates>-52.6674245,-26.9602231992362,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="13. Referência">
+<name>13. Referência</name>
+<Placemark id="13. Referência">
+<name>Cordilheira Alta [4204350]</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description>&lt;center&gt;&lt;table&gt;&lt;tr&gt;&lt;th colspan='2' align='center'&gt;&lt;em&gt;Attributes&lt;/em&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_UF&lt;/th&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_UF&lt;/th&gt;
+&lt;td&gt;Santa Catarina&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_MUN&lt;/th&gt;
+&lt;td&gt;4204350&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_MUN&lt;/th&gt;
+&lt;td&gt;Cordilheira Alta&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_RGINT&lt;/th&gt;
+&lt;td&gt;4204&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_RGINT&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor="#E3E3F3"&gt;
+&lt;th&gt;CD_RGI&lt;/th&gt;
+&lt;td&gt;420007&lt;/td&gt;
+&lt;/tr&gt;&lt;tr bgcolor=""&gt;
+&lt;th&gt;NM_RGI&lt;/th&gt;
+&lt;td&gt;Chapecó&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/center&gt;</description>
+<Style>
+<IconStyle>
+<scale>0.7</scale>
+</IconStyle>
+<LabelStyle>
+<scale>0.7</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffffffff</color>
+<width>3</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>00ffffff</color>
+</PolyStyle>
+</Style>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Município">
+<SimpleData name="CD_UF">42</SimpleData>
+<SimpleData name="NM_UF">Santa Catarina</SimpleData>
+<SimpleData name="CD_MUN">4204350</SimpleData>
+<SimpleData name="NM_MUN">Cordilheira Alta</SimpleData>
+<SimpleData name="CD_RGINT">4204</SimpleData>
+<SimpleData name="NM_RGINT">Chapecó</SimpleData>
+<SimpleData name="CD_RGI">420007</SimpleData>
+<SimpleData name="NM_RGI">Chapecó</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-52.6413959,-26.9944736992355,0.0 -52.6422319,-26.9933156992356,0.0 -52.6460201,-26.9934222992356,0.0 -52.6465392,-26.9934368992356,0.0 -52.6683242,-26.9930526992356,0.0 -52.6691834,-26.9931277992356,0.0 -52.6701833,-26.9931397992356,0.0 -52.6709023,-26.9931349992356,0.0 -52.6718582,-26.9934447992356,0.0 -52.6722086,-26.9936548992356,0.0 -52.6726164,-26.9939714992355,0.0 -52.673151,-26.9944451992355,0.0 -52.6736505,-26.9947752992355,0.0 -52.6742488,-26.9949004992355,0.0 -52.6749597,-26.9949606992355,0.0 -52.6755592,-26.9946369992355,0.0 -52.6763803,-26.9939682992355,0.0 -52.6772058,-26.9934909992356,0.0 -52.6778883,-26.9929191992356,0.0 -52.6786316,-26.9923292992356,0.0 -52.6795609,-26.9918787992356,0.0 -52.6802669,-26.9916921992356,0.0 -52.6809983,-26.9914439992356,0.0 -52.6815101,-26.9913625992356,0.0 -52.6820386,-26.9912698992356,0.0 -52.6825741,-26.9911102992356,0.0 -52.6831626,-26.9908276992356,0.0 -52.6834774,-26.9903603992356,0.0 -52.6837984,-26.9898022992356,0.0 -52.6841175,-26.9890738992357,0.0 -52.6843762,-26.9887134992357,0.0 -52.6849909,-26.9884672992357,0.0 -52.68565,-26.9883911992357,0.0 -52.68609,-26.9884535992357,0.0 -52.6873627,-26.9889920992356,0.0 -52.6879062,-26.9892342992356,0.0 -52.6887265,-26.9898806992356,0.0 -52.6893866,-26.9906147992356,0.0 -52.6902318,-26.9919753992356,0.0 -52.6905593,-26.9927806992356,0.0 -52.7107059,-26.9861980992357,0.0 -52.7142149,-26.9850515992357,0.0 -52.7143257,-26.9845973992357,0.0 -52.7143046,-26.9840121992357,0.0 -52.7142564,-26.9835291992358,0.0 -52.7141436,-26.9830326992358,0.0 -52.7139362,-26.9825419992358,0.0 -52.7137468,-26.9821869992358,0.0 -52.7137868,-26.9817533992358,0.0 -52.7138251,-26.9816665992358,0.0 -52.7138462,-26.9815914992358,0.0 -52.7138766,-26.9815409992358,0.0 -52.7139122,-26.9814785992358,0.0 -52.713939,-26.9814244992358,0.0 -52.713979,-26.9813829992358,0.0 -52.7140552,-26.9812869992358,0.0 -52.7142432,-26.9810494992358,0.0 -52.7143495,-26.9809358992358,0.0 -52.7144153,-26.9808600992358,0.0 -52.71448,-26.9807639992358,0.0 -52.7145173,-26.9806922992358,0.0 -52.7145393,-26.9806141992358,0.0 -52.7146295,-26.9803288992358,0.0 -52.7146524,-26.9802776992358,0.0 -52.7146866,-26.9802295992358,0.0 -52.7147612,-26.9801262992358,0.0 -52.7148189,-26.9800233992358,0.0 -52.7148924,-26.9797820992358,0.0 -52.7149056,-26.9795959992358,0.0 -52.7149139,-26.9794777992358,0.0 -52.7149501,-26.9792808992358,0.0 -52.7149777,-26.9791384992358,0.0 -52.7150038,-26.9790427992358,0.0 -52.7150289,-26.9790015992358,0.0 -52.7151297,-26.9787619992358,0.0 -52.7152878,-26.9784261992359,0.0 -52.7153356,-26.9783245992359,0.0 -52.7155989,-26.9778138992359,0.0 -52.7157571,-26.9773679992359,0.0 -52.7159412,-26.9770221992359,0.0 -52.716119,-26.9767942992359,0.0 -52.716345,-26.9765380992359,0.0 -52.7164212,-26.9764413992359,0.0 -52.7164497,-26.9763865992359,0.0 -52.7164635,-26.9763456992359,0.0 -52.7165378,-26.9760328992359,0.0 -52.7165629,-26.9759269992359,0.0 -52.7166837,-26.9753380992359,0.0 -52.7167153,-26.9751410992359,0.0 -52.7167168,-26.9749447992359,0.0 -52.7166639,-26.9744743992359,0.0 -52.7166713,-26.9743455992359,0.0 -52.7167462,-26.9738360992359,0.0 -52.7168009,-26.9735446992359,0.0 -52.7168143,-26.9734900992359,0.0 -52.7168292,-26.9734577992359,0.0 -52.6851413,-26.9417473992366,0.0 -52.6845635,-26.9413170992366,0.0 -52.6831238,-26.9398883992366,0.0 -52.6825861,-26.9393548992366,0.0 -52.6651359,-26.9220382992369,0.0 -52.6319565,-26.9508114992364,0.0 -52.6149341,-26.9339465992367,0.0 -52.6149244,-26.9341531992367,0.0 -52.6149416,-26.9343181992367,0.0 -52.6149651,-26.9345113992367,0.0 -52.6149818,-26.9346924992367,0.0 -52.6149806,-26.9347923992367,0.0 -52.6149475,-26.9349130992367,0.0 -52.6148512,-26.9350649992367,0.0 -52.614717,-26.9352350992367,0.0 -52.6146723,-26.9352983992367,0.0 -52.6146529,-26.9354542992367,0.0 -52.6146663,-26.9355543992367,0.0 -52.6146783,-26.9356358992367,0.0 -52.6146924,-26.9356989992367,0.0 -52.6146779,-26.9357792992367,0.0 -52.6146412,-26.9359836992367,0.0 -52.614554,-26.9362301992367,0.0 -52.6144983,-26.9364109992367,0.0 -52.6144754,-26.9365046992367,0.0 -52.6144196,-26.9366116992367,0.0 -52.6142945,-26.9367647992367,0.0 -52.6142714,-26.9368024992367,0.0 -52.6142455,-26.9368726992366,0.0 -52.6142323,-26.9369810992366,0.0 -52.6142218,-26.9371032992367,0.0 -52.6141656,-26.9372178992366,0.0 -52.6141241,-26.9372860992367,0.0 -52.6140773,-26.9374053992366,0.0 -52.6140377,-26.9374650992366,0.0 -52.6139068,-26.9375537992366,0.0 -52.6138421,-26.9375924992366,0.0 -52.6138002,-26.9376320992366,0.0 -52.6137496,-26.9376664992366,0.0 -52.6136763,-26.9377060992366,0.0 -52.6136014,-26.9377352992366,0.0 -52.6134258,-26.9378122992366,0.0 -52.6132686,-26.9378742992366,0.0 -52.6131916,-26.9379174992366,0.0 -52.6131157,-26.9379836992366,0.0 -52.613014,-26.9381323992366,0.0 -52.6129719,-26.9381997992366,0.0 -52.6129514,-26.9382276992366,0.0 -52.6129161,-26.9382497992366,0.0 -52.6127045,-26.9383010992366,0.0 -52.6125607,-26.9383480992366,0.0 -52.6124428,-26.9384163992366,0.0 -52.6122423,-26.9385564992366,0.0 -52.6119637,-26.9387573992366,0.0 -52.6117963,-26.9388736992366,0.0 -52.6115186,-26.9390482992366,0.0 -52.6112581,-26.9391559992366,0.0 -52.6110919,-26.9391872992366,0.0 -52.6109936,-26.9392003992366,0.0 -52.6106415,-26.9391956992366,0.0 -52.6105383,-26.9392055992366,0.0 -52.6104803,-26.9392312992366,0.0 -52.6104464,-26.9392703992366,0.0 -52.6103906,-26.9393625992366,0.0 -52.6103356,-26.9394295992366,0.0 -52.6102813,-26.9394607992366,0.0 -52.6101843,-26.9394825992366,0.0 -52.6100363,-26.9394634992366,0.0 -52.6098936,-26.9394324992366,0.0 -52.6096873,-26.9394217992366,0.0 -52.6095623,-26.9394394992366,0.0 -52.609508,-26.9394673992366,0.0 -52.609459,-26.9395288992366,0.0 -52.6094188,-26.9396220992366,0.0 -52.6094075,-26.9396841992366,0.0 -52.6093946,-26.9398018992366,0.0 -52.6093553,-26.9398731992366,0.0 -52.6092293,-26.9399965992366,0.0 -52.6090957,-26.9400893992366,0.0 -52.6089675,-26.9401285992366,0.0 -52.6087717,-26.9401844992366,0.0 -52.6084829,-26.9403299992366,0.0 -52.6083924,-26.9403749992366,0.0 -52.6083364,-26.9404235992366,0.0 -52.6082965,-26.9404915992366,0.0 -52.6082377,-26.9406602992366,0.0 -52.6081744,-26.9409191992366,0.0 -52.6080522,-26.9412989992366,0.0 -52.6079725,-26.9415062992366,0.0 -52.6079361,-26.9416614992366,0.0 -52.6079139,-26.9419037992366,0.0 -52.6079116,-26.9421715992366,0.0 -52.6078804,-26.9423361992365,0.0 -52.6077328,-26.9426449992365,0.0 -52.6076362,-26.9429010992365,0.0 -52.6075951,-26.9429716992365,0.0 -52.6074781,-26.9430738992365,0.0 -52.6073604,-26.9431295992365,0.0 -52.6072231,-26.9431478992365,0.0 -52.6068312,-26.9431128992365,0.0 -52.606654,-26.9431201992365,0.0 -52.6065167,-26.9431465992365,0.0 -52.6063881,-26.9431944992365,0.0 -52.6061641,-26.9433650992365,0.0 -52.6060217,-26.9435539992365,0.0 -52.6059352,-26.9437440992365,0.0 -52.6058529,-26.9440279992365,0.0 -52.6058113,-26.9442745992365,0.0 -52.6057571,-26.9444607992365,0.0 -52.6057102,-26.9446121992365,0.0 -52.605649,-26.9447322992365,0.0 -52.6055733,-26.9448710992365,0.0 -52.6055035,-26.9449964992365,0.0 -52.6054024,-26.9451877992365,0.0 -52.6053454,-26.9453020992365,0.0 -52.6053139,-26.9453558992365,0.0 -52.6052131,-26.9454879992365,0.0 -52.6050993,-26.9456190992365,0.0 -52.6050264,-26.9457236992365,0.0 -52.6049362,-26.9459087992365,0.0 -52.6048988,-26.9459861992365,0.0 -52.604881,-26.9460228992365,0.0 -52.6048573,-26.9460518992365,0.0 -52.6048256,-26.9460778992365,0.0 -52.6047747,-26.9461082992365,0.0 -52.604672,-26.9461515992365,0.0 -52.6045459,-26.9461925992365,0.0 -52.6043669,-26.9462235992365,0.0 -52.6042556,-26.9462498992365,0.0 -52.6041738,-26.9462816992365,0.0 -52.604082,-26.9463453992365,0.0 -52.604043,-26.9463786992365,0.0 -52.6039975,-26.9464366992365,0.0 -52.6039646,-26.9465114992365,0.0 -52.6039405,-26.9466415992365,0.0 -52.6039322,-26.9467046992365,0.0 -52.6039468,-26.9469793992365,0.0 -52.6039798,-26.9472357992365,0.0 -52.6040166,-26.9474152992364,0.0 -52.6040739,-26.9476507992364,0.0 -52.6041512,-26.9479363992364,0.0 -52.6041832,-26.9481024992364,0.0 -52.6041916,-26.9481458992364,0.0 -52.6042042,-26.9482717992364,0.0 -52.6041941,-26.9484415992364,0.0 -52.6041687,-26.9485471992364,0.0 -52.6041375,-26.9486182992364,0.0 -52.604076,-26.9487011992364,0.0 -52.603961,-26.9488303992364,0.0 -52.6039397,-26.9488661992364,0.0 -52.6039336,-26.9488960992364,0.0 -52.6039305,-26.9489117992364,0.0 -52.6039421,-26.9489842992364,0.0 -52.6039481,-26.9490605992364,0.0 -52.6039324,-26.9491308992364,0.0 -52.6039149,-26.9491664992364,0.0 -52.6038878,-26.9492024992364,0.0 -52.6038064,-26.9492757992364,0.0 -52.6036491,-26.9494091992364,0.0 -52.6035005,-26.9495272992364,0.0 -52.6033852,-26.9496159992364,0.0 -52.603276,-26.9497113992364,0.0 -52.6031841,-26.9498024992364,0.0 -52.6030749,-26.9499325992364,0.0 -52.6030516,-26.9499570992364,0.0 -52.6029815,-26.9500306992364,0.0 -52.6028709,-26.9501267992364,0.0 -52.60268,-26.9502813992364,0.0 -52.6026305,-26.9503322992364,0.0 -52.6025952,-26.9503963992364,0.0 -52.6025458,-26.9505201992364,0.0 -52.6025209,-26.9505532992364,0.0 -52.6023654,-26.9506720992364,0.0 -52.6023094,-26.9507092992364,0.0 -52.6022234,-26.9507617992364,0.0 -52.6020588,-26.9508531992364,0.0 -52.6020162,-26.9508862992364,0.0 -52.6019826,-26.9509432992364,0.0 -52.6019678,-26.9509925992364,0.0 -52.6019754,-26.9510268992364,0.0 -52.6020465,-26.9511179992364,0.0 -52.6020927,-26.9511691992364,0.0 -52.6022039,-26.9513276992364,0.0 -52.6022298,-26.9513785992364,0.0 -52.6022448,-26.9514436992364,0.0 -52.6022388,-26.9514751992364,0.0 -52.6022241,-26.9514896992364,0.0 -52.6021827,-26.9515088992364,0.0 -52.6020574,-26.9515456992364,0.0 -52.6018706,-26.9515886992364,0.0 -52.601449,-26.9517078992364,0.0 -52.6012898,-26.9517565992364,0.0 -52.601207,-26.9517948992364,0.0 -52.601172,-26.9518241992364,0.0 -52.6011076,-26.9519170992364,0.0 -52.6010248,-26.9520973992364,0.0 -52.600948,-26.9523612992364,0.0 -52.6009123,-26.9524950992364,0.0 -52.6009114,-26.9525850992364,0.0 -52.6009205,-26.9526469992363,0.0 -52.6009606,-26.9527489992363,0.0 -52.6010423,-26.9529460992363,0.0 -52.6010953,-26.9531098992363,0.0 -52.60111,-26.9531680992363,0.0 -52.6011,-26.9532341992363,0.0 -52.6010676,-26.9532980992363,0.0 -52.6010462,-26.9533301992363,0.0 -52.6009845,-26.9533985992363,0.0 -52.6008524,-26.9535256992363,0.0 -52.6007825,-26.9535839992363,0.0 -52.6007508,-26.9536026992363,0.0 -52.600694,-26.9536189992363,0.0 -52.6006646,-26.9536443992363,0.0 -52.6006414,-26.9536764992363,0.0 -52.6005789,-26.9537310992363,0.0 -52.6004591,-26.9538260992363,0.0 -52.6004336,-26.9538513992363,0.0 -52.6004128,-26.9538936992363,0.0 -52.6003727,-26.9540059992363,0.0 -52.6003196,-26.9540911992363,0.0 -52.6001296,-26.9543826992363,0.0 -52.6000582,-26.9544823992363,0.0 -52.5999977,-26.9546437992363,0.0 -52.5999536,-26.9548595992363,0.0 -52.5999431,-26.9549497992363,0.0 -52.5999181,-26.9549853992363,0.0 -52.599725,-26.9551381992363,0.0 -52.5992727,-26.9554950992363,0.0 -52.5992356,-26.9555416992363,0.0 -52.5992045,-26.9555806992363,0.0 -52.5991811,-26.9556350992363,0.0 -52.59915,-26.9557070992363,0.0 -52.5991134,-26.9558390992363,0.0 -52.5990848,-26.9560194992363,0.0 -52.5990494,-26.9561030992363,0.0 -52.5987754,-26.9564862992363,0.0 -52.5983756,-26.9570653992363,0.0 -52.598298,-26.9571854992363,0.0 -52.5982238,-26.9573672992363,0.0 -52.5981657,-26.9574933992363,0.0 -52.5981647,-26.9575069992363,0.0 -52.5977204,-26.9577702992362,0.0 -52.5975327,-26.9578945992363,0.0 -52.5974461,-26.9579797992362,0.0 -52.5973245,-26.9581707992362,0.0 -52.5971848,-26.9583071992362,0.0 -52.5971311,-26.9583367992362,0.0 -52.5970236,-26.9583959992362,0.0 -52.5963598,-26.9587481992362,0.0 -52.5958732,-26.9589727992362,0.0 -52.5953867,-26.9591973992362,0.0 -52.5946399,-26.9596610992362,0.0 -52.594156,-26.9599787992362,0.0 -52.5940928,-26.9600202992362,0.0 -52.5939461,-26.9601491992362,0.0 -52.5937779,-26.9603063992362,0.0 -52.5935936,-26.9604504992362,0.0 -52.5935018,-26.9605222992362,0.0 -52.5932628,-26.9606562992362,0.0 -52.5929921,-26.9607750992362,0.0 -52.5929142,-26.9608092992362,0.0 -52.5925921,-26.9609234992362,0.0 -52.5923148,-26.9609597992362,0.0 -52.5920106,-26.9611070992362,0.0 -52.591881,-26.9611731992362,0.0 -52.5910365,-26.9616474992362,0.0 -52.5907508,-26.9617807992362,0.0 -52.5905253,-26.9618913992362,0.0 -52.5938119,-26.9813758992358,0.0 -52.5925812,-26.9813638992358,0.0 -52.5921211,-26.9813091992358,0.0 -52.5915884,-26.9811410992358,0.0 -52.5910814,-26.9808178992358,0.0 -52.5899816,-26.9799210992358,0.0 -52.5890002,-26.9791426992358,0.0 -52.5887945,-26.9789629992358,0.0 -52.5885889,-26.9787833992358,0.0 -52.5883575,-26.9785729992358,0.0 -52.5882662,-26.9783999992359,0.0 -52.5882076,-26.9782015992359,0.0 -52.5881662,-26.9780451992359,0.0 -52.5881703,-26.9778907992359,0.0 -52.588623,-26.9760923992359,0.0 -52.5886307,-26.9758882992359,0.0 -52.588598,-26.9755964992359,0.0 -52.588443,-26.9752530992359,0.0 -52.5882591,-26.9749313992359,0.0 -52.5879467,-26.9746158992359,0.0 -52.5876365,-26.9744562992359,0.0 -52.58717,-26.9743119992359,0.0 -52.5867229,-26.9742076992359,0.0 -52.5861093,-26.9740865992359,0.0 -52.5853263,-26.9739319992359,0.0 -52.5846563,-26.9737996992359,0.0 -52.5848663,-26.9756745992359,0.0 -52.5848719,-26.9757244992359,0.0 -52.5903127,-27.024284999235,0.0 -52.5902869,-27.024363999235,0.0 -52.5902607,-27.024458999235,0.0 -52.5902422,-27.024521899235,0.0 -52.5902342,-27.024553999235,0.0 -52.590222,-27.024621799235,0.0 -52.5902074,-27.024711899235,0.0 -52.5901929,-27.024774299235,0.0 -52.5901805,-27.024835999235,0.0 -52.5901551,-27.024905199235,0.0 -52.5901253,-27.024995399235,0.0 -52.5901119,-27.0250907992349,0.0 -52.5900818,-27.0251830992349,0.0 -52.5900256,-27.025231699235,0.0 -52.5899918,-27.0252646992349,0.0 -52.5899576,-27.0252896992349,0.0 -52.5899172,-27.0253142992349,0.0 -52.5898723,-27.0253388992349,0.0 -52.5898231,-27.0253665992349,0.0 -52.5897737,-27.0254011992349,0.0 -52.5897269,-27.0254447992349,0.0 -52.5896806,-27.0254941992349,0.0 -52.5896508,-27.0255262992349,0.0 -52.5896397,-27.0255387992349,0.0 -52.5896316,-27.0255482992349,0.0 -52.5896168,-27.0255613992349,0.0 -52.5895999,-27.0255759992349,0.0 -52.5895817,-27.0255897992349,0.0 -52.5895623,-27.0256026992349,0.0 -52.589541,-27.0256150992349,0.0 -52.5895173,-27.0256270992349,0.0 -52.5894942,-27.0256389992349,0.0 -52.5894757,-27.0256480992349,0.0 -52.5894596,-27.0256573992349,0.0 -52.5894443,-27.0256628992349,0.0 -52.589422,-27.0256675992349,0.0 -52.5893928,-27.0256704992349,0.0 -52.5893588,-27.0256712992349,0.0 -52.5893249,-27.0256687992349,0.0 -52.5892853,-27.0256663992349,0.0 -52.5892407,-27.0256651992349,0.0 -52.5891968,-27.0256652992349,0.0 -52.5891504,-27.0256682992349,0.0 -52.5891033,-27.0256785992349,0.0 -52.589054,-27.0257019992349,0.0 -52.5890031,-27.0257393992349,0.0 -52.5889469,-27.0257916992349,0.0 -52.5888965,-27.0258372992349,0.0 -52.5888811,-27.0258515992349,0.0 -52.5888729,-27.0258593992349,0.0 -52.5888454,-27.0258799992349,0.0 -52.5888114,-27.0259021992349,0.0 -52.588778,-27.0259266992349,0.0 -52.5887396,-27.0259555992349,0.0 -52.5886962,-27.0259887992349,0.0 -52.5886536,-27.0260273992349,0.0 -52.5886079,-27.0260759992349,0.0 -52.5885598,-27.0261369992349,0.0 -52.5885145,-27.0261946992349,0.0 -52.5884927,-27.0262241992349,0.0 -52.5884635,-27.0262581992349,0.0 -52.5883952,-27.0263447992349,0.0 -52.5883654,-27.0263843992349,0.0 -52.5883094,-27.0264622992349,0.0 -52.5882699,-27.0265184992349,0.0 -52.588258,-27.0265395992349,0.0 -52.588242,-27.0265695992349,0.0 -52.5882233,-27.0266050992349,0.0 -52.5882055,-27.0266416992349,0.0 -52.5881874,-27.0266769992349,0.0 -52.5881683,-27.0267077992349,0.0 -52.5881491,-27.0267297992349,0.0 -52.5881294,-27.0267419992349,0.0 -52.5881101,-27.0267452992349,0.0 -52.5880919,-27.0267433992349,0.0 -52.5880691,-27.0267379992349,0.0 -52.5880447,-27.0267311992349,0.0 -52.58802,-27.0267251992349,0.0 -52.5879935,-27.0267195992349,0.0 -52.5879669,-27.0267128992349,0.0 -52.587942,-27.0267082992349,0.0 -52.5879158,-27.0267048992349,0.0 -52.5878896,-27.0267030992349,0.0 -52.5878629,-27.0267034992349,0.0 -52.5878341,-27.0267068992349,0.0 -52.5878063,-27.0267120992349,0.0 -52.5877803,-27.0267201992349,0.0 -52.5877581,-27.0267306992349,0.0 -52.5877365,-27.0267417992349,0.0 -52.5877189,-27.0267554992349,0.0 -52.5877048,-27.0267713992349,0.0 -52.5876947,-27.0267905992349,0.0 -52.5876914,-27.0268131992349,0.0 -52.5876968,-27.0268397992349,0.0 -52.5877139,-27.0268689992349,0.0 -52.5877321,-27.0268873992349,0.0 -52.5877547,-27.0268977992349,0.0 -52.587798,-27.0269143992349,0.0 -52.5878622,-27.0269439992349,0.0 -52.5879385,-27.0269826992349,0.0 -52.5880167,-27.0270279992349,0.0 -52.5880835,-27.0270706992349,0.0 -52.5881069,-27.0270887992349,0.0 -52.5881616,-27.0271368992349,0.0 -52.5882516,-27.0272070992349,0.0 -52.5883291,-27.0272735992349,0.0 -52.5883809,-27.0273170992349,0.0 -52.5883981,-27.0273335992349,0.0 -52.5884316,-27.0273690992349,0.0 -52.5884661,-27.0274056992349,0.0 -52.5884981,-27.0274423992349,0.0 -52.5885242,-27.0274779992349,0.0 -52.5885402,-27.0275099992349,0.0 -52.5885441,-27.0275365992349,0.0 -52.5885371,-27.0275567992349,0.0 -52.5885211,-27.0275718992349,0.0 -52.5884952,-27.0275851992349,0.0 -52.5884582,-27.0275934992349,0.0 -52.588415,-27.0275991992349,0.0 -52.5883599,-27.0276101992349,0.0 -52.5883059,-27.0276332992349,0.0 -52.5882583,-27.0276629992349,0.0 -52.5882504,-27.0276718992349,0.0 -52.5882341,-27.0276891992349,0.0 -52.5882093,-27.0277099992349,0.0 -52.5881814,-27.0277324992349,0.0 -52.5881468,-27.0277577992349,0.0 -52.5881134,-27.0277803992349,0.0 -52.5880811,-27.0277968992349,0.0 -52.5880653,-27.0278064992349,0.0 -52.5880504,-27.0278168992349,0.0 -52.5880338,-27.0278292992349,0.0 -52.5880153,-27.0278452992349,0.0 -52.5880021,-27.0278644992349,0.0 -52.5879954,-27.0278829992349,0.0 -52.5879937,-27.0279092992349,0.0 -52.587997,-27.0279513992349,0.0 -52.5880119,-27.0280128992349,0.0 -52.5880474,-27.0281385992349,0.0 -52.5880481,-27.0281552992349,0.0 -52.5880552,-27.0282565992349,0.0 -52.588057,-27.0283692992349,0.0 -52.5880571,-27.0284756992349,0.0 -52.5880571,-27.0285064992349,0.0 -52.588057,-27.0285183992349,0.0 -52.5880642,-27.0285771992349,0.0 -52.5880945,-27.0286660992349,0.0 -52.5881247,-27.0287192992349,0.0 -52.5881549,-27.0287725992349,0.0 -52.5882252,-27.0288662992349,0.0 -52.5882527,-27.0288867992349,0.0 -52.5883042,-27.0289259992349,0.0 -52.5883706,-27.0289775992349,0.0 -52.5884166,-27.0290184992349,0.0 -52.5884337,-27.0290424992349,0.0 -52.5884581,-27.0290828992349,0.0 -52.5884682,-27.0291051992349,0.0 -52.5884716,-27.0291275992349,0.0 -52.5884667,-27.0291794992349,0.0 -52.5884383,-27.0292410992349,0.0 -52.5883829,-27.0293058992349,0.0 -52.5883107,-27.0293601992349,0.0 -52.5882509,-27.0294048992349,0.0 -52.5881977,-27.0294436992349,0.0 -52.5881523,-27.0294766992349,0.0 -52.5880442,-27.0295679992349,0.0 -52.5879439,-27.0296659992349,0.0 -52.5879301,-27.0296848992349,0.0 -52.587892,-27.0297229992349,0.0 -52.5878356,-27.0297662992349,0.0 -52.5877693,-27.0298091992349,0.0 -52.5877011,-27.0298504992349,0.0 -52.587637,-27.0298779992349,0.0 -52.5875678,-27.0298966992349,0.0 -52.5875035,-27.0299147992349,0.0 -52.5874422,-27.0299316992349,0.0 -52.5873859,-27.0299490992349,0.0 -52.5873352,-27.0299680992349,0.0 -52.5872986,-27.0299845992348,0.0 -52.5872644,-27.0300005992349,0.0 -52.5872358,-27.0300164992349,0.0 -52.5872108,-27.0300305992349,0.0 -52.5871907,-27.0300441992349,0.0 -52.5871688,-27.0300582992349,0.0 -52.5871464,-27.0300740992349,0.0 -52.5871257,-27.0300897992349,0.0 -52.5871112,-27.0301016992349,0.0 -52.587102,-27.0301072992349,0.0 -52.5870911,-27.0301154992348,0.0 -52.5870777,-27.0301258992348,0.0 -52.5870553,-27.0301454992349,0.0 -52.5870193,-27.0301761992349,0.0 -52.5869655,-27.0302183992349,0.0 -52.586913,-27.0302560992349,0.0 -52.5869017,-27.0302653992348,0.0 -52.5868714,-27.0302906992348,0.0 -52.586834,-27.0303177992348,0.0 -52.586793,-27.0303437992348,0.0 -52.5867451,-27.0303690992348,0.0 -52.5866913,-27.0303918992348,0.0 -52.5866427,-27.0304102992348,0.0 -52.5865868,-27.0304334992348,0.0 -52.5865205,-27.0304640992348,0.0 -52.5864643,-27.0304902992348,0.0 -52.5864378,-27.0305044992348,0.0 -52.5864048,-27.0305320992348,0.0 -52.586363,-27.0305704992348,0.0 -52.5863513,-27.0305872992348,0.0 -52.610205,-27.0354603992348,0.0 -52.6299818,-27.0096777992353,0.0 -52.6374161,-26.9999857992354,0.0 -52.6413959,-26.9944736992355,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Document></kml>

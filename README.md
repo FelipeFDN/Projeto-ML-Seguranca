@@ -9,3 +9,4 @@ Alunos: Abimael Mendes e Felipe Daniel Nerling.
 ## Bases de dados
 - INMET - Informações meteorológicas (https://portal.inmet.gov.br/dadoshistoricos)
 - S2ID - Histórico de desastres (https://s2id.mi.gov.br/paginas/relatorios/)
+- IBGE - Informações dos municípios (https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/27385-localidades.html)

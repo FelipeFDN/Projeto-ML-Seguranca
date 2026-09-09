@@ -6,6 +6,26 @@ Utiliza bases abertas de informações sobre desastres brasileiros para treinar 
 
 Alunos: Abimael Mendes e Felipe Daniel Nerling.
 
+## Como executar o main
+
+1. Abra o terminal na pasta do projeto.
+2. Crie e ative o ambiente virtual:
+   ```bash
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Abra o notebook principal em `src/main.ipynb` no VS Code ou no Jupyter.
+5. Execute todas as células do notebook para carregar os dados, treinar os modelos e gerar as previsões.
+
+Se preferir executar via linha de comando, também é possível rodar o notebook com:
+```bash
+jupyter notebook src/main.ipynb
+```
+
 ## Bases de dados
 - INMET - Informações meteorológicas (https://portal.inmet.gov.br/dadoshistoricos)
 - S2ID - Histórico de desastres (https://s2id.mi.gov.br/paginas/relatorios/)

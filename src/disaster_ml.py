@@ -3,8 +3,10 @@
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
+from datetime import datetime
 from pathlib import Path
 
+import joblib
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier, RandomForestClassifier
@@ -388,3 +390,45 @@ def predict_disaster_probabilities(
             index=inputs.index,
         )
     return predictions
+
+
+def export_best_model(
+    training_data: pd.DataFrame,
+    evaluated_models: dict[str, dict],
+    output_path: str | Path,
+    city_station: pd.DataFrame | None = None,
+    selection_metric: str = "f1_macro",
+) -> dict:
+    """Seleciona pelo resultado de avaliação e retreina o vencedor com todos os dados."""
+    scores = {
+        name: result.get("metrics", {}).get(selection_metric)
+        for name, result in evaluated_models.items()
+    }
+    scores = {
+        name: float(score)
+        for name, score in scores.items()
+        if score is not None and np.isfinite(score)
+    }
+    if not scores:
+        raise ValueError(f"Nenhum modelo possui a métrica válida {selection_metric!r}.")
+
+    best_name = max(scores, key=scores.get)
+    fitted_models = train_models(training_data)
+    best_fit = fitted_models[best_name]
+    artifact = {
+        "model_name": best_name,
+        "model": best_fit["model"],
+        "features": best_fit["features"],
+        "metrics": evaluated_models[best_name]["metrics"],
+        "selection_metric": selection_metric,
+        "selection_score": scores[best_name],
+        "trained_at": datetime.now().astimezone().isoformat(),
+        "training_rows": len(training_data),
+        "city_station": (
+            city_station.to_dict(orient="records") if city_station is not None else []
+        ),
+    }
+    target = Path(output_path)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    joblib.dump(artifact, target)
+    return artifact

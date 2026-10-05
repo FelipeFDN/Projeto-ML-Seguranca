@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+    body { background: #0e1117; font: 13px/1.4 sans-serif; }
+    #mapRoot { position: relative; width: 100%; height: 620px; overflow: hidden; }
+    #municipalityMap { display: block; width: 100%; height: 100%; background: #0e1117; }
+    .municipality {
+      fill: #d7e8db;
+      stroke: #496d5e;
+      stroke-width: 0.85;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+      cursor: pointer;
+      transition: fill 90ms ease, stroke 90ms ease;
+    }
+    .municipality.dimmed { fill: #26342f; stroke: #42564e; }
+    .municipality.selected {
+      fill: #ff633d;
+      fill-opacity: 1;
+      stroke: #a83222;
+      stroke-width: 2.5;
+    }
+    .municipality:focus { outline: none !important; }
+    .municipality:focus-visible {
+      outline: none !important;
+      stroke: #fff;
+      stroke-width: 2.5;
+    }
+    #cityTooltip {
+      position: fixed;
+      z-index: 2;
+      display: none;
+      pointer-events: none;
+      color: #fff;
+      font-weight: 600;
+      text-shadow: 0 1px 3px #10211d, 1px 0 3px #10211d, -1px 0 3px #10211d;
+      white-space: nowrap;
+    }
+    </style>
+</head>
+<body>
+  <div id="mapRoot" role="application" aria-label="Municípios de Santa Catarina">
+    <svg id="municipalityMap" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="cityTooltip" aria-hidden="true"></div>
+  </div>
+  <script>
+    (function () {
+      const root = document.getElementById("mapRoot");
+      const svg = document.getElementById("municipalityMap");
+      const tooltip = document.getElementById("cityTooltip");
+      const namespace = "http://www.w3.org/2000/svg";
+      let features = [];
+      let stateViewBox = "0 0 1000 700";
+      let selectedCity = null;
+      let eventId = 0;
+      let featureVersion = null;
+
+      function sendToStreamlit(type, data) {
+        window.parent.postMessage(
+          Object.assign({isStreamlitMessage: true, type: type}, data || {}),
+          "*"
+        );
+      }
+
+      function fitViewBox(box) {
+        const rect = svg.getBoundingClientRect();
+        const aspect = rect.width / Math.max(rect.height, 1);
+        let width = Math.max(box[2] * 1.12, 14);
+        let height = Math.max(box[3] * 1.12, 14);
+        if (width / height < aspect) width = height * aspect;
+        else height = width / aspect;
+        const centerX = box[0] + box[2] / 2;
+        const centerY = box[1] + box[3] / 2;
+        svg.setAttribute(
+          "viewBox",
+          `${centerX - width / 2} ${centerY - height / 2} ${width} ${height}`
+        );
+      }
+
+      function renderStyles() {
+        svg.querySelectorAll(".municipality").forEach(function (path) {
+          const isSelected = path.dataset.name === selectedCity;
+          path.classList.toggle("selected", isSelected);
+          path.classList.toggle("dimmed", Boolean(selectedCity) && !isSelected);
+        });
+      }
+
+      function focusCity(name) {
+        selectedCity = name || null;
+        renderStyles();
+        if (selectedCity) {
+          const feature = features.find(item => item.name === selectedCity);
+          if (feature) fitViewBox(feature.bounds);
+        } else {
+          svg.setAttribute("viewBox", stateViewBox);
+        }
+      }
+
+      function showTooltip(event, name) {
+        tooltip.textContent = name;
+        tooltip.style.display = "block";
+        tooltip.style.left = `${event.clientX + 12}px`;
+        tooltip.style.top = `${event.clientY + 12}px`;
+      }
+
+      function sendMapEvent(eventType, name, version) {
+        eventId += 1;
+        sendToStreamlit("streamlit:setComponentValue", {
+          value: {event_id: eventId, event_type: eventType, city: name || null, version: version},
+          dataType: "json"
+        });
+      }
+
+      function render(args) {
+        stateViewBox = args.state_viewbox || "0 0 1000 700";
+        if (featureVersion !== args.version) {
+          const incomingFeatures = args.features || [];
+          if (!incomingFeatures.length) {
+            sendMapEvent("features_needed", null, args.version);
+            return;
+          }
+          features = incomingFeatures;
+          svg.replaceChildren();
+          features.forEach(function (feature) {
+            const path = document.createElementNS(namespace, "path");
+            path.setAttribute("d", feature.path);
+            path.setAttribute("class", "municipality");
+            path.setAttribute("tabindex", "0");
+            path.setAttribute("role", "button");
+            path.setAttribute("aria-label", feature.name);
+            path.dataset.name = feature.name;
+            path.addEventListener("pointerenter", event => showTooltip(event, feature.name));
+            path.addEventListener("pointermove", event => showTooltip(event, feature.name));
+            path.addEventListener("pointerleave", () => { tooltip.style.display = "none"; });
+            path.addEventListener("click", event => {
+              event.stopPropagation();
+              const next = selectedCity === feature.name ? null : feature.name;
+              focusCity(next);
+              sendMapEvent("selection", next, featureVersion);
+            });
+            path.addEventListener("keydown", event => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                path.dispatchEvent(new MouseEvent("click", {bubbles: true}));
+              }
+            });
+            svg.appendChild(path);
+          });
+          featureVersion = args.version;
+          sendMapEvent("map_ready", null, featureVersion);
+        }
+
+        const nextCity = args.selected_city || null;
+        if (nextCity !== selectedCity) focusCity(nextCity);
+        else renderStyles();
+        if (!selectedCity) svg.setAttribute("viewBox", stateViewBox);
+        sendToStreamlit("streamlit:setFrameHeight", {height: 620});
+      }
+
+      window.addEventListener("message", function (event) {
+        if (event.data && event.data.type === "streamlit:render") {
+          render(event.data.args || {});
+        }
+      });
+
+      sendToStreamlit("streamlit:componentReady", {apiVersion: 1});
+    }());
+  </script>
+</body>
+</html>

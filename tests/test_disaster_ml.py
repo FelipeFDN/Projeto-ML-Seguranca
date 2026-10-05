@@ -10,6 +10,7 @@ from src.disaster_ml import (
 	impute_weather_values,
 	_normalise_text,
 	evaluate_models,
+	export_best_model,
 	prepare_training_data,
 	predict_disaster_probabilities,
 	train_models,
@@ -106,6 +107,41 @@ def test_evaluate_models_returns_metrics():
 	assert all(set(result["metrics"]) == {
 		"accuracy", "precision_macro", "recall_macro", "f1_macro"
 	} for result in models.values())
+
+
+def test_export_best_model_uses_f1_and_saves_city_station_mapping(tmp_path):
+	rows = []
+	for index in range(8):
+		rows.append({
+			"estacao": "TESTE",
+			"precip_total": float(index),
+			"precip_max": float(index),
+			"temp_mean": 20 + index,
+			"humidity_mean": 70 + index,
+			"wind_max": 3 + index,
+			"pressure_mean": 1000 - index,
+			**{column: index % 2 for column in TARGET_COLUMNS},
+		})
+	training_data = pd.DataFrame(rows)
+	evaluated = {
+		"logistic_regression": {"metrics": {"f1_macro": 0.4}},
+		"random_forest": {"metrics": {"f1_macro": 0.8}},
+		"hist_gradient_boosting": {"metrics": {"f1_macro": 0.6}},
+	}
+	city_station = pd.DataFrame({"cidade": ["Chapecó"], "estacao": ["TESTE"]})
+	output_path = tmp_path / "best_model.joblib"
+
+	artifact = export_best_model(
+		training_data,
+		evaluated,
+		output_path,
+		city_station=city_station,
+	)
+
+	assert artifact["model_name"] == "random_forest"
+	assert artifact["selection_score"] == 0.8
+	assert artifact["city_station"] == [{"cidade": "Chapecó", "estacao": "TESTE"}]
+	assert output_path.exists()
 
 
 def test_predict_disaster_probabilities_returns_each_disaster():

@@ -35,7 +35,7 @@ jupyter notebook src/main.ipynb
    ```
 3. Passe o mouse sobre um município para ver o nome e clique no polígono para carregar a consulta de risco estimado.
 
-O mapa desenha diretamente os objetos SVG da malha municipal do IBGE, sem biblioteca cartográfica, basemap ou tiles. As variáveis meteorológicas são obtidas do Open-Meteo com cache de 12 horas. Consulte [docs/streamlit.md](docs/streamlit.md) para arquitetura, limitações e próximos passos.
+O mapa desenha diretamente os objetos SVG da malha municipal do IBGE, sem biblioteca cartográfica, basemap ou tiles. As variáveis meteorológicas são obtidas do Open-Meteo com cache de 12 horas. Na página, baixe o modelo existente ou gere/exporte um novo se o arquivo não estiver no deploy. Consulte [docs/streamlit.md](docs/streamlit.md) para arquitetura, limitações e próximos passos.
 
 ## Fonte meteorológica do INMET
 

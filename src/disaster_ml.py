@@ -430,5 +430,5 @@ def export_best_model(
     }
     target = Path(output_path)
     target.parent.mkdir(parents=True, exist_ok=True)
-    joblib.dump(artifact, target)
+    joblib.dump(artifact, target, compress=3)
     return artifact

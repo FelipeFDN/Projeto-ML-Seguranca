@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import io
 import re
 from pathlib import Path
 import sys
@@ -23,6 +24,10 @@ municipality_svg_component = components.declare_component(
 
 from src.disaster_ml import (
     _normalise_text,
+    evaluate_models,
+    export_best_model,
+    load_data,
+    prepare_training_data,
     predict_disaster_probabilities,
     read_ibge_kml,
 )
@@ -108,6 +113,36 @@ def load_municipality_map() -> tuple[dict, pd.DataFrame]:
 def load_model_artifact(path: str, modified_at: float) -> dict:
     del modified_at
     return joblib.load(path)
+
+
+@st.cache_resource(show_spinner=False)
+def train_model_for_download() -> dict:
+    data = load_data(
+        PROJECT_ROOT / "data" / "INMET",
+        PROJECT_ROOT / "data" / "S2ID",
+        PROJECT_ROOT / "data" / "IBGE",
+    )
+    training_data = prepare_training_data(
+        data,
+        window_days=1,
+        positive_ratio=0.5,
+        noise_scale=0.05,
+    )
+    evaluated_models = evaluate_models(training_data)
+    return export_best_model(
+        training_data,
+        evaluated_models,
+        MODEL_PATH,
+        city_station=data["cidade_estacao"],
+    )
+
+
+@st.cache_resource(show_spinner=False)
+def get_model_download_bytes(path: str, modified_at: float) -> bytes:
+    artifact = load_model_artifact(path, modified_at)
+    buffer = io.BytesIO()
+    joblib.dump(artifact, buffer, compress=3)
+    return buffer.getvalue()
 
 
 @st.cache_data(ttl=43200, show_spinner=False)
@@ -250,9 +285,8 @@ def main() -> None:
         st.error(f"Não foi possível carregar a malha municipal do IBGE: {error}")
         st.stop()
 
-    model_exists = MODEL_PATH.exists()
     artifact = None
-    if model_exists:
+    if MODEL_PATH.exists():
         artifact = load_model_artifact(str(MODEL_PATH), MODEL_PATH.stat().st_mtime)
         metric_value = artifact["metrics"].get(artifact["selection_metric"], 0)
         st.caption(
@@ -260,11 +294,31 @@ def main() -> None:
             f"{artifact['selection_metric']}: {metric_value:.3f} | "
             f"treinado em {artifact['trained_at'][:10]}"
         )
-    else:
-        st.warning(
-            "Modelo ainda não exportado. Execute todas as células do notebook "
-            "`src/main.ipynb` para gerar `models/best_model.joblib`."
+        download_data = get_model_download_bytes(
+            str(MODEL_PATH), MODEL_PATH.stat().st_mtime
         )
+        st.download_button(
+            "Baixar modelo compactado",
+            data=download_data,
+            file_name="best_model.joblib",
+            mime="application/octet-stream",
+            help=f"Arquivo compacto: {len(download_data) / (1024 * 1024):.1f} MB",
+        )
+    else:
+        st.info(
+            "O modelo não está neste deploy. Gere-o pelas bases incluídas no projeto "
+            "para disponibilizar o download."
+        )
+        if st.button("Treinar e preparar modelo para download", type="primary"):
+            try:
+                with st.spinner(
+                    "Carregando as bases, avaliando modelos e retreinando o melhor..."
+                ):
+                    train_model_for_download()
+            except Exception as error:
+                st.error(f"Não foi possível treinar/exportar o modelo: {error}")
+            else:
+                st.rerun()
 
     city_names = sorted(places["cidade"].dropna().unique())
     st.session_state["map_city_names"] = city_names

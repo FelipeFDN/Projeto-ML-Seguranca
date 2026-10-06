@@ -8,7 +8,7 @@ from pathlib import Path
 import sys
 import math
 
-import joblib
+import altair as alt
 import pandas as pd
 import requests
 import streamlit as st
@@ -364,7 +364,25 @@ def main() -> None:
                             .mul(100)
                             .to_frame()
                         )
-                        st.bar_chart(table, horizontal=True, x_label="Probabilidade (%)")
+                        chart_data = table.reset_index()
+                        chart_data.columns = ["Desastre", "Probabilidade"]
+                        chart = (
+                            alt.Chart(chart_data)
+                            .mark_bar()
+                            .encode(
+                                x=alt.X(
+                                    "Probabilidade:Q",
+                                    title="Probabilidade (%)",
+                                    scale=alt.Scale(domain=[0, 100]),
+                                ),
+                                y=alt.Y("Desastre:N", sort=None, title=None),
+                                tooltip=[
+                                    "Desastre",
+                                    alt.Tooltip("Probabilidade:Q", format=".1f"),
+                                ],
+                            )
+                        )
+                        st.altair_chart(chart, use_container_width=True)
                         st.caption(f"Clima agregado até {weather_time} ({TIMEZONE}).")
                         st.dataframe(
                             pd.DataFrame(

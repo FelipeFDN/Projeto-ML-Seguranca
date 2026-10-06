@@ -1,4 +1,4 @@
-import pandas as pd
+﻿import pandas as pd
 
 from src.disaster_ml import (
 	DISASTERS,
@@ -129,7 +129,7 @@ def test_export_best_model_uses_f1_and_saves_city_station_mapping(tmp_path):
 		"hist_gradient_boosting": {"metrics": {"f1_macro": 0.6}},
 	}
 	city_station = pd.DataFrame({"cidade": ["Chapecó"], "estacao": ["TESTE"]})
-	output_path = tmp_path / "best_model.joblib"
+	output_path = tmp_path / "best_model.zip"
 
 	artifact = export_best_model(
 		training_data,

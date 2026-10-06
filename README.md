@@ -28,14 +28,14 @@ jupyter notebook src/main.ipynb
 
 ## Aplicação Streamlit
 
-1. Execute todas as células de `src/main.ipynb`. A avaliação seleciona pelo maior `f1_macro` e exporta o modelo retreinado em `models/best_model.joblib`.
+1. Instale as dependências (`pip install -r requirements.txt`) e verifique se `models/best_model.zip` existe; caso contrário, execute todas as células de `src/main.ipynb`. A avaliação seleciona pelo maior `f1_macro` e exporta o modelo retreinado em `models/best_model.zip` (arquivo compactado, versionável no GitHub).
 2. Inicie a interface na raiz do projeto:
    ```bash
    streamlit run app/streamlit_app.py
    ```
 3. Passe o mouse sobre um município para ver o nome e clique no polígono para carregar a consulta de risco estimado.
 
-O mapa desenha diretamente os objetos SVG da malha municipal do IBGE, sem biblioteca cartográfica, basemap ou tiles. As variáveis meteorológicas são obtidas do Open-Meteo com cache de 12 horas. Na página, baixe o modelo existente ou gere/exporte um novo se o arquivo não estiver no deploy. Consulte [docs/streamlit.md](docs/streamlit.md) para arquitetura, limitações e próximos passos.
+O mapa desenha diretamente os objetos SVG da malha municipal do IBGE, sem biblioteca cartográfica, basemap ou tiles. As variáveis meteorológicas são obtidas do Open-Meteo com cache de 12 horas. A página apenas lê o modelo de `models/best_model.zip`. Consulte [docs/streamlit.md](docs/streamlit.md) para arquitetura, limitações e próximos passos.
 
 ## Fonte meteorológica do INMET
 

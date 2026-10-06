@@ -1,4 +1,4 @@
-# Aplicação Streamlit e atualização meteorológica
+﻿# Aplicação Streamlit e atualização meteorológica
 
 ## O que foi integrado
 
@@ -6,7 +6,7 @@
 - O cartão de maior estimativa mostra o desastre líder somente quando sua saída ultrapassa 70%; em 70% ou menos, apresenta “Baixa chance de desastres”.
 - Após a seleção, a interface consulta as últimas 24 horas disponíveis no Open-Meteo, agrega precipitação total/máxima, temperatura média, umidade média, vento máximo e pressão média e envia esses campos junto com a estação INMET associada à cidade para o modelo.
 - `fetch_recent_weather` usa cache Streamlit de 43.200 segundos (12 horas). A malha e as coordenadas das sedes são cacheadas em disco; a consulta meteorológica ocorre sob demanda ao selecionar uma cidade, em vez de baixar dados para todos os municípios a cada atualização.
-- O notebook `src/main.ipynb` e a página exportam `models/best_model.joblib`. A escolha usa o maior `f1_macro`; o candidato vencedor é retreinado com todo o conjunto de treino antes de ser salvo. O artefato guarda o estimador, colunas, métricas, data de treino e relação município-estação.
+- O notebook `src/main.ipynb` exporta `models/best_model.zip` (ZIP contendo `best_model.joblib`); a página apenas lê esse arquivo e não treina nem gera modelos. A escolha usa o maior `f1_macro`; o candidato vencedor é retreinado com todo o conjunto de treino antes de ser salvo. O artefato guarda o estimador, colunas, métricas, data de treino e relação município-estação.
 
 ## Executar
 
@@ -24,11 +24,9 @@ streamlit run app/streamlit_app.py
 
 O serviço requer acesso à internet para baixar a malha do IBGE e consultar o Open-Meteo. A interface avisa quando o arquivo do modelo ainda não foi criado.
 
-### Exportar o modelo pela página
+### Modelo na página
 
-- Se `models/best_model.joblib` existir no ambiente, a página exibe **Baixar modelo compactado**. O artefato é serializado com compressão Joblib nível 3 para reduzir o download; pode ser aberto com `joblib.load(...)` normalmente.
-- Se o artefato não existir (por exemplo, no Streamlit Cloud), a página exibe **Treinar e preparar modelo para download**. Ao clicar, carrega INMET, S2ID e IBGE do repositório, monta as janelas de treino com os parâmetros do `main.ipynb`, avalia os candidatos por `f1_macro`, retreina o vencedor com todos os dados e grava o resultado em `models/best_model.joblib` na instância.
-- O treino completo pode levar minutos e consumir memória, dependendo dos recursos da instância. O resultado fica no armazenamento local da instância em execução; ele não é enviado automaticamente ao GitHub nem persiste após recriações do container. O caminho `models/*.joblib` está no `.gitignore` para evitar commits acidentais.
+- A página carrega `models/best_model.zip` na inicialização (via `load_model_archive`). O arquivo é versionado no repositório (abaixo do limite de 100 MB do GitHub).
 - No artefato local testado, a compactação reduziu o arquivo de aproximadamente 138,6 MiB para 33,4 MiB. O tamanho varia conforme dados e versão das bibliotecas.
 
 ## Fonte meteorológica e atualização

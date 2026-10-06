@@ -1,7 +1,9 @@
 """Preparação inicial dos modelos de classificação de desastres."""
 
+import io
 import re
 import unicodedata
+import zipfile
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
@@ -19,6 +21,7 @@ from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
 
 
+MODEL_FILE_NAME = "best_model.joblib"
 DISASTERS = ("enxurradas", "alagamentos", "inundacoes", "deslizamentos")
 TARGET_COLUMNS = [f"desastre_{name}" for name in DISASTERS]
 WEATHER_COLUMNS = {
@@ -428,7 +431,21 @@ def export_best_model(
             city_station.to_dict(orient="records") if city_station is not None else []
         ),
     }
+    save_model_archive(artifact, output_path)
+    return artifact
+
+
+def save_model_archive(artifact: dict, output_path: str | Path) -> Path:
+    """Grava o artefato compactado em ZIP, pronto para versionar no GitHub."""
     target = Path(output_path)
     target.parent.mkdir(parents=True, exist_ok=True)
-    joblib.dump(artifact, target, compress=3)
-    return artifact
+    buffer = io.BytesIO()
+    joblib.dump(artifact, buffer, compress=0)
+    with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        archive.writestr(MODEL_FILE_NAME, buffer.getvalue())
+    return target
+
+
+def load_model_archive(path: str | Path) -> dict:
+    with zipfile.ZipFile(path) as archive:
+        return joblib.load(io.BytesIO(archive.read(MODEL_FILE_NAME)))

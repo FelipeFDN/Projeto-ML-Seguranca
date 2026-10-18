@@ -8,7 +8,26 @@
     * { box-sizing: border-box; }
     html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     body { background: #0e1117; font: 13px/1.4 sans-serif; }
-    #mapRoot { position: relative; width: 100%; height: 620px; overflow: hidden; }
+    #mapRoot { position: relative; width: 100%; height: 720px; overflow: hidden; }
+    #legend {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      padding: 6px 10px;
+      background: rgba(14, 17, 23, 0.8);
+      border-radius: 4px;
+      color: #e8eee9;
+      pointer-events: none;
+    }
+    #legend span { display: inline-flex; align-items: center; gap: 5px; }
+    #legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+    #legend i.ramp { width: 38px; border-radius: 3px; }
+    #legend b.steps { display: inline-flex; border-radius: 3px; overflow: hidden; }
+    #legend i.step { width: 12px; height: 11px; border-radius: 0; }
+
     #municipalityMap { display: block; width: 100%; height: 100%; background: #0e1117; }
     .municipality {
       fill: #d7e8db;
@@ -48,6 +67,7 @@
 <body>
   <div id="mapRoot" role="application" aria-label="Municípios de Santa Catarina">
     <svg id="municipalityMap" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="legend"></div>
     <div id="cityTooltip" aria-hidden="true"></div>
   </div>
   <script>
@@ -61,6 +81,8 @@
       let selectedCity = null;
       let eventId = 0;
       let featureVersion = null;
+      let cityFills = {};
+      let overlaySignature = null;
 
       function sendToStreamlit(type, data) {
         window.parent.postMessage(
@@ -87,8 +109,11 @@
       function renderStyles() {
         svg.querySelectorAll(".municipality").forEach(function (path) {
           const isSelected = path.dataset.name === selectedCity;
+          const isDimmed = Boolean(selectedCity) && !isSelected;
           path.classList.toggle("selected", isSelected);
-          path.classList.toggle("dimmed", Boolean(selectedCity) && !isSelected);
+          path.classList.toggle("dimmed", isDimmed);
+          const fill = cityFills[path.dataset.name];
+          path.style.fill = fill && !isSelected && !isDimmed ? fill.color : "";
         });
       }
 
@@ -116,6 +141,52 @@
           value: {event_id: eventId, event_type: eventType, city: name || null, version: version},
           dataType: "json"
         });
+      }
+
+      function applyFills(fills, legend, scaleLabels) {
+        cityFills = fills || {};
+        svg.querySelectorAll(".municipality").forEach(function (path) {
+          const fill = cityFills[path.dataset.name];
+          const title = path.querySelector("title");
+          if (title) title.remove();
+          if (fill) {
+            const node = document.createElementNS(namespace, "title");
+            node.textContent = fill.label;
+            path.appendChild(node);
+          }
+        });
+        renderStyles();
+        const signature = JSON.stringify(legend);
+        if (signature === overlaySignature) return;
+        overlaySignature = signature;
+        const legendBox = document.getElementById("legend");
+        legendBox.replaceChildren();
+        (legend || []).forEach(function (item) {
+          const entry = document.createElement("span");
+          const dot = document.createElement("i");
+          if (item.steps) {
+            const ramp = document.createElement("b");
+            ramp.className = "steps";
+            item.steps.forEach(function (color) {
+              const step = document.createElement("i");
+              step.className = "step";
+              step.style.background = color;
+              ramp.appendChild(step);
+            });
+            entry.append(ramp, item.label);
+            legendBox.appendChild(entry);
+            return;
+          }
+          dot.style.background = item.color;
+          entry.append(dot, item.label);
+          legendBox.appendChild(entry);
+        });
+        if (scaleLabels && scaleLabels.length) {
+          const note = document.createElement("span");
+          note.style.flexBasis = "100%";
+          note.textContent = `Faixas (do mais claro ao mais escuro): ${scaleLabels.join(" · ")}`;
+          legendBox.appendChild(note);
+        }
       }
 
       function render(args) {
@@ -161,7 +232,8 @@
         if (nextCity !== selectedCity) focusCity(nextCity);
         else renderStyles();
         if (!selectedCity) svg.setAttribute("viewBox", stateViewBox);
-        sendToStreamlit("streamlit:setFrameHeight", {height: 620});
+        applyFills(args.fills, args.legend, args.scale_labels);
+        sendToStreamlit("streamlit:setFrameHeight", {height: 720});
       }
 
       window.addEventListener("message", function (event) {
